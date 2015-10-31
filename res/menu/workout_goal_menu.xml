@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Text" >
+
+    <item
+        android:id="@+id/saveWorkoutGoal"
+        android:icon="@drawable/navigation_accept"
+        android:showAsAction="always"
+        android:title="@string/save"
+        android:titleCondensed="@string/save"/>
+    <!--
+         <item android:id="@+id/cancelWorkoutGoal"
+          android:icon="@drawable/navigation_cancel"
+          android:title="@string/cancel"
+          android:titleCondensed="@string/cancel"
+          android:showAsAction="ifRoom|withText" />
+    -->
+    <item
+        android:id="@+id/help"
+        style="@style/Text"
+        android:icon="@drawable/action_help"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/help_header"/>
+
+</menu>

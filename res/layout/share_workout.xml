@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        style="@style/ActivityContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/goalFormContentContainer"
+            style="@style/ContentContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/myGoalContentContainer"
+                style="@style/BgContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_big_bg_drawable" >
+                
+                <TextView
+                    android:id="@+id/userLabel"
+                    style="@style/Label"
+                    android:layout_toLeftOf="@+id/username"
+                    android:text="@string/username_label" />
+
+                <TextView
+	                android:id="@+id/username"
+	                style="@style/TextNumberBlue"
+	                android:layout_width="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/workoutDescriptionLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/username"
+                    android:labelFor="@+id/workoutDescription"
+                    android:text="@string/description_label" />
+
+                <EditText
+                    android:id="@+id/workoutDescription"
+                    style="@style/Input"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/workoutDescriptionLabel" >
+                </EditText>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

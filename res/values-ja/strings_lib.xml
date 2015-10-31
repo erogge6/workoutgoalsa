@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="close">閉じる</string>
+	<string name="share_workout_events_info">ワークアウトイベントに友人を招待して下さい。ポストワークアウトのイベントので、他のアプリケーション·ユーザーが、検索をし、方向性を得ることができます。</string>
+	<string name="view_workout_events_info">ポストワークアウトイベントを表示する。 （地図をクリックすると）、選択した場所の半径で開催予定のワークアウトイベントを表示するには、Googleマップで検索。</string>
+	<string name="get_directions" >ルートを検索</string>
+	<string name="get_directions_colon">道順を取得>行き方</string>
+	<string name="posted_workout_event">者ワークアウトイベント</string>
+	<string name="error_searching_workout_events">エラーはワークアウトのイベントの検索が発生しました。後で再試行してください。</string> 
+	<string name="successfully_remove_shared_workout_event" >首尾よくトレーニングイベントを掲載し削除。</string>
+	<string name="could_not_find_shared_workout_to_remove_event">削除するポストワークアウトイベントが見つかりませんでした。</string>
+	<string name="error_removed_workout_event">エラーが投稿ワークアウトイベントを削除しました。</string>
+	<string name="view_workout_events">閲覧者ワークアウトイベント</string>
+	<string name="workout_event_already_posted">ワークアウトイベントは、既に掲載</string>
+	<string name="error_posting_workout_event">エラーがワークアウトイベントをポストしました。</string>
+	<string name="workout_event_posted_success">成功しましたポストワークアウトイベント。</string>
+	<string name="address_required">アドレス必須フィールドです。</string>
+	<string name="begin_date_before_now">イベント\'sの日を始める前に、現在の日付に。</string>
+	<string name="end_date_before_now">イベント\されているの終了日前である。現在の日付から</string>
+	<string name="share">シェア</string>
+	<string name="end_date_label_colon">終了日：</string>
+	<string name="begin_date_label_colon">開始日：</string>
+	<string name="address_label">アドレス：</string>
+	<string name="post_workout_event">ポストワークアウトイベント</string>
+	<string name="calories_moving_time_help">あなたが実際に動いてきた時間の間に消費されたカロリーワークアウト中</string>
+	<string name="moving_time_help">あなたが実際にあなたのワークアウト中に移動されてきた時間</string>
+	<string name="moving_time_label">移動時間：</string>
+
+		<string name="calories_moving_time_label">移動時間消費カロリー： </string>
+		<string name="import_info">インポート。GPX（ルートおよびトラック）と。GoogleマップにKMLファイル。トレーニング目標は、ダウンロードフォルダ内のファイルにアクセスすることができます。あなたは、Googleドライブに保存しない場合は、ファイルがWebサイトや電子メールから保存されている場所です。さらに、あなたはWorkoutGoal\'sのフォルダにファイルをコピーすることができます。ファイルがインポートされ、左側のビューで、それがクリアされるまで、またはアクティビティが行わ閉鎖されている。あなたは、チャートに距離や標高情報を表示することができます。標高データは、ストレートのファイルから引き出され、重みとメジャーまたはメトリックシステムでフォーマットされていません。 </string>
+		<string name="hundred_unit_alt">単位高度数百人</string>
+		<string name="no_gps_files_found" >見つけることができませんでした。インポートするKMLや。GPXファイルを。</string>
+        
+                <string name="imported_file_info">インポートされたファイル情報</string>
+                <string name="imported_file_readings">インポートされたファイルの読み取り値</string> 
+                <string name="clear_imported">クリアインポート</string>
+                <string name="error_with_file">の読み取りエラーファイルディスクリプタ。</string>
+                <string name="file_not_found">ファイルが見つかりません。</string>
+                <string name="xml_parse_error">エラーXMLの読み取り。</string>
+                <string name="downloads">ダウンロード</string>
+                <string name="workout_goals_dir">トレーニング目標フォルダ</string>
+                <string name="import_gps_file">輸入のGPSファイル</string>
+    
+    
+
+  <string name="bmi_label">ボディマス指数（BMI）
+  </string>
+  <string name="bmr_label">基礎代謝率（BMR）
+  </string>
+  <string name="could_not_find_shared_workout_to_remove">ワークアウトは、共有されていません。
+  </string>
+  <string name="map_search_info"> あなたはどんなワークアウトのルートを共有すること自由に感じ探しているものを見つけることができない場合
+  </string>
+  <string name="share_workouts_available">あなたが共有アクション項目を介して他のアプリのユーザーとワークアウトのルートを共有することができます。
+  </string>
+  <string name="ALL">すべて
+  </string>
+  <string name="cat_label">猫：
+  </string>
+  <string name="decline_label">衰退：
+  </string>
+  <string name="gain_label">ゲイン：
+  </string>
+  <string name="time_label">時間：
+  </string>
+  <string name="view_workout_chart_colon">ビューワークアウトチャート：
+  </string>
+  <string name="page">ページ：
+  </string>
+  <string name="user">ユーザー：
+  </string>
+  <string name="total_results">合計：
+  </string>
+  <string name="of">の
+  </string>
+  <string name="congrats_distance_achieved">あなたは今日のあなたの距離目標を達成しました。
+  </string>
+  <string name="hundreds_burned">消費カロリー数百人
+  </string>
+  <string name="category_label">カテゴリー：
+  </string>
+  <string name="unfollow_route">このワークアウト\'のルートを次のSTOP 
+  </string>
+  <string name="follow_route">このワークアウト\'のルートを以下の
+  </string>
+  <string name="sharing_workout">クラウドにワークアウトをアップロード。
+  </string>
+  <string name="choose_workout_event">共有するイベントを選択します
+  </string>
+  <string name="calories">カロリー
+  </string>
+  <string name="desc_to_big">説明は255文字までです。
+  </string>
+  <string name="clear_search_help">クリアマップからワークアウトを検索しました。
+  </string>
+  <string name="search_help">ネットワーク接続は、この機能のために必要とされています。
+  </string>
+  <string name="search_buttons_header">SEARCHボタン
+  </string>
+  <string name="page_up_help">近くの共有ワークアウトの結果の次のページを表示します。
+  </string>
+  <string name="page_down_help">近くの共有ワークアウトの結果の前のページを表示します。
+  </string>
+  <string name="distance_today_help">今日の合計、スケジュールの距離が与えられた曜日のためのワークアウトイベント距離（S）のオフに基づいて。
+  </string>
+  <string name="total_schedules_calories_help">これは、各ワークアウトのイベント\'のカロリーの合計です。
+  </string>
+  <string name="workout_events_help">ワークアウトのイベントが保存されると、通知はその日のための今後のワークアウトイベントの午前中に通知する設定です。
+  </string>
+  <string name="view_goal_chart_info">それ以外の場合、このチャートは、カロリーを燃やすためにあなたの目標、カロリー（一日あたりの消費カロリーの平均値）と、ワークアウトの目標の開始日から現在まで焼か実際のカロリーを燃やすためにあなたの予想の目標が表示されます。
+  </string>
+  <string name="distance_covered_this_week_help">総距離は今週カバーした。
+  </string>
+  <string name="distance_this_week_help">これは、ワークアウトイベント距離の合計をオフに基づいています。
+  </string>
+  <string name="scheduled_calories_per_week_help">これは、ワークアウトイベントのカロリーの合計をオフに基づいています。
+  </string>
+  <string name="workout_stats_tab">統計
+  </string>
+  <string name="total_schedules_calories_label">書き込むには、合計スケジュール·カロリー：
+  </string>
+  <string name="total_schedules_distance_label">合計スケジュール·距離：
+  </string>
+  <string name="daily_chart_burned_distance">消費カロリーと走行距離の日足チャート
+  </string>
+  <string name="kph">時速
+  </string>
+  <string name="mph">時速
+  </string>
+  <string name="scheduled_burn_per_week_label">週ごとの1カロリー：
+  </string>
+  <string name="sheduled_distance_per_week">週ごとの1の距離：
+  </string>
+  <string name="distance_to_cover_this_week_label">今週のカバーまでの距離：
+  </string>
+  <string name="miles">マイル
+  </string>
+  <string name="km">KM 
+  </string>
+  <string name="total_schedules_calories_distance_label">合計スケジュールされたカロリー＆距離：
+  </string>
+  <string name="scheduled_distance">予定された距離
+  </string>
+  <string name="distance_calories_zero_req">距離とカロリーはゼロにすることはできません。
+  </string>
+  <string name="end_label">エンド
+  </string>
+  <string name="distance_label_no_colon">距離
+  </string>
+  <string name="distance_today_label">距離今日：
+  </string>
+  <string name="distance_covered_since_goal_date_label">目標日からの距離：
+  </string>
+  <string name="calories_burned_since_goal_date_label">目標日からのカロリー：
+  </string>
+  <string name="distance_covered_this_week_label">今週の走行距離：
+  </string>
+  <string name="remove_workout">ワークアウトを削除します。
+  </string>
+  <string name="successfully_remove_shared_workout">ワークアウトを共有から削除されました。
+  </string>
+  <string name="error_removed_workout">エラーがこの共有ワークアウトを削除しました。
+  </string>
+  <string name="remove_workout_header">ワークアウトを削除
+  </string>
+  <string name="remove_from_both">（このワークアウトは、共有されている場合のみ）、このワークアウトを削除し、他のアプリのユーザーと共有して停止します。
+  </string>
+  <string name="remove_from_shared">（このワークアウトは、共有されている場合のみ）、他のアプリのユーザーとの共有を停止。
+  </string>
+  <string name="share_workout_req">ワークアウトを共有するには距離がゼロで、その後も大きくなければなりません。
+  </string>
+  <string name="searched_workout_header"> | |ワークアウトを検索
+  </string>
+  <string name="paging_to">ページの検索結果の取得
+  </string>
+  <string name="no_search_results_found">この分野でのワークアウトを共有しよう！ |
+  </string>
+  <string name="workout_already_shared">ワークアウトは、既にクラウドで上に存在します。
+  </string>
+  <string name="clear_mapped_workouts">クリアワークアウトを検索しました。
+  </string>
+  <string name="searching_workouts">近くのワークアウトを検索しています&#8230;
+  </string>
+  <string name="error_searching_workouts">エラーが探してトレーニングをしました。
+  </string>
+  <string name="error_saving_workout">エラーがクラウドにワークアウトを保存しました。
+  </string>
+  <string name="workout_save_success">ワークアウトが正常にクラウドに保存されます。
+  </string>
+  <string name="page_down">ページ下
+  </string>
+  <string name="page_up">PAGE UP 
+  </string>
+  <string name="search_mapped_workouts">マップされたワークアウトのルートで近くを検索します。
+  </string>
+  <string name="username_label">ユーザー名：
+  </string>
+  <string name="share_workout_with_users">他のユーザーと共有のワークアウト
+  </string>
+  <string name="share_workout_header">共有ワークアウト
+  </string>
+  <string name="title_label">タイトル：
+  </string>
+  <string name="description_label">説明：
+  </string>
+  <string name="title_req">タイトルは必須です。
+  </string>
+  <string name="select_share_option">共有オプションを選択します。
+  </string>
+
+
+  <string name="share_workout_events" >共有ワークアウトイベント</string>
+  <string name="share_workout_information" >共有ワークアウト情報。心拍数の測定値がある場合は、CSV（カンマ区切り）ファイルには、データの読み込みに添付されます。 </string>
+  <string name="map_share_info" >シェアは、検索機能を介して他のアプリケーションのユーザーとトレーニングをマップしました。関連するワークアウトの情報をGoogleマップやGoogle EarthのためのKML、GPX、またはCSV（カンマ区切り）ファイルを作成します。このファイルは、Googleドライブにアップロードしたりメールで送信することができます。</string>
+
+  <string name="calories_to_burn" > 燃焼したカロリー</string>
+  <string name="csv_file" >CSVファイル形式 </string>
+  <string name="longitude" >経度</string>
+  <string name="latitude" >緯度</string>
+  <string name="altitude" >標高</string>
+  <string name="distance" >距離</string>
+  <string name="reading_time" >読み出し時間</string>
+  <string name="at" >に </string>
+  <string name="come_workout" >で私と一緒にワークアウトを来る </string>
+  <string name="save_workout_events_before_share" >それを共有する前に、ワークアウトイベントを保存してください。</string>
+  <string name="share_workout_event" >共有ワークアウトイベント</string> 
+    
+  <string name="kml_file">KMLファイルフォーマット
+  </string>
+  <string name="gpx_file">GPXファイルフォーマット
+  </string>
+  <string name="select_export_file_type">ファイル形式の種類を選択します。
+  </string>
+  <string name="share_info">共有ワークアウト情報
+  </string>
+  <string name="avg_speed_label">平均速度：
+  </string>
+  <string name="ERROR_CREATING_KML_FILE">ワークアウトからKMLファイルの作成中にエラー。
+  </string>
+  <string name="ERROR_CREATING_GPX_FILE">ワークアウトからのGPXファイルの作成中にエラー。
+  </string>
+  <string name="share_workout">  KMLファイルを電子メールで送信
+  </string>
+  <string name="contact_email">info@yourworkoutgoals.com 
+  </string>
+  <string name="feedback_label">へのフィードバック、質問、コメントを送信します。
+  </string>
+  <string name="show">ワークアウト情報を表示する
+  </string>
+  <string name="hide">ワークアウト情報を隠す
+  </string>
+  <string name="view_workout_info">表示/非表示のワークアウト情報
+  </string>
+  <string name="avg_heart_rate_label">平均心拍数：
+  </string>
+  <string name="confirm_map_workout">これは元々マッピングされたワークアウトだったこのワークアウトをマッピングしたいのですか？
+  </string>
+  <string name="error_saving_workout_events">エラーはワークアウトイベントを保存しました。
+  </string>
+  <string name="view_goal_chart_error">あなたは体重を減らすとして毎週セットを失いたく量を持ってしようとしている場合ゴールグラフを表示するだけ\'sのを適用します。
+  </string>
+  <string name="check_license">ライセンスを確認
+  </string>
+  <string name="checking_license">ライセンスを確認しています&#8230;
+  </string>
+  <string name="dont_allow">ドン\'tはユーザのアクセスを許可する
+  </string>
+  <string name="allow">ユーザーアクセスを許可する
+  </string>
+  <string name="application_error">アプリケーションエラー： %1$s
+  </string>
+  <string name="unlicensed_dialog_title">アプリケーションのライセンスを取得していない
+  </string>
+  <string name="unlicensed_dialog_body">Androidマーケットから購入してください。
+  </string>
+  <string name="unlicensed_dialog_retry_body">ネットワーク接続が利用可能であるかどうかを確認してください。
+  </string>
+  <string name="buy_button">アプリを購入する
+  </string>
+  <string name="retry_button">再試行
+  </string>
+  <string name="quit_button">退出
+  </string>
+  <string name="notify_workout_reading_exceptions">電話\'sのバッテリーが低すぎるかもしれないが、衛星リーチ、あるいは全く報道が不足しています。
+  </string>
+  <string name="starting_time_label">開始時間：
+  </string>
+  <string name="calories_to_burn_label">燃焼するカロリー：
+  </string>
+  <string name="upcoming_workout_notification">今後のワークアウトイベント（S）
+  </string>
+  <string name="reached_goal_for_calories_burned_today">今日は燃焼するカロリーのためのあなたの目標を達成しました。
+  </string>
+  <string name="connecting_short">接続
+  </string>
+  <string name="connected_short">接続
+  </string>
+  <string name="connection_error_code">接続失敗エラーコード：%1$d
+  </string>
+  <string name="connection_error_disabled">Googleのプレイサービスが無効になっている
+  </string>
+  <string name="connection_error_internal">内部エラーが発生しました
+  </string>
+  <string name="connection_error_invalid">このデバイス上のGoogleのプレイ·サービスのバージョンが本物ではない
+  </string>
+  <string name="connection_error_invalid_account">指定したアカウント名が無効である
+  </string>
+  <string name="connection_error_license_check_failed">アプリがユーザーにライセンスされていません
+  </string>
+  <string name="connection_error_message">接続失敗のエラーメッセージ：％1 $ sの
+  </string>
+  <string name="connection_error_misconfigured">アプリケーションが間違って設定されている
+  </string>
+  <string name="connection_error_missing">Googleが不足しているサービスを再生する
+  </string>
+  <string name="connection_error_needs_resolution">追加の解像度が必要とされている
+  </string>
+  <string name="connection_error_network">ネットワークエラーが発生しました
+  </string>
+  <string name="connection_error_outdated">Googleはサービスの再生期限が切れている
+  </string>
+  <string name="connection_error_sign_in_required">ユーザーがサインインしていません
+  </string>
+  <string name="connection_error_unknown">不明なエラーが発生しました
+  </string>
+  <color name="appBlueText">#0099CC</color>
+  <string name="removeWorkout">ワークアウトを削除
+  </string>
+  <string name="view_workouts">過去のワークアウトを表示する
+  </string>
+  <string name="app_name">トレーニング目標
+  </string>
+  <string name="goal_header">私の目標
+  </string>
+  <string name="upcoming_workouts_header">今後のワークアウト
+  </string>
+  <string name="my_workout">私のワークアウト
+  </string>
+  <string name="emptyTime">午前〇時00分00秒
+  </string>
+  <string name="zero">0.0 
+  </string>
+  <string name="elevation_gain_decline_label">標高ゲイン/衰退：
+  </string>
+  <string name="elevation_label">標高：
+  </string>
+  <string name="set_goal_start_date">目標の開始日を設定する
+  </string>
+  <string name="view_goal_progress">ビューワークアウト目標Progess 
+  </string>
+  <string name="help_header">ヘルプ
+  </string>
+  <string name="view_goal_chart">ビューワークアウト目標チャート
+  </string>
+  <string name="view_workout_chart">ビューワークアウトチャート
+  </string>
+  <string name="take_picture">写真を撮る
+  </string>
+  <string name="album_name">WorkoutGoals 
+  </string>
+  <string name="view_workout_pictures">ビューワークアウト写真
+  </string>
+  <string name="accept">受け入れる
+  </string>
+  <string name="no_workouts_found">が見つかりませんでしたワークアウト
+  </string>
+  <string name="format_header">書式設定
+  </string>
+  <string name="format_header_help">書式：
+  </string>
+  <string name="unsaved_goal">ワークアウト目標を保存しますか？
+  </string>
+  <string name="Sedentary">座りがちな
+  </string>
+  <string name="Light_Activity">光の活動
+  </string>
+  <string name="Moderate_Activity">中程度の活性
+  </string>
+  <string name="Very_Active">非常に活発な
+  </string>
+  <string name="Extremely_Active">非常にアクティブな
+  </string>
+  <string name="calories_to_burn_today_label">今日燃焼するカロリー：
+  </string>
+  <string name="metric_label">番号の書式設定
+  </string>
+  <string name="weights_measures_label">度量衡
+  </string>
+  <string name="metric_system_label">メートル法
+  </string>
+  <string name="goal_start_date_label">目標開始日：
+  </string>
+  <string name="max_speed_label">最大速度：
+  </string>
+  <string name="desired_goal_date_label">私の目標日：
+  </string>
+  <string name="projected_goal_date_label">投影目標日：
+  </string>
+  <string name="event_settings_label">イベント設定
+  </string>
+  <string name="elevation_gain_label">標高ゲイン：
+  </string>
+  <string name="elevation_decline_label">標高衰退：
+  </string>
+  <string name="my_information_label">私の情報
+  </string>
+  <string name="map_workout_label">マイワークアウト地図
+  </string>
+  <string name="distance_label">距離：
+  </string>
+  <string name="speed_label">スピード：
+  </string>
+  <string name="workout_tab">ワークアウト
+  </string>
+  <string name="workout_map_tab">ワークアウトマップ
+  </string>
+  <string name="workout_goal_tab">ワークアウトの目標
+  </string>
+  <string name="workout_events_tab">ワークアウトイベント
+  </string>
+  <string name="workout_event">ワークアウトイベント
+  </string>
+  <string name="end_workout">ワークアウトを終了
+  </string>
+  <string name="stop_workout">ワークアウトを停止します
+  </string>
+  <string name="resume_workout">ワークアウトを再開
+  </string>
+  <string name="start_workout">ワークアウトを開始
+  </string>
+  <string name="start_stop_workout">START / STOPワークアウト
+  </string>
+  <string name="connect"> 接続
+  </string>
+  <string name="heart_rate_monitor">心拍数モニター
+  </string>
+  <string name="connected_label">接続
+  </string>
+  <string name="calendar_account_email_label">カレンダーのアカウントEメール：
+  </string>
+  <string name="synch_with_calendar_label">カレンダーと同期：
+  </string>
+  <string name="map_accuracy_label">地図精度：
+  </string>
+  <string name="desired_weight_loss_label">希望の減量：
+  </string>
+  <string name="lbs">ポンド
+  </string>
+  <string name="desired_weight_loss_per_week_label">週ごとの1希望の減量：
+  </string>
+  <string name="age_label">年齢：
+  </string>
+  <string name="gender_label">性別：
+  </string>
+  <string name="male_label">オス
+  </string>
+  <string name="female_label">女性
+  </string>
+  <string name="weight_label">私の体重：
+  </string>
+  <string name="height_label">身長：
+  </string>
+  <string name="daily_calorie_intake_label">一日平均摂取カロリー：
+  </string>
+  <string name="activity_level_label">私の活動レベル：
+  </string>
+  <string name="save"> 保存
+  </string>
+  <string name="quit">やめる</string>
+  <string name="weekday_label">平日
+  </string>
+  <string name="calories_burned_this_week_label">今週の消費カロリー：
+  </string>
+  <string name="my_goal_activity_level_label">私の目標化活動年数：
+  </string>
+  <string name="my_workout_events_label">私のワークアウトイベント
+  </string>
+  <string name="date_label">日
+  </string>
+  <string name="begin_date_label">日付を開始
+  </string>
+  <string name="begin_time_label">時間
+  </string>
+  <string name="end_time_label">終了時間
+  </string>
+  <string name="calories_label">カロリー：
+  </string>
+  <string name="calories_label_no_colon">カロリー
+  </string>
+  <string name="save_workout_events">イベントを保存
+  </string>
+  <string name="saving_workout_events">ワークアウトイベントを保存&#8230;
+  </string>
+  <string name="add_workout_event">ワークアウトイベントを追加
+  </string>
+  <string name="timer_label">時間：
+  </string>
+  <string name="delete_label">削除：
+  </string>
+  <string name="delete_label_no_colon"> 削除
+  </string>
+  <string name="spread_calories_to_burn">均一に広がるのカロリー
+  </string>
+  <string name="deleteworkoutTime_label"> 削除
+  </string>
+  <string name="calories_to_burn_per_week_label">週に燃焼するカロリー：
+  </string>
+  <string name="calendar_email_label">アカウントのメールアドレス：
+  </string>
+  <string name="synch_label">同期イベント：
+  </string>
+  <string name="yes_label">はい
+  </string>
+  <string name="no_label">ありません
+  </string>
+  <string name="add_to_calendar_label">カレンダーに追加します。
+  </string>
+  <string name="calendar_label">カレンダー：
+  </string>
+  <string name="calories_burned_label">消費カロリー：
+  </string>
+  <string name="workout_time_label">トレーニング時間：
+  </string>
+  <string name="workout_subcategory_label">サブカテゴリ（メッツ）：
+  </string>
+  <string name="workout_category_label">トレーニングカテゴリー：
+  </string>
+  <string name="workout_category_subcat_label">トレーニングカテゴリ/サブカテゴリ：
+  </string>
+  <string name="heart_rate_label">心拍数：
+  </string>
+  <string name="set_begin_time_label">開始時間に設定します。
+  </string>
+  <string name="set_end_time_label">終了時間を設定します。
+  </string>
+  <string name="set_begin_date_label">設定開始日：
+  </string>
+  <string name="set_end_date_label">設定終了日：
+  </string>
+  <string name="Mon">月
+  </string>
+  <string name="Tues">火
+  </string>
+  <string name="Wed">結婚
+  </string>
+  <string name="Thurs">木
+  </string>
+  <string name="Fri">金
+  </string>
+  <string name="Sat">土
+  </string>
+  <string name="Sun">日
+  </string>
+  <string name="AM">午前
+  </string>
+  <string name="PM">P.M. 
+  </string>
+  <string name="heightFeet_prompt">FT 
+  </string>
+  <string name="heightInches_prompt">インチ
+  </string>
+  <string name="activityLevel_prompt">活動レベル
+  </string>
+  <string name="calendar_not_found">カレンダーが見つかりません。
+  </string>
+  <string name="cancel">キャンセル
+  </string>
+  <string name="app_registration">アプリの登録
+  </string>
+  <string name="bluetooth_not_available">Bluetoothは利用できません
+  </string>
+  <string name="bluetooth_health_profile_not_available">Bluetoothの健康プロフィールは利用できません
+  </string>
+  <string name="channel_connection">チャネル接続
+  </string>
+  <string name="channel_connection_desc">（一部のデバイスが自動的に接続を開始する）
+  </string>
+  <string name="connection_state">接続状態
+  </string>
+  <string name="data_ind">データインジケータ
+  </string>
+  <string name="disconnect">切断] 
+  </string>
+  <string name="disconnected">DISCONNECTED 
+  </string>
+  <string name="empty"> 
+  </string>
+  <string name="read_data">データの読み込み&#8230;
+  </string>
+  <string name="read_data_done">データ読み出しで行わ&#8230;
+  </string>
+  <string name="register"> 登録する
+  </string>
+  <string name="select_device">デバイスを選択
+  </string>
+  <string name="status_create_channel">チャネルステータスを作成します。％D 
+  </string>
+  <string name="status_destroy_channel">チャネル状態を破壊する。％D 
+  </string>
+  <string name="status_msg">ステータスメッセージ
+  </string>
+  <string name="status_reg">アプリの登録状況：％D 
+  </string>
+  <string name="status_unreg">アプリの登録解除の状態：％D 
+  </string>
+  <string name="unregister">登録解除
+  </string>
+  <string name="app_description"> 位置情報サービスを使用して、現在のアドレスと、現在の、または更新された場所が表示されます
+  </string>
+  <string name="address_output_string">%1$s %2$s %3$s</string>
+  <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+  <string name="action_settings">[設定] 
+  </string>
+  <string name="latlng">緯度/経度：
+  </string>
+  <string name="address">住所：
+  </string>
+  <string name="connection_error_code_unknown">不明な接続エラーコード：%1$d
+  </string>
+  <string name="connection_failed">接続に失敗しました
+  </string>
+  <string name="get_address">アドレスを取得する
+  </string>
+  <string name="get_location"> 場所を取得
+  </string>
+  <string name="illegal_argument_exception">不正な引数：経度％のF 2 0.8ドルF緯度％1 0.8ドル
+  </string>
+  <string name="invalid_action">無効な意図アクション %1$s
+  </string>
+  <string name="invalid_integer_id">無効な整数要求ID： %1$s
+  </string>
+  <string name="IO_Exception_getFromLocation">Geocoder.getFromLocationのIO例外（）
+  </string>
+  <string name="location_requested">要求された定期的な更新
+  </string>
+  <string name="location_updated">場所に更新
+  </string>
+  <string name="location_update_error">位置更新に失敗しました
+  </string>
+  <string name="location_update_error_detail">コー​​ド %1$d 個のメッセージ %2$s 
+  </string>
+  <string name="location_update_missing_update"> 位置更新エラー。着信の場所はありません。
+  </string>
+  <string name="location_updates_stopped"> 定期的な更新が停止
+  </string>
+  <string name="log_new_location">新しい場所： %1$s
+  </string>
+  <string name="no_address_found">場所が見つかりませんアドレス
+  </string>
+  <string name="no_connection">接続なし：位置を要求しないことができません
+  </string>
+  <string name="no_geocoder_available">ありませんジオコーダ。
+  </string>
+  <string name="no_location_available">利用できない場所
+  </string>
+  <string name="resolved">操作を再試行してください。
+  </string>
+  <string name="no_resolution">Googleがサービスを再生する：接続エラーを解決できないの
+  </string>
+  <string name="periodic_update_stop">定期的な更新を停止する
+  </string>
+  <string name="play_services_available">Googleがサービスを再生可能です
+  </string>
+  <string name="request_location_updates_in_progress">することができます\'T要求位置情報の更新、以前の要求hasn \' tは終わっ
+  </string>
+  <string name="start_updates">アップデートを開始
+  </string>
+  <string name="stop_updates">ストップ更新
+  </string>
+  <string name="unknown"> - 不明 -  
+  </string>
+  <string name="unknown_activity_request_code">onActivityResultでの未知の活性を要求コード %1$d を受け取りました。
+  </string>
+  <string name="setting_map_accuracy">地図の精度を設定します。
+  </string>
+  <string name="workout_ended">終わったワークアウト
+  </string>
+  <string name="calories_req">ワークアウトを開始する前に、それはカロリーを計算するために、ワークアウトの目標を入力する必要があります。
+  </string>
+  <string name="reached_max_heartrate">あなたは最高のあなたの年齢のための心拍数を推奨達しています。
+  </string>
+  <string name="req_calc_calories">ワークアウトを開始する前に、それはカロリーを計算するために、ワークアウトの目標を入力する必要があります。
+  </string>
+  <string name="workout_stopped">ワークアウトを停止しました。
+  </string>
+  <string name="events_create_goal">ワークアウトイベントを作成する前に、それがワークアウトの目標を入力する必要があります。
+  </string>
+  <string name="load_event_error">イベントを追加できませんでした。
+  </string>
+  <string name="delete_event_prompt">あなたはこのイベントを削除してもよろしいですか？
+  </string>
+  <string name="no_cal_found_for"> カレンダーアカウントが見つかりませんでしたいいえ
+  </string>
+  <string name="to_create_cal">カレンダーアプリを開きますか？
+  </string>
+  <string name="event_save_success">トレーニング·イベント（S）が保存されました。
+  </string>
+  <string name="cal_req">カレンダーはカレンダーにワークアウトイベントを追加した場合に必要です。
+  </string>
+  <string name="calories_zero_req">ワークアウトイベントカロリーはゼロであってはなりません。
+  </string>
+  <string name="bluetooth_not_supported">デバイスは、Bluetoothをサポートしていません。
+  </string>
+  <string name="zephyr_only">このアプリは、ゼファーHXM BT心拍数のモニターのための唯一の設定です。
+  </string>
+  <string name="bluetooth_device_not_found">すべてのBluetoothデバイスを検出できませんでした。
+  </string>
+  <string name="upcoming_events">燃焼するカロリーを予定され今後のワークアウトイベント= 
+  </string>
+  <string name="datePicker">日付を選択
+  </string>
+  <string name="timePicker">時間を選択
+  </string>
+  <string name="end_before_start_date">終了日後の日付を開始する必要があります
+  </string>
+  <string name="ok">大丈夫
+  </string>
+  <string name="unsaved_events">？あなたが保存されていないイベントがある辞めていいです
+  </string>
+  <string name="yes">はい
+  </string>
+  <string name="no">ありません
+  </string>
+  <string name="scheduled_calories">燃やすようにスケジュールカロリー= 
+  </string>
+  <string name="account_email_req">カレンダーのアカウントメールは必須フィールドです。
+  </string>
+  <string name="desired_weight_non">希望の減量は番号ではありません。
+  </string>
+  <string name="height_non">高さは数値ではありません。
+  </string>
+  <string name="desired_greater_zero">所望の重量損失はゼロ以上でなければなりません。
+  </string>
+  <string name="height_feet_bound">範囲外の高さの足が1月12日の間で選択します。
+  </string>
+  <string name="height_inches_bound">1月11日の間で選択範囲外の高さインチ。
+  </string>
+  <string name="age_non">年齢は数字ではありません。
+  </string>
+  <string name="gender_req">性別を選択していない。
+  </string>
+  <string name="weight_non">重さは数値ではありません。
+  </string>
+  <string name="calorie_intake_non">毎日のカロリー摂取量は、番号ではありません。
+  </string>
+  <string name="losing_more_2_nope">週にもっとして2ポンドを失うことは不健康です。
+  </string>
+  <string name="weight_greater">重量は1ポンド、その後大きくなければなりません。
+  </string>
+  <string name="age_greate_zero">年齢は0より大きいである必要があります。
+  </string>
+  <string name="bmi_unhealthy"> あなたの体格指数（BMI）によると、あなたは、体格指数で、不健康な体重ですでに
+  </string>
+  <string name="bmi_underwieght">体重ボディマス指数である
+  </string>
+  <string name="bmi_or_less"> 以下ご希望のBMIはある
+  </string>
+  <string name="for_woman_rec_cal">女性のためにそれはあなたの毎日のカロリー摂取量が1200以下に低下しないことをお勧めします。
+  </string>
+  <string name="for_men_rec_cal">男性の場合、それはあなたの毎日のカロリー摂取量が1800以下に低下しないことをお勧めします。
+  </string>
+  <string name="below_above_weight"> あなたは90ポンド（40.82キロ）未満または800ポンド（362.87キロ）を超えている場合、それはあなたがワークアウトの目標を作成する前に、医師または他の資格の医療サービス提供者と話すことをお勧めします。
+  </string>
+  <string name="req_goal_date">目標の開始日は必須フィールドです。
+  </string>
+  <string name="gps_disabled">お使いの携帯電話\'sのGPSが無効になっているようです、あなたが場所をキャプチャするためにそれを有効にしますか？
+  </string>
+  <string name="workout_already_ended">ワークアウトはすでに終了しています。
+  </string>
+  <string name="confirm_del_workout">あなたは、このワークアウトを削除しますか？
+  </string>
+  <string name="workout_removed">ワークアウト削除
+  </string>
+  <string name="error_workout_remove">エラーがワークアウトを削除しました。
+  </string>
+  <string name="no_chart_data">表示するには、何チャートデータがありません。
+  </string>
+  <string name="no_images">このトレーニングには画像がありません。
+  </string>
+  <string name="to_take_pic">写真を撮影するには、ワークアウトは、既に開始または実行する必要があります。
+  </string>
+  <string name="na"> -  
+  </string>
+  <string name="search">検索
+  </string>
+  <string name="workout_out_event">イベントをワークアウト
+  </string>
+  <string name="add_values">グラフに値を追加
+  </string>
+  <string name="x">X 
+  </string>
+  <string name="y">Y 
+  </string>
+  <string name="add">加える</string>
+  <string name="new_series">新シリーズ
+  </string>
+  <string name="workout_chart_desc">（ワークアウトがマップされたワークアウトされている場合）、心拍数（Bluetoothは接続されている場合）、距離、速度、高度、消費カロリーが含まれています。
+  </string>
+  <string name="calories_burned">消費カロリー
+  </string>
+  <string name="heartrate">心拍
+  </string>
+  <string name="distance_miles"> マイルの距離
+  </string>
+  <string name="speed">スピードMPH 
+  </string>
+  <string name="hundred_alt">足高度数百人
+  </string>
+  <string name="distance_km">距離キロ
+  </string>
+  <string name="speed_km">  KPHを高速化する
+  </string>
+  <string name="hundred_meters_alt">メートル標高数百人
+  </string>
+  <string name="tens_calories_burned">消費カロリー十
+  </string>
+  <string name="workout_data_readings">ワークアウトデータ読み取り
+  </string>
+  <string name="time">時間
+  </string>
+  <string name="goal_chart_desc">ゴール情報によって示されるワークアウトの目標は、実際の進捗状況を入力すると、消費カロリーの日平均として投影。
+  </string>
+  <string name="my_workout_goal">私のワークアウトの目標
+  </string>
+  <string name="projected_workout">投影ワークアウト
+  </string>
+  <string name="actual_progress">実際のワークアウトの進捗状況
+  </string>
+  <string name="daily_chart_burned">消費カロリーの日足チャート
+  </string>
+  <string name="day">日
+  </string>
+  <string name="thousands_burned">消費カロリー何千もの
+  </string>
+  <string name="drawer_open">オープン
+  </string>
+  <string name="drawer_close">閉じる
+  </string>
+  <string name="title_activity_help_info">トレーニング目標ヘルプ
+  </string>
+  <string name="load_service_error">サービスを読み込むことができませんでした。
+  </string>
+  <string name="load_goal_error">データベース·エラーは、この目標を取得しました。
+  </string>
+  <string name="load_goal_service_error">エラーは、この目標を取得しました。
+  </string>
+  <string name="connection_lost">接続が失われました。
+  </string>
+  <string name="load_image_error"> 画像を読み込めませんでした
+  </string>
+  <string name="load_image_deleted_error">それが削除された可能性があります。
+  </string>
+  <string name="could_not_save_image">イメージの場所を保存できませんでした。
+  </string>
+  <string name="error_occured">エラーが発生しました。
+  </string>
+  <string name="load_camera_error">エラーは、カメラのロードが発生しました。
+  </string>
+  <string name="error_loading_subcat">読み込みエラーサブカテゴリ。
+  </string>
+  <string name="no_workout_to_remove">削除するには、ワークアウト。
+  </string>
+  <string name="delete_event_error">イベントを削除できませんでした。
+  </string>
+  <string name="load_events_error">ワークアウトイベントをロードできませんでした。
+  </string>
+  <string name="cal_no_setup">何カレンダーの設定はありません。
+  </string>
+  <string name="error_save_event">エラーはワークアウトイベントを保存できませんでした。
+  </string>
+  <string name="goal_save_error">データベース·エラーがこの目標を節約しました。
+  </string>
+  <string name="goal_saved">ゴールが正常に保存され</string>
+  <string name="add_event_error">イベントを追加できませんでした。
+  </string>
+  <string name="BICYCLING">自転車
+  </string>
+  <string name="RUNNING">実行されている
+  </string>
+  <string name="WALKING">ウォーキング
+  </string>
+  <string name="GYM">ジム
+  </string>
+  <string name="SWIMMING">水泳
+  </string>
+  <string name="SPORTS">スポーツ
+  </string>
+  <string name="MountainUphillVigorous">山、上り坂を激しく
+  </string>
+  <string name="MountainCompetitiveRacing">山、競争力のある、レーシング
+  </string>
+  <string name="Bmx">BMX 
+  </string>
+  <string name="MountainGeneral">マウンテン、一般的な
+  </string>
+  <string name="MphLeisureTaylorCode">&lt;10 MPHは、レジャー（テイラーコード115）
+  </string>
+  <string name="ToFromWorkSelfSelectedPace">へ/仕事から、セルフペースを選択
+  </string>
+  <string name="OnDirtOrFarmRoadModeratePace">汚れや農道、緩やかなペースでの
+  </string>
+  <string name="General">一般的な
+  </string>
+  <string name="LeisureMph5">レジャー、5.5 Mphでは
+  </string>
+  <string name="LeisureMph9">レジャー、9.4 Mphでは
+  </string>
+  <string name="MphLeisureSlowLightEffort">10から11.9 MPHは、余暇、スロー、楽な労力
+  </string>
+  <string name="MphLeisureModerateEffort">12から13.9 MPHは、レジャー、穏健派の取り組み
+  </string>
+  <string name="MphFastVigorousEffort">14から15.9 MPHは、高速、きつい労力
+  </string>
+  <string name="MphRacingNotDrafting16">16〜19 MPHは、レーシング/製図しない
+  </string>
+  <string name="MphRacingNotDrafting20">&gt; 20 MPHは、レーシング、製図しない
+  </string>
+  <string name="MphSeatedRpm">12 MPHは、着席、80回転数
+  </string>
+  <string name="MphStandingRpm">12 MPHは、60 RPMを立ち
+  </string>
+  <string name="Unicycling">一輪車
+  </string>
+  <string name="JogWalkCombinationTaylorCode">ジョグ/ウォークコンビネーション（テイラーコード180）
+  </string>
+  <string name="JoggingGeneral">一般ジョギング
+  </string>
+  <string name="JoggingInPlace">代わりにジョギング
+  </string>
+  <string name="JoggingOnAMiniTramp">ミニトランプで、ジョギング
+  </string>
+  <string name="MphMinMile13minMile">4 Mphでは（13分/マイル）
+  </string>
+  <string name="MphMinMile12minMile">5mphの（12分/マイル）
+  </string>
+  <string name="MphMinMile11halfminMile">5.2 Mphでは（11.5分/マイル）
+  </string>
+  <string name="MphMinMile10minMile">6 Mphでは（10分/マイル）
+  </string>
+  <string name="MphMinMile9minMile">6.7 Mphでは（9分/マイル）
+  </string>
+  <string name="MphMinMile8halfminMile">7 Mphでは（8.5分/マイル）
+  </string>
+  <string name="MphMinMile8minMile">7.5 Mphでは（8分/マイル）
+  </string>
+  <string name="MphMinMile7halfminMile">8 Mphでは（7.5分/マイル）
+  </string>
+  <string name="MphMinMile7minMile">8.6 Mphでは（7分/マイル）
+  </string>
+  <string name="MphMinMile6halfminMile">9 Mphでは（6.5分/マイル）
+  </string>
+  <string name="MphMinMile6minMile">毎時10マイル（6分/マイル）
+  </string>
+  <string name="MphMinMile5halfminMile">11 Mphでは（5.5分/マイル）
+  </string>
+  <string name="MphMinMile5minMile">12 Mphでは（5分/マイル）
+  </string>
+  <string name="MphMinMile4sixminMile">13 Mphでは（4.6分/マイル）
+  </string>
+  <string name="MphMinMile4threeminMile">14 Mphでは（4.3分/マイル）
+  </string>
+  <string name="CrossCountry">クロスカントリー
+  </string>
+  <string name="TaylorCode">（テイラーコード200）
+  </string>
+  <string name="StairsUp">階段、上
+  </string>
+  <string name="OnATrackTeamPractice">トラック上、チーム練習
+  </string>
+  <string name="PushingAWheelchairOrBabyCarrier">車椅子やベビーキャリアをプッシュする
+  </string>
+  <string name="Marathon">マラソン
+  </string>
+  <string name="VideoGameEGWiiFit">ビデオゲーム（例えば、Wiiフィット）
+  </string>
+  <string name="VideoGameEGWiiFitModerateEffort">ビデオゲーム（例えば、Wiiフィット）穏健派の取り組み
+  </string>
+  <string name="VideoArcadeGameVigorousEffort">ビデオ/アーケードゲームきつい労力
+  </string>
+  <string name="ArmyTypeObstacleCourseorBootCampTraining">軍隊型障害物コースやBoot Campのトレーニング
+  </string>
+  <string name="BicyclingStationaryGeneral">自転車固定するもの、一般的な
+  </string>
+  <string name="BicyclingStationaryVeryLightToLightEffort">楽な労力に非常に軽い自転車文房具、
+  </string>
+  <string name="BicyclingStationaryModerateToVigorousEffort">活発な努力派自転車文房具、
+  </string>
+  <string name="BicyclingStationaryVigorousEffort">自転車文房具、きつい労力
+  </string>
+  <string name="BicyclingStationaryVeryVigorousEffort">自転車文房具、非常にきつい労力
+  </string>
+  <string name="BicyclingStationaryLightToModerateEffort">自転車文房具、軽〜中程度の取り組み
+  </string>
+  <string name="BicyclingStationaryRpmSpinBikeClass">自転車文房具、エンジン回転数/スピンバイクのクラス
+  </string>
+  <string name="CalisthenicsEGPushUpsPullUpsVigorousEffort">柔軟体操（例えば、プルアップは、UPSを押して）、きつい労力
+  </string>
+  <string name="CalisthenicsEGSitUpsLungesModerateEffort">柔軟体操（例えば、座るUPS、突進）、穏健派の取り組み
+  </string>
+  <string name="CalisthenicsEGSitupsLightEffort">柔軟体操（例えば、Situps）、楽な労力
+  </string>
+  <string name="CalisthenicsLightOrModerateEffort">柔軟体操、光や穏健派の取り組み
+  </string>
+  <string name="CircuitTrainingModerateEffort">サーキットトレーニング、穏健派の取り組み
+  </string>
+  <string name="CircuitTrainingVigorousIntensity">サーキットトレーニングを激しく強度
+  </string>
+  <string name="CurvestmExerciseRoutinesInWomen">女性ではCurvestm運動ルーチン
+  </string>
+  <string name="EllipticalTrainerModerateEffort">楕円形のトレーナー、穏健派の取り組み
+  </string>
+  <string name="ResistanceTraining">レジスタンストレーニング
+  </string>
+  <string name="ResistanceWeightTrainingSquats">抵抗（重さ）トレーニング、スクワット
+  </string>
+  <string name="ResistanceWeightTrainingMultipleExercises">抵抗（重さ）トレーニング、複数のエクササイズ
+  </string>
+  <string name="HealthClubExerciseGeneralTaylorCode">ヘルスクラブ運動、一般（テイラーコード160）
+  </string>
+  <string name="HealthClubExerciseClassesGeneral">ヘルスクラブエクササイズクラス、一般
+  </string>
+  <string name="HealthClubExerciseConditioningClasses">ヘルスクラブエクササイズ、コンディショニングのクラス
+  </string>
+  <string name="HomeExerciseGeneral">ホーム運動、全般
+  </string>
+  <string name="StairTreadmillErgometerGeneral">階段状トレッドミルエルゴメーター、一般的な
+  </string>
+  <string name="RopeSkippingGeneral">ボウリング、一般的な
+  </string>
+  <string name="RowingStationaryErgometerVigorousEffort">ローイング、ステーショナリーエルゴメーター、きつい労力
+  </string>
+  <string name="RowingStationaryGeneralModerateEffort">ローイング、固定するもの、一般的な、中等度の取り組み
+  </string>
+  <string name="RowingStationaryWattsModerateEffort">ローイング、ステーショナリー、100ワット、穏健派の取り組み
+  </string>
+  <string name="RowingStationaryWattsVigorousEffort">ローイング、ステーショナリー、150ワット、きつい労力
+  </string>
+  <string name="RowingStationaryWattsVeryVigorousEffort">ローイング、ステーショナリー、200ワット、非常にきつい労力
+  </string>
+  <string name="SkiMachineGeneral">スキー機械、一般
+  </string>
+  <string name="SlideBoardExerciseGeneral">理事運動、全般をスライドさせて
+  </string>
+  <string name="SlimnasticsJazzercise">減量運動、ジャザサイズ
+  </string>
+  <string name="StretchingMild"> マイルド、体を伸ばす
+  </string>
+  <string name="PilatesGeneral">ピラティス、一般的な
+  </string>
+  <string name="TeachingExerciseClassEGAerobicWater"> エクササイズクラス（例えば、エアロビクス、水）を教え
+  </string>
+  <string name="TherapeuticExerciseBallFitballExercise">運動療法ボール、Fitball運動
+  </string>
+  <string name="UpperBodyExerciseArmErgometer">上半身の運動、腕エルゴメーター
+  </string>
+  <string name="UpperBodyExercise">アッパー·ボディエクササイズ
+  </string>
+  <string name="WhirlpoolSitting">ワールプール、お座り
+  </string>
+  <string name="AlaskaNativeGamesEskimoOlympicsGeneral">アラスカ先住民ゲーム、エスキモーオリンピック、一般
+  </string>
+  <string name="ArcheryNonHunting">アーチェリー、非狩猟
+  </string>
+  <string name="BadmintonCompetitiveTaylorCode">バドミントン、競争（テイラーコード450）
+  </string>
+  <string name="BadmintonSocialSinglesAndDoublesGeneral">バドミントン、社会シングルとダブルス、一般的な
+  </string>
+  <string name="BasketballGameTaylorCode">バスケットボール、ゲーム（テイラーコード490）
+  </string>
+  <string name="BasketballNonGameGeneralTaylorCode">バスケットボール、ゲーム以外、一般（テイラーコード480）
+  </string>
+  <string name="BasketballGeneral">バスケットボール、一般的な
+  </string>
+  <string name="BasketballOfficiatingTaylorCode">バスケットボール、bjリーグ（テイラーコード500）
+  </string>
+  <string name="BasketballShootingBaskets">バスケットボール、バスケットボールのシュート
+  </string>
+  <string name="BasketballDrillsPractice">バスケットボール、ドリル、練習
+  </string>
+  <string name="BasketballWheelchair">バスケットボール、車いす
+  </string>
+  <string name="Billiards">ビリヤード
+  </string>
+  <string name="BowlingTaylorCode">ボウリング（テイラーコード390）
+  </string>
+  <string name="BowlingIndoorBowlingAlley">ボウリング、屋内、ボーリング場
+  </string>
+  <string name="BoxingInRingGeneral">ボクシング​​、リング内の、一般的な
+  </string>
+  <string name="BoxingPunchingBag">ボクシング​​、パンチングバッグ
+  </string>
+  <string name="BoxingSparring">ボクシング​​、スパーリング
+  </string>
+  <string name="Broomball">ブルームボール
+  </string>
+  <string name="ChildrensGamesAdultsPlaying">子供のゲーム、遊ぶ大人
+  </string>
+  <string name="CheerleadingGymnasticMovesCompetitive">チアリーディング、体操移動、競争
+  </string>
+  <string name="Coaching">コー​​チング
+  </string>
+  <string name="CoachingActivelyPlayingSportWithPlayers">積極的にプレーヤーにスポーツを、コーチング
+  </string>
+  <string name="CricketBattingBowlingFielding">クリケット、打撃、ボーリング、フィールディング
+  </string>
+  <string name="Croquet">クロケット
+  </string>
+  <string name="Curling">カーリング
+  </string>
+  <string name="DartsWallOrLawn">ダーツ、壁や芝生
+  </string>
+  <string name="DragRacingPushingOrDrivingACar">ドラッグレース、押したり車を運転して
+  </string>
+  <string name="AutoRacingOpenWheel">オートレース、オープンホイール
+  </string>
+  <string name="Fencing">フェンシング
+  </string>
+  <string name="FootballCompetitive">サッカー、競争
+  </string>
+  <string name="FootballTouchFlagGeneralTaylorCode">サッカー、タッチ、旗、一般（テイラーコード510）
+  </string>
+  <string name="FootballTouchFlagLightEffort">サッカー、タッチ、旗、楽な労力
+  </string>
+  <string name="FootballOrBaseballPlayingCatch">サッカーや野球、キャッチボール
+  </string>
+  <string name="FrisbeePlayingGeneral">フリスビープレイ、一般的な
+  </string>
+  <string name="FrisbeeUltimate">フリスビー、アルティメット
+  </string>
+  <string name="GolfGeneral">ゴルフ、一般的な
+  </string>
+  <string name="GolfWalkingCarryingClubs">ゴルフ、歩く、クラブを運ぶ
+  </string>
+  <string name="GolfMiniatureDrivingRange">ゴルフ、ミニチュア、ゴルフ練習
+  </string>
+  <string name="GolfWalkingPullingClubs">ゴルフ、歩く、クラブを引っ張る
+  </string>
+  <string name="GolfUsingPowerCartTaylorCode">ゴルフ、パワーカート（テイラー·コード070）を使用して、
+  </string>
+  <string name="GymnasticsGeneral">体操、一般的な
+  </string>
+  <string name="HackySack">ハック袋
+  </string>
+  <string name="HandballGeneralTaylorCode">ハンドボール、一般（テイラーコード520）
+  </string>
+  <string name="HandballTeam">ハンドボールチーム
+  </string>
+  <string name="HighRopesCourseMultipleElements">ハイロープコース、複数の要素
+  </string>
+  <string name="HangGliding">ハンググライダー
+  </string>
+  <string name="HockeyField">ホッケー、フィールド
+  </string>
+  <string name="HockeyIceGeneral">ホッケー、アイス、一般的な
+  </string>
+  <string name="HockeyIceCompetitive">ホッケー、アイス、競争
+  </string>
+  <string name="HorsebackRidingGeneral">乗馬、一般的な
+  </string>
+  <string name="HorseChoresImpliedWalkingAndLiftingLoads">馬の雑用、黙示ウォーキングや昇降ロード
+  </string>
+  <string name="SaddlingCleaningGroomingHarnessingHorse">Saddling、クリーニング、グルーミング、馴化馬
+  </string>
+  <string name="HorsebackRidingTrotting">乗馬、繋駕速歩
+  </string>
+  <string name="HorsebackRidingCanterOrGallop">乗馬、キャンターまたはギャロップ
+  </string>
+  <string name="HorsebackRidingWalking">ウォーキング乗馬、
+  </string>
+  <string name="HorsebackRidingJumping">乗馬、ジャンピング
+  </string>
+  <string name="HorseCartDrivingStandingOrSitting">馬のカート、運転する、立ったり座り
+  </string>
+  <string name="HorseshoePitchingQuoits">馬蹄ピッチング、輪投げ
+  </string>
+  <string name="JaiAlai">ハイアライ
+  </string>
+  <string name="MartialArtsPractice">格闘技、練習
+  </string>
+  <string name="MartialArtsDifferentTypesModeratePace">格闘技、異なるタイプの緩やか
+  </string>
+  <string name="Juggling">ジャグリング
+  </string>
+  <string name="Kickball">キックボール
+  </string>
+  <string name="Lacrosse">ラクロス
+  </string>
+  <string name="LawnBowlingBocceBallOutdoor">芝生ボウリング、ボッチャボール、屋外
+  </string>
+  <string name="MotoCrossOffRoadMotorSports">モト·クロス、オフロードモータースポーツ
+  </string>
+  <string name="Orienteering">オリエンテーリング
+  </string>
+  <string name="PaddleballCompetitive">競争Paddleball、
+  </string>
+  <string name="PaddleballCasualGeneralTaylorCode">Paddleball、カジュアル、一般（テイラーコード460）
+  </string>
+  <string name="PoloOnHorseback">ポロ、馬に乗って
+  </string>
+  <string name="RacquetballCompetitive">ラケットボール、競争
+  </string>
+  <string name="RacquetballGeneralTaylorCode">ラケットボール、一般（テイラーコード470）
+  </string>
+  <string name="RockOrMountainClimbing">岩や登山
+  </string>
+  <string name="RockClimbingAscendingRockHighDifficulty">ロッククライミング、昇順ロック、高難易度
+  </string>
+  <string name="RockClimbingLowToModerateDifficulty">ロッククライミング、低〜中程度の難しさ
+  </string>
+  <string name="RockClimbingRappelling">ロッククライミング、懸垂下降
+  </string>
+  <string name="RodeoSportsGeneralLightEffort">ロデオスポーツ、一般的な、楽な労力
+  </string>
+  <string name="RodeoSportsGeneralModerateEffort">ロデオスポーツ、一般的な、中等度の取り組み
+  </string>
+  <string name="RodeoSportsGeneralVigorousEffort">ロデオスポーツ、一般的な、きつい労力
+  </string>
+  <string name="RopeJumpingFastPaceSkipsMin">縄跳び、速いペース、120〜160スキップ/分
+  </string>
+  <string name="RopeJumpingModeratePaceSkipsMin">縄跳び、緩やかなペース、100〜120スキップ/分
+  </string>
+  <string name="RopeJumpingSlowPaceSkipsMin">縄跳び、ゆっくりとしたペース、&lt;100スキップ/分
+  </string>
+  <string name="RugbyUnionTeamCompetitive">ラグビーユニオン、チーム、競争力のある
+  </string>
+  <string name="RugbyTouchNonCompetitive">ラグビー、タッチ、非競争
+  </string>
+  <string name="Shuffleboard">シャッフルボード
+  </string>
+  <string name="SkateboardingGeneralModerateEffort">スケートボード、ジェネラル、穏健派の取り組み
+  </string>
+  <string name="SkateboardingCompetitiveVigorousEffort">スケートボード、競争力のある、きつい労力
+  </string>
+  <string name="SkatingRollerTaylorCode">スケート、ローラー（テイラーコード360）
+  </string>
+  <string name="RollerbladingMphRecreational">ローラーブレード、（9.0 Mphでは）、娯楽
+  </string>
+  <string name="RollerbladingMphModerate">（11.0 Mphでは）、ローラーブレード、穏健派
+  </string>
+  <string name="RollerbladingToMphFast">高速ローラーブレード、（13.6 mphに13.0）、
+  </string>
+  <string name="RollerbladingMphMaximalEffort">ローラーブレード、（15.0 Mphでは）、最大エフォート
+  </string>
+  <string name="SkydivingBaseJumpingBungeeJumping"> ベースジャンピング、バンジージャンプは、スカイダイビング
+  </string>
+  <string name="SoccerCompetitive">サッカー、競争
+  </string>
+  <string name="SoccerCasualGeneralTaylorCode">サッカー、カジュアル、一般（テイラーコード540）
+  </string>
+  <string name="SoftballOrBaseballFastOrSlowPitch">ソフトボールや野球、高速または低速ピッチ
+  </string>
+  <string name="SoftballPractice">ソフトボール、練習
+  </string>
+  <string name="SoftballOfficiating">ソフトボール、ベースボール·チャレンジ·リーグ
+  </string>
+  <string name="SoftballPitching">ソフトボールピッチング
+  </string>
+  <string name="SportsSpectatorPhysicallyMoving">物理的に移動するスポーツ観客、
+  </string>
+  <string name="SquashTaylorCode">スカッシュ（テイラーコード530）
+  </string>
+  <string name="SquashGeneral">スカッシュ、一般的な
+  </string>
+  <string name="TableTennisPingPongTaylorCode">卓球、ピンポン（テイラーコード410）
+  </string>
+  <string name="TaiChiQiGongGeneral">太極拳、気功、一般的な
+  </string>
+  <string name="TaiChiQiGongSittingLightEffort">太極拳、気功、お座り、楽な労力
+  </string>
+  <string name="TennisGeneral">テニス、一般的な
+  </string>
+  <string name="TennisDoublesTaylorCode">テニス、ダブルス（テイラーコード430）
+  </string>
+  <string name="TennisDoubles">テニス、ダブルス
+  </string>
+  <string name="TennisSinglesTaylorCode">テニス、シングル（テイラーコード420）
+  </string>
+  <string name="TennisHittingBallsNonGamePlayModerateEffort">テニスボールを打つ、非ゲームプレイ、穏健派の取り組み
+  </string>
+  <string name="TrampolineRecreational">トランポリン、レクリエーション
+  </string>
+  <string name="TrampolineCompetitive">トランポリン、競争
+  </string>
+  <string name="VolleyballTaylorCode">バレーボール（テイラーコード400）
+  </string>
+  <string name="VolleyballCompetitiveInGymnasium">バレーボール、競争、体育館で
+  </string>
+  <string name="VolleyballNonCompetitiveMemberTeam">バレーボール、非競合、6から9メンバーチーム
+  </string>
+  <string name="VolleyballBeachInSand">バレーボール、ビーチ、砂の中に
+  </string>
+  <string name="WrestlingOneMatchMinutes">レスリング（ワンマッチ= 5分）
+  </string>
+  <string name="WallyballGeneral">Wallyball、一般的な
+  </string>
+  <string name="TrackAndFieldShotDiscusHammerThrow">トラックとフィールド（ショット、円盤投げ、ハンマー投げ）
+  </string>
+  <string name="TrackAndFieldMisc">トラックとフィールドその他。
+  </string>
+  <string name="TrackAndFieldEGSteeplechaseHurdles">陸上競技（例えば、障害物競走、ハードル）
+  </string>
+  <string name="LapsFreestyleFastVigorousEffort">周回数、フリースタイル、高速、きつい労力
+  </string>
+  <string name="BackstrokeGeneralTrainingOrCompetition">背泳ぎ、全般、トレーニングやコンペティション
+  </string>
+  <string name="LapsModerateEffort">周回数、ライトまたは中等度の取り組み
+  </string>
+  <string name="BackstrokeRecreational">背泳ぎ、レクリエーション
+  </string>
+  <string name="BreaststrokeGeneralTrainingOrCompetition">平泳ぎ、全般、トレーニングやコンペティション
+  </string>
+  <string name="BreaststrokeRecreational">平泳ぎ、レクリエーション
+  </string>
+  <string name="ButterflyGeneral">蝶、一般的な
+  </string>
+  <string name="CrawlYardsMinuteVigorousEffort1">クロール、〜75ヤード/分、きつい労力
+  </string>
+  <string name="CrawlYardsMinuteVigorousEffort2">クロール、〜50ヤード/分、きつい労力
+  </string>
+  <string name="LakeOceanRiverTaylorCodes">湖、海、川（テイラー·コード280、295）
+  </string>
+  <string name="LeisurelyNotLapSwimmingGeneral">のんびりと、NOTラップスイミング、全般
+  </string>
+  <string name="SidestrokeGeneral">横泳ぎ、一般的な
+  </string>
+  <string name="Synchronized">同期された
+  </string>
+  <string name="TreadingWaterFastVigorousEffort">踏面水、高速、きつい労力
+  </string>
+  <string name="TreadingWaterModerateEffortGeneral">踏面水、適度な努力、一般的な
+  </string>
+  <string name="BackpackingTaylorCode">（テイラー·コード050）をバックパッキング
+  </string>
+  <string name="BackpackingHikingWalkingWithADaypack">バックパッキング、ハイキング、デイパックと歩いて
+  </string>
+  <string name="CarryingPoundLoadonLevelGround">平地15ポンドの負荷を運ぶ
+  </string>
+  <string name="CarryingLbChildSlowWalking">15ポンド子供、スローウォーキングを運ぶ
+  </string>
+  <string name="CarryingLoadUpstairsGeneral">二階の負荷を運んで、一般的な
+  </string>
+  <string name="CarryingToLbLoadUpstairs1">15ポンド負荷に1を運んで、二階
+  </string>
+  <string name="CarryingToLbLoadUpstairs2">24 Lbの負荷に16を運んで、二階
+  </string>
+  <string name="CarryingToLbLoadUpstairs3">49 Lbの負荷に25を運んで、二階
+  </string>
+  <string name="CarryingToLbLoadUpstairs4">74 L​​bの負荷に50を運んで、二階
+  </string>
+  <string name="CarryingLbLoadUpstairs">&gt; 74荷物を運ぶ：、二階
+  </string>
+  <string name="LoadingUnloadingACarImpliedWalking">ロード/アンロード車、黙示ウォーキング
+  </string>
+  <string name="ClimbingHillsNoLoad"> ヒルズ、無負荷クライミング
+  </string>
+  <string name="ClimbingHillsWithToLbLoad1">0〜9 Lbの負荷でヒルズクライミング
+  </string>
+  <string name="ClimbingHillsWithToLbLoad2">10に20ポンドの負荷でヒルズクライミング
+  </string>
+  <string name="ClimbingHillsWithToLbLoad3">21〜42 Lbの負荷でヒルズクライミング
+  </string>
+  <string name="ClimbingHillsWithLbLoad">42 + Lbの負荷を使用したクライミングヒルズ
+  </string>
+  <string name="DescendingStairs">階段を降順
+  </string>
+  <string name="HikingCrossCountryTaylorCode">ハイキング、クロスカントリー（テイラーコード040）
+  </string>
+  <string name="ANormalPaceThroughFieldsAndHillsides">フィールドや丘の斜面を通じ、通常のペース
+  </string>
+  <string name="BirdWatchingSlowWalk">バードウォッチング、スローウォーク
+  </string>
+  <string name="MarchingModerateSpeedMilitaryNoPack">行進する、中速、軍隊、ノーパック
+  </string>
+  <string name="MarchingRapidlyMilitaryNoPack">急速に行進する、軍隊、ノーパック
+  </string>
+  <string name="PushingOrPullingStrollerToMph">押したり3.1 mphにベビーカー、2.5を引っ張る
+  </string>
+  <string name="PushingAWheelchairNonOccupational">車いすを押して、非職業
+  </string>
+  <string name="RaceWalking">競歩
+  </string>
+  <string name="StairClimbingUsingOrClimbingUpLadder">はしごを使用するか、クライミング階段昇降、
+  </string>
+  <string name="StairClimbingSlowPace">階段昇降、ゆっくりとしたペース
+  </string>
+  <string name="StairClimbingFastPace">階段昇降、速いペース
+  </string>
+  <string name="UsingCrutches">松葉杖を使用して
+  </string>
+  <string name="LessThanMphLevelStrollingVerySlow">2.0未満MPHは、レベル、散歩、非常に遅い
+  </string>
+  <string name="MphLevelSlowPaceFirmSurface">2.0 MPHは、レベル、ゆっくりとしたペースで、当社表面
+  </string>
+  <string name="WalkingForPleasureTaylorCode">喜びのためにウォーキング（テイラーコード010）
+  </string>
+  <string name="WalkingFromHouseToCarOrBus">家に車やバスから歩いて
+  </string>
+  <string name="WalkingTheDog">犬の散歩
+  </string>
+  <string name="TwoHalfMphLevelFirmSurface">2.5 MPHは、レベル、企業表面
+  </string>
+  <string name="MphDownhill">2.5 MPHは、ダウンヒル
+  </string>
+  <string name="ToMphLevelModeratePaceFirmSurface">2.8〜3.2 MPHは、レベル、緩やかなペースで、当社表面
+  </string>
+  <string name="MphLevelWalkingForExercise">演習ではウォーキング3.5 MPHは、レベル、
+  </string>
+  <string name="ToMphUphillToGrade1">2.9〜3.5 MPHは、上り坂、1〜5％のグレード
+  </string>
+  <string name="ToMphUphillToGrade2">2.9〜3.5 MPHは、上り坂、6〜15％のグレード
+  </string>
+  <string name="MphLevelFirmSurfaceVeryBriskPace">4.0 MPHは、レベル、当社表面、非常に早足
+  </string>
+  <string name="MphLevelFirmSurfaceVeryVeryBrisk">4.5 MPHは、レベル、当社表面、非常に、非常に好調な
+  </string>
+  <string name="FiveMphLevelFirmSurface">5.0 MPHは、レベル、企業表面
+  </string>
+  <string name="MphUphillGrade">5.0 MPHは、上り坂、3％グレード
+  </string>
+  <string name="ForPleasureWorkBreak">喜びのために、仕事休憩
+  </string>
+  <string name="GrassTrack">草トラック
+  </string>
+  <string name="NormalPacePlowedFieldOrSand">通常のペース、耕さフィールドや砂
+  </string>
+  <string name="ToWorkOrClassTaylorCode">仕事やクラス（テイラー·コード015）へ
+  </string>
+  <string name="ToAndFromAnOuthouse">アン屋外トイレとの間で
+  </string>
+  <string name="ToMphNordicWalkingModeratePace"> 3.5 MPHは、ノルディックウォーキング緩やか4へ
+  </string>
+  <string name="MphNordicWalkingLevelFastPace">5.0 MPHは、ノルディックウォーキング、レベル、速いペース
+  </string>
+  <string name="ForExerciseWithSkiPolesNordicWalkingUphill">スキー極の運動のために、ノルディックウォーキング、上り坂
+  </string>
+  <string name="BackwardsMphLevel">後方、3.5 MPHは、レベル
+  </string>
+  <string name="BackwardsMphUphillGrade">後方、3.5 MPHは、上り坂、5％のグレード
+  </string>
+  <string name="disclaimer_text">あなたがそうしたくない場合は、ソフトウェアを使用しないでください。
+  </string>
+  <string name="disclaimer_warranties_header">保証の免責
+  </string>
+  <string name="disclaimer_warranties">本ソフトウェアは、ライセンスを支払った後に限定することなく、あらゆる種類の技術的なサポートや保証、商品性のいかなる保証または条件、特定の目的および非侵害の適合せず、基本「そのまま」であなたに提供されます。 
+  </string>
+  <string name="disclaimer_liability_header">責任の制限
+  </string>
+  <string name="disclaimer_liability">\のnliabilityのような制限は、損害賠償は、ソフトウェアやその他の（第三者に生じた損害を含む）トレーニング目標アプリケーションによってnsuppliedサービス\、またはソフトウェアのエラーの使用または誤用に起因するかどうかを適用しなければならない。
+  </string>
+  <string name="disclaimer_doctor_header">かかりつけの医師に相談して
+  </string>
+  <string name="disclaimer_doctor">心臓、肺、または運動プログラムを開始する前に注意すべき他の重篤な疾患を示唆する他のsymptonsは次のとおりです。
+  </string>
+  <string name="disclaimer_doctor2">
+    <li>身体活動の間にあなたの胸、首、顎や腕の痛みや不快感
+    </li>
+  </string>
+  <string name="disclaimer_doctor3">
+    <li>めまいや意識消失
+    </li>
+  </string>
+  <string name="disclaimer_doctor4">
+    <li>軽度の労作または安静時の息切れときや横になったり寝る
+    </li>
+  </string>
+  <string name="disclaimer_doctor5">
+    <li>特に夜間足首の腫れ、 </li>
+  </string>
+  <string name="disclaimer_doctor6">
+    <li>心雑音や迅速なまたは顕著なハートビート
+    </li>
+  </string>
+  <string name="disclaimer_doctor7">
+    <li>筋肉痛の階またはアップして置くと消える丘を歩いているとき
+    </li>
+  </string>
+  <string name="disclaimer_doctor8">あなたの健康状態が不明な場合は、複数の健康上の問題を持っている、または妊娠している、運動プログラムを始める前に、貴方の医師と話す。
+  </string>
+  <string name="disclaimer_license_header">ライセンスの条件
+  </string>
+  <string name="disclaimer_license">（a）は、単一のデバイス上で本ソフトウェアを使用、複数のデバイス上のソフトウェアを使用したい場合は、ソフトウェアの別のコピーのライセンスを取得する必要があり：このライセンスは、あなたがすることができます。
+  </string>
+  <string name="disclaimer_restrictions_header">使用制限
+  </string>
+  <string name="disclaimer_restrictions">そうしようとすると、無効と効果なしのものでなければならない。
+  </string>
+  <string name="disclaimer_ownership_header">所有
+  </string>
+  <string name="disclaimer_ownership">国内および国際的な著作権を含む、特にこのライセンスに付与されていないすべての権利は​​、所有者に帰属しています。
+  </string>
+  <string name="disclaimer_proprietary_header">独自のマーキング
+  </string>
+  <string name="disclaimer_proprietary">所有者\'sのロゴ、製品名、説明書、マニュアル、その他のサポート材料が著作権で保護されています。
+  </string>
+  <string name="disclaimer_accept">私は受け入れ、上記の全ての項を読んだ
+  </string>
+  <string name="action_buttons_header">アクションアイテム：
+  </string>
+  <string name="desired_weight_loss_help">現在、（健康的な体重）の通常18.5〜25のBMI範囲内である。
+  </string>
+  <string name="desired_weight_loss_per_week_help">あなたは週に失うことにしたいと思います重量の量。
+  </string>
+  <string name="calories_burned_this_week_help">カロリー数は、あなたは日曜日から土曜日までの今週の作成ワークアウトの数に応じて、今週燃やしている。
+  </string>
+  <string name="calories_to_burn_per_week_help">焼けカロリーはあなたの（平均的な毎日のカロリー摂取量 - （BMR *活動レベル））である+（週当たりの重量の一定量を失う燃やすカロリー））。
+  </string>
+  <string name="projected_goal_date_help">このビューには、推定投影説明するためのグラフ表示、および実際のワークアウトの目標の進捗状況が含まれています。
+  </string>
+  <string name="desired_goal_date_help">あなたは週に失うことにしたいと思います重量の、主に量。
+  </string>
+  <string name="upcoming_workouts_help">ワークアウトのイベントは毎週行われます。
+  </string>
+  <string name="formatting_info">メートル法では時間、メートル、キログラム、およびセンチキロ、キロに情報が表示されます。
+  </string>
+  <string name="save_goal_info">ワークアウトの目標が有効である場合、これが保存されます。
+  </string>
+  <string name="goal_start_date_help">あなたはグラフのアイコンをクリックして[ホーム]タブのあなたの目標の進捗状況を表示することができます。
+  </string>
+  <string name="age_help">これは、最大心拍数、毎日のカロリーの必要性、および消費カロリーを決定するために使用される。
+  </string>
+  <string name="gender_help">これは、最大毎日のカロリーの必要性を決定するために使用され、カロリーを燃焼する。
+  </string>
+  <string name="weight_help">これは、消費カロリーと、現在のBMI（ボディマス指数）を決定するために使用されています。
+  </string>
+  <string name="height_help">これは、現在のBMI（ボディマス指数）を決定するために使用されています。
+  </string>
+  <string name="daily_calorie_intake_help">男性のための一日あたりのカロリーの最小数は、女性のための1800年と1200年である。
+  </string>
+  <string name="activity_level_help">あなたの現在の活動レベル。
+  </string>
+  <string name="activity_level_help_sedentary">
+    <li>
+      （1.2）の定住身体活動レベル（PAL）。  この例はほとんど、あるいは全く運動を得て会社員になります。
+    </li>
+  </string>
+  <string name="activity_level_help_light">
+    <li>軽い活動、このPALの例は、定期的に歩いたり、軽い運動、（1.375）のPALのであろう。
+    </li>
+  </string>
+  <string name="activity_level_help_moderate">
+    <li>中程度の活性は、これは週に数回を行使して、かなりハード（1.55）のPALを自分で押しています。  また、これは重い家事、庭仕事、造園を含めることができます。</li>
+  </string>
+  <string name="activity_level_help_very_active">
+    <li>非常に活発に、建設作業員として働いたり、山が、毎日（1.7）のPALのサイクリング、ジョギング、スポーツに参加。</li>
+  </string>
+  <string name="activity_level_help_ex_active">
+    <li>非常にアクティブな、これは、毎日（2.0）のPALを2時間泳ぐことが誰かを含んでいる。
+    </li>
+  </string>
+  <string name="activity_level_help_pal">PAL =（TEE/24hours）/ BMR。
+  </string>
+  <string name="view_pictures_info">ビューの写真は、このワークアウトし、前のワークアウトから取った。
+  </string>
+  <string name="view_chart_info">あなたは、心拍数モニタに接続されている場合、ワークアウト情報が格納されている。
+  </string>
+  <string name="save_workout_events_info">ワークアウトイベントを保存し、通知を作成し、カレンダーに追加した場合は、マークされている Android\'s のカレンダーアプリケーションにイベントを追加します。
+  </string>
+  <string name="add_workout_event_info">また、Android\'s のカレンダーアプリケーションにイベントを追加することがあります。
+  </string>
+  <string name="events_spread_info">均等にページ上の現在のイベントの間で燃焼するカロリーを拡散します。
+  </string>
+  <string name="add_to_calendar_help">あなたがあなたの携帯電話のカレンダーアプリにワークアウトイベントを追加する場合に求めています。
+  </string>
+  <string name="calendar_email_help">あなたは、アカウントでの設定でGoogleにこのメールを表示することができます。
+  </string>
+  <string name="calendar_help">このドロップダウンは、指定されたアカウントのメールのアカウント名が表示されます。
+  </string>
+  <string name="synch_help">あなたがウェブ上または単に電話のカレンダーアプリにGoogleカレンダーとのワークアウトイベントを同期させたい場合に求めています。
+  </string>
+  <string name="workout_events_label">ワークアウトイベント：
+  </string>
+
+  <string name="map_take_picture">画像はproximated場所に地図上に表示（写真はズームインまたはマップを移動するようにしてください表示されないされている場合は）画像が撮影された。
+  </string>
+  <string name="map_end_workout_info">ワークアウトを終了すると、グラフ内の別のカテゴリ/サブカテゴリ、ビューワークアウト情報で新しい1を開始し、それに関連する情報でワークアウトを削除することができます。
+  </string>
+  <string name="take_picture_info">ワークアウトはすでに開始されなければなりません。
+  </string>
+  <string name="map_workout_info">この情報は、トレーニングが終了した後のグラフにも表示可能である。
+  </string>
+  <string name="view_workouts_info">あなたは、過​​去のワークアウトを検索するワークアウト、ビュー、ワークアウトチャート情報、および表示するワークアウトの写真を削除することができます。
+  </string>
+  <string name="end_workout_info">ワークアウトを終了すると、別のカテゴリ/サブカテゴリを持つ新しい1を開始することができます。
+  </string>
+  <string name="start_stop_info">開始/既存のワークアウトを停止します。
+  </string>
+  <string name="connect_info">Bluetooth経由でZEPHYR HXM心拍数モニターに接続します。
+  </string>
+  <string name="connecting">Bluetooth経由で心拍数モニターに接続しています。
+  </string>
+  <string name="connected">Bluetooth経由で心拍数モニターに接続されています。
+  </string>
+  <string name="time_help">これは、運動の種類を変更する場合は、新しいワークアウトを終了し、作成することをお勧めします。
+  </string>
+  <string name="calories_burned_help">このワークアウト中に消費カロリー数。
+  </string>
+  <string name="heart_rate_help">現在このア​​プリはゼファーHXM心拍数モニターと連動するように設定されています。
+  </string>
+  <string name="workout_category_subcat_help">女性のために使用される式は*（（-20.4022 +（0.4472 *心拍数）+（0.1263 *キロの重量）+（0.074 *年齢））/ 4.184）、毎時60.0 =カロリーです。
+  </string>
+  <string name="calories_to_burn_help">やけどを予定してトレーニングイベントのカロリーを引いたカロリー数は、今日燃やした。
+  </string>
+  <string name="map_accuracy_help">地図精度の設定値が
+  </string>
+  <string name="map_accuracy_default">
+    <li>
+      	ワークアウトマップページで、電話が眠って読書のときは約20秒ごとに撮影している間に100メートルの精度がデフォルト設定されます。
+    </li>
+  </string>
+  <string name="map_accuracy_fine">
+    <li>
+      	利用可能な最高の精度はながらワークアウトマップページで、電話が眠って読書のときは約10秒ごとに行われている。  これは、より高速なバッテリー寿命を消費する。
+    </li>
+  </string>
+  <string name="map_accuracy_conserve">
+    <li>
+      100メートルの精度はながらワークアウトマップページで、電話が眠って読書のときは約毎分を撮影したものです。
+    </li>
+  </string>
+  <string name="workout_help_ref">あなたはどこにいたか記録するためにマップのアプリにワークアウトマップの絆。
+  </string>
+  <string name="distance_help">。タイマーが起こっているときにカバーしている距離は、
+  </string>
+  <string name="speed_help">前の場所の読みのオフに基づいて、あなたの現在の速度。
+  </string>
+  <string name="max_speed_help">タイマーが上だったしながら、ワークアウト中に到達した最大速度。
+  </string>
+  <string name="elevation_gain_decline_help">
+  </string>
+</resources>

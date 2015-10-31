@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_vertical"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        style="@style/ActivityContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/white"  >
+
+            <TextView
+                android:id="@+id/disclaimer"
+                style="@style/Paragraph"
+                android:text="@string/disclaimer_text" />
+
+            <TextView
+                android:id="@+id/disclaimerWarrantiesHeader"
+                style="@style/Header"
+                android:layout_below="@+id/disclaimer"
+                android:text="@string/disclaimer_warranties_header" />
+
+            <TextView
+                android:id="@+id/disclaimerWarranties"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerWarrantiesHeader"
+                android:text="@string/disclaimer_warranties" />
+
+            <TextView
+                android:id="@+id/disclaimerLiabilityHeader"
+                style="@style/Header"
+                android:layout_below="@+id/disclaimerWarranties"
+                android:text="@string/disclaimer_liability_header" />
+
+            <TextView
+                android:id="@+id/disclaimerLiability"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerLiabilityHeader"
+                android:text="@string/disclaimer_liability" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctorHeader"
+                style="@style/Header"
+                android:layout_below="@+id/disclaimerLiability"
+                android:text="@string/disclaimer_doctor_header" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctorHeader"
+                android:text="@string/disclaimer_doctor" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor2"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctor"
+                android:text="@string/disclaimer_doctor2" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor3"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctor2"
+                android:text="@string/disclaimer_doctor3" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor4"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctor3"
+                android:text="@string/disclaimer_doctor4" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor5"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctor4"
+                android:text="@string/disclaimer_doctor5" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor6"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctor5"
+                android:text="@string/disclaimer_doctor6" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor7"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctor6"
+                android:text="@string/disclaimer_doctor7" />
+
+            <TextView
+                android:id="@+id/disclaimerDoctor8"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerDoctor7"
+                android:text="@string/disclaimer_doctor8" />
+
+            <TextView
+                android:id="@+id/disclaimerLicenseHeader"
+                style="@style/Header"
+                android:layout_below="@+id/disclaimerDoctor8"
+                android:text="@string/disclaimer_license_header" />
+
+            <TextView
+                android:id="@+id/disclaimerLicense"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerLicenseHeader"
+                android:text="@string/disclaimer_license" />
+
+            <TextView
+                android:id="@+id/disclaimerRestrictionsHeader"
+                style="@style/Header"
+                android:layout_below="@+id/disclaimerLicense"
+                android:text="@string/disclaimer_restrictions_header" />
+
+            <TextView
+                android:id="@+id/disclaimerRestrictions"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerRestrictionsHeader"
+                android:text="@string/disclaimer_restrictions" />
+
+            <!-- <TextView
+                android:id="@+id/disclaimerOwnershipHeader"
+                style="@style/Header"
+                android:layout_below="@+id/disclaimerRestrictions"
+                android:text="@string/disclaimer_ownership_header" />
+
+            <TextView
+                android:id="@+id/disclaimerOwnership"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerOwnershipHeader"
+                android:text="@string/disclaimer_ownership" /> -->
+
+            <TextView
+                android:id="@+id/disclaimerProprietaryHeader"
+                style="@style/Header"
+                android:layout_below="@+id/disclaimerRestrictions"
+                android:text="@string/disclaimer_proprietary_header" />
+
+            <TextView
+                android:id="@+id/disclaimerProprietary"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerProprietaryHeader"
+                android:text="@string/disclaimer_proprietary" />
+
+            <TextView
+                android:id="@+id/disclaimerAccept"
+                style="@style/Paragraph"
+                android:layout_below="@+id/disclaimerProprietary"
+                android:text="@string/disclaimer_accept" />
+
+            <Button
+                android:id="@+id/acceptDisclaimer"
+                style="@style/Button"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/disclaimerAccept"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:onClick="onClick"
+                android:text="@string/accept" />
+        </RelativeLayout>
+
+</ScrollView>

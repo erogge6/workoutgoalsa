@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <ScrollView
+        android:id="@+id/post_workout_event"
+        android:layout_width="fill_parent"
+        android:layout_height="395dp"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp" >
+
+        <RelativeLayout
+            android:id="@+id/post_workout_event_content"
+            style="@style/ActivityContainerNoBgColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calendar_bg_drawable"
+            android:paddingTop="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/workout_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" >
+
+                <TextView
+                    android:id="@+id/userLabel"
+                    style="@style/smLabel"
+                    android:layout_toLeftOf="@+id/username"
+                    android:text="@string/username_label" />
+
+                <TextView
+                    android:id="@+id/username"
+                    style="@style/smTextNumberBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/workoutEventBeginDateLabel"
+                    style="@style/smLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/userLabel"
+                    android:text="@string/begin_date_label_colon" />
+
+
+                <TextView
+                    android:id="@+id/workoutEventBeginDate"
+                    style="@style/smTextNumberBlue"
+                    android:layout_alignRight="@+id/username"
+                    android:layout_below="@+id/userLabel"
+                    android:gravity="right"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/workoutEventEndDateLabel"
+                    style="@style/smLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/workoutEventBeginDateLabel"
+                    android:text="@string/end_date_label_colon" />
+
+
+                <TextView
+                    android:id="@+id/workoutEventEndDate"
+                    style="@style/smTextNumberBlue"
+                    android:layout_alignRight="@+id/workoutEventBeginDate"
+                    android:layout_below="@+id/workoutEventBeginDateLabel"
+                    android:gravity="right"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/titleLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutEventEndDateLabel"
+                    android:text="@string/title_label" />
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/smTextNumberBlue"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/workoutEventEndDateLabel"
+                    android:layout_width="wrap_content"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/mapWorkoutCategoryLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/titleLabel"
+                    android:layout_toLeftOf="@+id/workoutCategory"
+                    android:paddingTop="12dp"
+                    android:text="@string/workout_category_label" />
+
+                <TextView
+                    android:id="@+id/workoutCategory"
+                    style="@style/smTextNumberBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/titleLabel" />
+
+                <TextView
+                    android:id="@+id/workoutSubCategoryLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutCategory"
+                    android:text="@string/workout_subcategory_label" />
+
+                <TextView
+                    android:id="@+id/workoutSubcategory"
+                    style="@style/smTextNumberBlue"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/workoutSubCategoryLabel" />
+
+                <TextView
+                    android:id="@+id/workoutEventDescriptionLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutSubcategory"
+                    android:labelFor="@+id/workoutEventDescription"
+                    android:text="@string/description_label" />
+
+                <TextView
+                    android:id="@+id/workoutEventDescription"
+                    style="@style/smTextNumberBlue"
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/workoutEventDescriptionLabel" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/workoutEventAddressLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutEventDescription"
+                    android:labelFor="@+id/workoutEventAddress"
+                    android:text="@string/address_label" />
+
+                <TextView
+                    android:id="@+id/workoutEventAddress"
+                    style="@style/smTextNumberBlue"
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/workoutEventAddressLabel" >
+                </TextView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

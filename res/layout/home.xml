@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityContainerBg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        style="@style/ActivityContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/myGoalContentContainer"
+            style="@style/ContentContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/bgContentContainer"
+                style="@style/BgContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo_bg_drawable" >
+
+                <TextView
+                    android:id="@+id/myGoalLabel"
+                    style="@style/Header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goal_header" />
+
+                <TextView
+                    android:id="@+id/desiredWeightLossLabel"
+                    style="@style/Label"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/myGoalLabel"
+                    android:text="@string/desired_weight_loss_label" />
+
+                <TextView
+                    android:id="@+id/desiredWeightLoss"
+                    style="@style/Text.Number"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/myGoalLabel"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/weightLostPerWeekLbLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/desiredWeightLossLabel"
+                    android:text="@string/desired_weight_loss_per_week_label" />
+
+                <TextView
+                    android:id="@+id/weightLostPerWeekLb"
+                    style="@style/Text.Number"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/desiredWeightLossLabel"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/caloriesBurnedThisWeekLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/weightLostPerWeekLbLabel"
+                    android:text="@string/calories_burned_this_week_label" />
+
+                <TextView
+                    android:id="@+id/caloriesBurnedThisWeek"
+                    style="@style/Text.Number"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/weightLostPerWeekLbLabel"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/caloriesToBurnPerWeekLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/caloriesBurnedThisWeekLabel"
+                    android:text="@string/calories_to_burn_per_week_label" />
+
+                <TextView
+                    android:id="@+id/caloriesToBurnPerWeek"
+                    style="@style/Text.Number"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/caloriesBurnedThisWeekLabel"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/projectedGoalDateLabel"
+                    style="@style/Label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/caloriesToBurnPerWeekLabel"
+                    android:text="@string/projected_goal_date_label" />
+
+                <TextView
+                    android:id="@+id/projectedGoalDate"
+                    style="@style/Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="false"
+                    android:layout_below="@+id/caloriesToBurnPerWeekLabel"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/desiredGoalDateLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/projectedGoalDateLabel"
+                    android:text="@string/desired_goal_date_label" />
+
+                <TextView
+                    android:id="@+id/desiredGoalDate"
+                    style="@style/Text"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/projectedGoalDateLabel"
+                    android:textIsSelectable="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/upcomingContentContainer"
+            style="@style/ContentContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myGoalContentContainer" >
+
+                <TextView
+                    android:id="@+id/upcomingWorkoutsLabel"
+                    style="@style/Header"
+                    android:text="@string/upcoming_workouts_header" />
+
+                <RelativeLayout
+                    android:id="@+id/upcomingContentTr"
+                    style="@style/Text"
+                    android:layout_below="@+id/upcomingWorkoutsLabel" >
+
+                    <TableRow
+                        android:id="@+id/homeTableRowLabels"
+                        style="@style/tableHeader"
+                        android:layout_marginTop="0dp"
+                        android:paddingRight="0dp" >
+
+                        <TextView
+                            android:id="@+id/dayLabel"
+                            style="@style/workoutEventColumnHome"
+                            android:gravity="center_horizontal"
+                            android:text="@string/weekday_label" />
+
+                        <TextView
+                            android:id="@+id/beginTimeLabel"
+                            style="@style/workoutEventColumnHome"
+                            android:gravity="center_horizontal"
+                            android:text="@string/begin_time_label" />
+
+                        <TextView
+                            android:id="@+id/caloriesLabel"
+                            style="@style/workoutEventColumnHome"
+                            android:gravity="center_horizontal"
+                            android:text="@string/calories_label_no_colon" />
+
+                        <TextView
+                            android:id="@+id/startWorkoutLabel"
+                            style="@style/workoutEventColumnHome"
+                            android:layout_gravity="center"
+                            android:gravity="right|center_vertical"
+                            android:text="@string/start_workout"
+                            android:paddingRight="5dp" />
+                    </TableRow>
+
+                    <TableLayout
+                        android:id="@+id/homeTableWorkoutEvents"
+                        style="@style/EventsTable"
+                        android:layout_below="@+id/homeTableRowLabels" >
+                    </TableLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+</ScrollView>

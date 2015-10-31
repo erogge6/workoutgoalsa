@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableRowLabels"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:padding="5dp"
+    android:paddingTop="25dp"
+    android:layout_margin="0dp" >
+
+    <CheckBox
+        android:id="@+id/deleteWorkoutEvent"
+        style="@style/workoutEventColumn" />
+
+    <TextView
+        android:id="@+id/workoutEventDate"
+        style="@style/workoutEventColumn" />
+
+    <EditText
+        android:id="@+id/workoutEventCalories"
+        style="@style/Input.Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:labelFor="@+id/caloriesLabel" />
+    
+    <EditText
+        android:id="@+id/workoutEventDistance"
+        style="@style/Input.Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:labelFor="@+id/distanceLabel" />
+    
+    <ImageButton
+        android:id="@+id/shareWorkoutEvent"
+        style="@style/workoutEventColumn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/share_workout_event"
+        android:src="@drawable/share" />
+
+</TableRow>

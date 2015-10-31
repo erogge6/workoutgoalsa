@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/viewWorkoutInfo"
+        style="@style/Text"
+        android:icon="@drawable/navigation_previous_item"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/view_workout_info"/>
+    <item
+        android:id="@+id/viewChart"
+        style="@style/Text"
+        android:icon="@drawable/chart"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/view_workout_chart"/>
+    <item
+        android:id="@+id/viewImages"
+        style="@style/Text"
+        android:icon="@drawable/content_picture"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/view_workout_pictures"/>
+    <item
+        android:id="@+id/shareWorkout"
+        style="@style/Text"
+        android:icon="@drawable/share"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/share_workout"/>
+    
+    <item
+        android:id="@+id/help"
+        style="@style/Text"
+        android:icon="@drawable/action_help"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/help_header"/>
+    <item
+        android:id="@+id/removeWorkout"
+        style="@style/Text"
+        android:icon="@drawable/content_discard"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/removeWorkout"/>
+
+</menu>

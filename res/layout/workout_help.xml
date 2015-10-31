@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        style="@style/ActivityContainerNoBgColor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal" >
+
+        <TextView
+            android:id="@+id/workoutTimeLabel"
+            style="@style/Header"
+            android:text="@string/workout_time_label" />
+
+        <TextView
+            android:id="@+id/workoutTime"
+            style="@style/Text.Left"
+            android:layout_below="@+id/workoutTimeLabel"
+            android:text="@string/time_help" />
+
+        <TextView
+            android:id="@+id/caloriesBurnedLabel"
+            style="@style/Header"
+            android:layout_below="@+id/workoutTime"
+            android:text="@string/calories_burned_label" />
+
+        <TextView
+            android:id="@+id/caloriesBurned"
+            style="@style/Text.Left"
+            android:layout_below="@+id/caloriesBurnedLabel"
+            android:text="@string/calories_burned_help" />
+        
+        <TextView
+            android:id="@+id/caloriesToBurnTodayLabel"
+            style="@style/Header"
+            android:layout_below="@+id/caloriesBurned"
+            android:text="@string/calories_to_burn_today_label" />
+
+        <TextView
+            android:id="@+id/caloriesToBurnToday"
+            style="@style/Text.Left"
+            android:layout_below="@+id/caloriesToBurnTodayLabel"
+            android:text="@string/calories_to_burn_help" />
+
+        <TextView
+            android:id="@+id/heartRateLabel"
+            style="@style/Header"
+            android:layout_below="@+id/caloriesToBurnToday"
+            android:text="@string/heart_rate_label" />
+
+        <TextView
+            android:id="@+id/heartRate"
+            style="@style/Text.Left"
+            android:layout_below="@+id/heartRateLabel"
+            android:text="@string/heart_rate_help" />
+
+        <TextView
+            android:id="@+id/workoutCategoryLabel"
+            style="@style/Header"
+            android:layout_below="@+id/heartRate"
+            android:text="@string/workout_category_subcat_label" />
+
+        <TextView
+            android:id="@+id/workoutCategory"
+            style="@style/Text.Left"
+            android:layout_below="@+id/workoutCategoryLabel"
+            android:text="@string/workout_category_subcat_help" />
+
+        <TextView
+            android:id="@+id/actionButtonsLabel"
+            style="@style/Header"
+            android:layout_below="@+id/workoutCategory"
+            android:text="@string/action_buttons_header" />
+
+        <ImageView
+            android:id="@+id/connectIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:contentDescription="@string/connect"
+            android:src="@drawable/device_access_bluetooth" />
+
+        <TextView
+            android:id="@+id/connect"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:layout_toRightOf="@+id/connectIcon"
+            android:text="@string/connect_info" />
+
+        <ImageView
+            android:id="@+id/connectingIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/connect"
+            android:contentDescription="@string/connecting"
+            android:src="@drawable/device_access_bluetooth_searching" />
+
+        <TextView
+            android:id="@+id/connecting"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/connect"
+            android:layout_toRightOf="@+id/connectingIcon"
+            android:text="@string/connecting" />
+        
+        <ImageView
+            android:id="@+id/connectedIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/connecting"
+            android:contentDescription="@string/connected"
+            android:src="@drawable/device_access_bluetooth_connected" />
+
+        <TextView
+            android:id="@+id/connected"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/connecting"
+            android:layout_toRightOf="@+id/connectIcon"
+            android:text="@string/connected" />
+        
+        <ImageView
+            android:id="@+id/startStopWorkoutIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/connected"
+            android:contentDescription="@string/start_workout"
+            android:src="@drawable/device_access_alarms" />
+
+        <TextView
+            android:id="@+id/startStopWorkoutInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/connected"
+            android:layout_toRightOf="@+id/connectIcon"
+            android:text="@string/start_stop_info" />
+        
+        <ImageView
+            android:id="@+id/endWorkoutIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/startStopWorkoutInfo"
+            android:contentDescription="@string/end_workout"
+            android:src="@drawable/navigation_accept" />
+
+        <TextView
+            android:id="@+id/endWorkoutInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/startStopWorkoutInfo"
+            android:layout_toRightOf="@+id/endWorkoutIcon"
+            android:text="@string/end_workout_info" />
+        
+        <ImageView
+            android:id="@+id/viewWorkoutsIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/endWorkoutInfo"
+            android:contentDescription="@string/view_workouts"
+            android:src="@drawable/collections_view_as_list" />
+
+        <TextView
+            android:id="@+id/viewWorkoutsInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/endWorkoutInfo"
+            android:layout_toRightOf="@+id/viewWorkoutsIcon"
+            android:text="@string/view_workouts_info" />
+        
+        <ImageView
+            android:id="@+id/mapWorkoutIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/viewWorkoutsInfo"
+            android:contentDescription="@string/map_workout_label"
+            android:src="@drawable/location_map" />
+
+        <TextView
+            android:id="@+id/mapWorkoutInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/viewWorkoutsInfo"
+            android:layout_toRightOf="@+id/mapWorkoutIcon"
+            android:text="@string/map_workout_info" />
+        
+        <ImageView
+            android:id="@+id/viewChartIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/mapWorkoutInfo"
+            android:contentDescription="@string/view_workout_chart"
+            android:src="@drawable/chart" />
+
+        <TextView
+            android:id="@+id/viewChartInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/mapWorkoutInfo"
+            android:layout_toRightOf="@+id/viewChartIcon"
+            android:text="@string/view_chart_info" />
+        
+        <ImageView
+            android:id="@+id/takePictureIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/viewChartInfo"
+            android:contentDescription="@string/take_picture"
+            android:src="@drawable/content_new_picture" />
+
+        <TextView
+            android:id="@+id/takePictureInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/viewChartInfo"
+            android:layout_toRightOf="@+id/takePictureIcon"
+            android:text="@string/take_picture_info" />
+        
+        <ImageView
+            android:id="@+id/viewImagesIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/takePictureInfo"
+            android:contentDescription="@string/view_workout_pictures"
+            android:src="@drawable/content_picture" />
+
+        <TextView
+            android:id="@+id/viewImagesInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/takePictureInfo"
+            android:layout_toRightOf="@+id/viewImagesIcon"
+            android:text="@string/view_pictures_info" />
+        
+        <ImageView
+            android:id="@+id/shareIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/viewImagesInfo"
+            android:contentDescription="@string/share_workout"
+            android:src="@drawable/share" />
+
+        <TextView
+            android:id="@+id/shareInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/viewImagesInfo"
+            android:layout_toRightOf="@+id/shareIcon"
+            android:text="@string/share_workout_information" />
+        
+        <ImageView
+            android:id="@+id/helpIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/shareInfo"
+            android:contentDescription="@string/help_header"
+            android:src="@drawable/action_help" />
+
+        <TextView
+            android:id="@+id/viewHelp"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/shareInfo"
+            android:layout_toRightOf="@+id/helpIcon"
+            android:text="@string/help_header" />
+    </RelativeLayout>
+
+</ScrollView>

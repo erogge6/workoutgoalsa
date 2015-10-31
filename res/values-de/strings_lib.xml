@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="close"> Schließen </string>
+<string name="share_workout_events_info"> Freunde einladen, um das Training Veranstaltungen. Nach dem Training Ereignisse, so dass andere Benutzer der Anwendung können suchen, anzeigen und Route berechnen. </string>
+<string name="view_workout_events_info"> geschrieben? Training Veranstaltungen. Suche mit Google Maps ins Training kommenden Veranstaltungen im Umkreis von denen Sie wählen (Durch Klick auf der Karte) zu sehen. </string>
+<string name="get_directions_colon"> Route: </string>
+<string name="get_directions"> Route </string>
+<string name="posted_workout_event"> Verfasst Workout Ereignis </string>
+<string name="error_searching_workout_events"> ist ein Fehler aufgetreten Suche nach Trainingsveranstaltungen. Bitte versuchen Sie es später erneut. </string>
+<string name="successfully_remove_shared_workout_event"> Erfolgreich entfernt geschrieben Training Veranstaltung. </string>
+<string name="could_not_find_shared_workout_to_remove_event"> einen gebuchten Training Veranstaltung konnte nicht gefunden zu entfernen. </string>
+<string name="error_removed_workout_event"> ist ein Fehler aufgetreten Entfernen geschrieben Training Veranstaltung. </string>
+<string name="view_workout_events"> Ansicht Verfasst Workout Events </string>
+<string name="workout_event_already_posted"> Workout Veranstaltung bereits gebucht. </string>
+<string name="error_posting_workout_event"> ist ein Fehler aufgetreten Entsendung Workout-Ereignis. </string>
+<string name="workout_event_posted_success"> Erfolgreich geschrieben Training Veranstaltung. </string>
+<string name="address_required"> Adresse ist ein Pflichtfeld. </string>
+<string name="begin_date_before_now"> Veranstaltungs \'s beginnen Datum liegt vor dem heutigen Datum. </string>
+<string name="end_date_before_now"> Veranstaltungs \'s Ende Datum liegt vor dem heutigen Datum. </string>
+<string name="share"> Share </string>
+<string name="end_date_label_colon"> Ende Datum: </string>
+<string name="begin_date_label_colon"> Start Datum: </string>
+<string name="address_label"> Adresse: </string>
+<string name="post_workout_event"> Post Workout Ereignis </string>
+<string name="calories_moving_time_help"> Die während der Zeit, die Sie tatsächlich während des Trainings verbrannt bewegen Kalorien. </string>
+<string name="moving_time_help"> Die Zeit, die Sie tatsächlich während des Trainings bewegt worden. </string>
+<string name="moving_time_label"> Umzugszeit : </string>
+<string name="calories_moving_time_label"> Umzug Zeit Kalorienverbrauch: </string>
+<string name="import_info"> Import. gpx (Routen und Tracks) und. kml-Dateien in Google Maps. Workout Ziele können Dateien im Download-Ordner zugreifen. Dies ist, wo Dateien von Webseiten oder E-Mails gespeichert, wenn Sie sie an den Google-Laufwerk nicht speichern. Plus, können Sie Dateien in den Ordner der WorkoutGoal \'s kopieren. Die Datei wird importiert und links im Blick, bis sie gelöscht wird oder die Aktivität wird geschlossen. Sie können Entfernung und Höheninformationen in einem Diagramm anzeigen. Elevation-Daten direkt aus der Datei gezogen und ist nicht im Gewichte formatiert und messen oder metrische System. </string>
+<string name="hundred_unit_alt"> Hunderte von Einheiten Höhe </string>
+<string name="no_gps_files_found"> konnte nicht gefunden werden. KML-oder. gpx-Dateien zu importieren. </string>
+<string name="imported_file_info"> Importierte Datei-Informationen </string>
+<string name="imported_file_readings"> Importierte Datei Lesungen </string>
+<string name="clear_imported"> Clear Imported </string>
+<string name="error_with_file"> Fehler beim Lesen der Dateibeschreibung. </string>
+<string name="file_not_found"> Datei nicht gefunden. </string>
+<string name="xml_parse_error"> Fehler beim Lesen von XML. </string>
+<string name="downloads"> Downloads </string>
+<string name="workout_goals_dir"> Workout Tore Ordner </string>
+<string name="import_gps_file"> Import GPS Datei </string>
+    
+  <string name="bmi_label" > Body Masse Index (BMI) </string>
+  <string name="bmr_label" > Grundumsatz (BMR ) </string>
+  <string name="could_not_find_shared_workout_to_remove"> Workout wird nicht geteilt. </string>
+  <string name="map_search_info" > Sie können Ihr Training zu teilen und stellen sie für andere App -Nutzer suchen und den Trainings -und Karteninformationen . Es gibt auch eine Option für andere App -Nutzer Ihre Trainingsroutezu folgen. Diese Option hält die Trainingsstreckeim Hinblick auf eine so lange Sie nicht auf die Zurück-Taste , während Sie das Training Seite abgebildet sind . Um Training Routen in einem bestimmten Gebiet blättern Google Maps zu einem Ort, den Sie suchen möchten zu suchen , klicken Sie auf das Suchsymbol , geben Sie in Ihre Kriterien und klicken Sie auf Suche. Sie müssen eine Internet-Verbindung für diese Option zu haben. Wenn Sie nicht finden können , was Sie fühlen sich frei, alle TrainingsroutenAktien suchen! </string>
+  <string name="share_workouts_available" > Sie können Ihr Training Route mit anderen App- Benutzer durch den Anteil Aktionselement zu teilen. </string>
+  <string name="ALL"> Alle </string>
+  <string name="cat_label" > Cat: </string>
+  <string name="decline_label" > Ablehnen: </string>
+  <string name="gain_label" > Gain: </string>
+  <string name="time_label" > Zeit: </string>
+  <string name="view_workout_chart_colon"> Ansicht Workout Chart: </string>
+  <string name="page" > Seite : </string>
+  <string name="user" > Benutzer: </string>
+  <string name="total_results" > Total: </string>
+  <string name="of" > von </string>
+  <string name="congrats_distance_achieved" > Herzlichen Glückwunsch ! Sie erreicht Ihre Entfernung Ziel für heute. </string>
+  <string name="hundreds_burned"> Hunderte von Kalorien verbrannt </string>
+  <string name="category_label" > Kategorie: </string>
+  <string name="unfollow_route"> Stopp folgenden dieses Training \'s Route </string>
+  <string name="follow_route" > Folgt dieses Training \'s Route </string>
+  <string name="sharing_workout" >Hochladen Training in die Cloud.</string>
+  <string name="choose_workout_event"> ein Ereignis teilen Wählen Sie </string>
+  <string name="calories" > Kalorien </string>
+  <string name="desc_to_big" > Beschreibung können nur bis zu 255 Zeichen lang sein. </string>
+  <string name="clear_search_help" > Clear gesucht Trainingseinheiten aus der Karte. </string>
+  <string name="search_help" > Positionieren Sie die Karten über einen Ort , klicken Sie auf Suche , um zu sehen , ob es irgendwelche gemeinsamen Trainingseinheiten in der Gegend. Wenn es die Karte wird ihre Routen und Informationen anzuzeigen. Netzwerkverbindung ist für diese Funktion erforderlich ist. </string>
+  <string name="search_buttons_header" > Suche Buttons </string>
+  <string name="page_up_help"> die nächste Seite für gemeinsame Trainingseinheiten in der Nähe anzeigen . </string>
+  <string name="page_down_help"> die vorherige Seite der Ergebnisse für gemeinsame Trainingseinheiten in der Nähe anzeigen . </string>
+  <string name="distance_today_help" > Die Gesamtdistanz für heute geplant basierte weg von der Workout Events Abstand ( s ) für einen bestimmten Tag der Woche . </string>
+  <string name="total_schedules_calories_help"> Die Gesamtzahl der Kalorien und Distanz für eine Woche geplant. Dies ist eine Summe von jedem Training Event \'s Kalorien. </string>
+  <string name="workout_events_help"> Liste der Trainings Ereignisse nach Datum , Uhrzeit , Anzahl der Kalorien zu verbrennen, und die Entfernung zu decken . Geben Sie in Ihrem Ziel, Distanz oder Kalorien, die Sie zu versuchen und erreichen für diesen Tag der Woche möchten. Don \'t über es tun . Beim Training Ereignisse werden gespeichert eine Benachrichtigung Setup, um am Morgen des nächsten Training Veranstaltungen für den Tag zu benachrichtigen. </string>
+  <string name="view_goal_chart_info" > Sehen Sie Ihre Trainingsziel Fortschritte . Wenn Sie nicht gewünscht haben Gewichtsverlust trat dieses Diagramm beträgt die Entfernung und Kalorien , da das Ziel \'s beginnen Datum. Ansonsten Chart zeigt Ihr Ziel, Kalorien zu verbrennen , das projizierte Ziel, Kalorien ( durchschnittlich Kalorien pro Tag verbrannt) , und die tatsächlichen Kalorien aus dem Trainingsziel Startdatum bisher verbrannt verbrennen. </string>
+  <string name="distance_covered_this_week_help"> The diese Woche gelegte Gesamtstrecke . </string>
+  <string name="distance_this_week_help" > Die berechneten Gesamt Abstand in dieser Woche zu decken. Dieser wird die Summe der Entfernungen Training Ereignisse basiert. </string>
+  <string name="scheduled_calories_per_week_help" > Die berechneten Gesamt Kalorien pro Woche zu verbrennen. Dieser wird die Summe der Ereignisse Training kcal. </string>
+  <string name="workout_stats_tab"> Statistik </string>
+  <string name="total_schedules_calories_label"> Gesamt Geplante Kalorien zu brennen : </string>
+  <string name="total_schedules_distance_label" > Total Geplante Entfernung: </string>
+  <string name="daily_chart_burned_distance" > Tages-Chart der verbrannten Kalorien und zurückgelegte Entfernung </string>
+  <string name="kph" > kph </string>
+  <string name="mph" > mph </string>
+  <string name="scheduled_burn_per_week_label" > Kalorien pro Woche: </string>
+  <string name="sheduled_distance_per_week" > Entfernung pro Woche: </string>
+  <string name="distance_to_cover_this_week_label" > Entfernung dieser Woche ab: </string>
+  <string name="miles" > Miles </string>
+  <string name="km" > KM </string>
+  <string name="total_schedules_calories_distance_label" > Total geplant Kalorien &amp; Entfernung : </string>
+  <string name="scheduled_distance" > Geplante Entfernung </string>
+  <string name="distance_calories_zero_req" > Entfernung und Kalorien kann nicht Null sein. </string>
+  <string name="end_label" > Ende </string>
+  <string name="distance_label_no_colon" > Entfernung </string>
+  <string name="distance_today_label" > heute Entfernung : </string>
+  <string name="distance_covered_since_goal_date_label" > Entfernung Seit Goal Datum: </string>
+  <string name="calories_burned_since_goal_date_label" > Kalorien Seit Goal Datum: </string>
+  <string name="distance_covered_this_week_label" > Entfernung Dachte Diese Woche: </string>
+  <string name="remove_workout"> Training entfernen . </string>
+  <string name="successfully_remove_shared_workout" > Training wurde von Sharing entfernt . </string>
+  <string name="error_removed_workout" > Ein Fehler ist aufgetreten entfernt dieses gemeinsame Training. </string>
+  <string name="remove_workout_header" > Workout entfernen </string>
+  <string name="remove_from_both" > Entfernen dieses Training -und Stop- Austausch mit anderen App -Benutzer (nur wenn dieses Training wurde gemeinsam) . </string>
+  <string name="remove_from_shared" > Stop Austausch mit anderen App -Benutzer (nur wenn dieses Training wurde gemeinsam) . </string>
+  <string name="share_workout_req"> Um ein Training muss der Abstand größer als Null sein, teilen. </string>
+  <string name="searched_workout_header" > Gesucht Workout </string>
+  <string name="paging_to" > Suchen Suchergebnisse für Seite </string>
+  <string name="no_search_results_found" > Keine Trainingseinheiten gefunden. Seien Sie der Erste, der Ihr Training in diesem Bereich teilen ! </string>
+  <string name="workout_already_shared" > Workout ist bereits existiert auf in der Cloud. </string>
+  <string name="clear_mapped_workouts"> Klar gesucht Workouts. </string>
+  <string name="searching_workouts" > Suche nach Nähe Workouts  &#8230; </string>
+  <string name="error_searching_workouts" > Ein Fehler ist aufgetreten Suche Workouts. </string>
+  <string name="error_saving_workout"> Ein Fehler ist aufgetreten Spar Training in die Cloud . </string>
+  <string name="workout_save_success"> Workout in die Cloud erfolgreich gespeichert . </string>
+<string name="page_down" > Seite nach unten </string>
+  <string name="page_up" > Page Up </string>
+  <string name="search_mapped_workouts" > Suche nach in der Nähe abgebildet Training Routen. </string>
+  <string name="username_label" > Benutzername: </string>
+  <string name="share_workout_with_users" > Aktien Training mit anderen Benutzern </string>
+  <string name="share_workout_header"> Teilen Workout </string>
+  <string name="title_label" > Titel: </string>
+  <string name="description_label" > Beschreibung: </string>
+  <string name="title_req" > Titel ist erforderlich. </string>
+  <string name="select_share_option" > Wählen Sie ein Aktienoptions : </string>
+    
+    
+    <string name="share_workout_events" >Teilen Workout Events</string>
+    <string name="share_workout_information" >Teilen Workout Informationen. Wenn es Herzfrequenzwerte eine Datei CSV (Comma Separated Values) mit Lesen von Daten angeschlossen werden.</string>
+    <string name="map_share_info" >Teilen abgebildet Trainingseinheiten mit anderen Anwendungs ​​Nutzer über die Suche-Funktion. Erstellt eine Datei KML, GPX oder CSV (Comma Separated Values) für Google Maps oder Google Earth, mit verbundenen Trainingsinformationen. Diese Datei kann auf Google Drive hochgeladen oder per E-Mail.</string>
+ 
+    <string name="calories_to_burn" >Kalorien zu verbrennen </string>
+    <string name="csv_file" >CSV-Dateiformat </string>
+    <string name="longitude" >Länge</string>
+    <string name="latitude" >Breite</string>
+    <string name="altitude" >Höhe</string>
+    <string name="distance" >Abstand</string>
+    <string name="reading_time" >Lesezeit</string>
+    <string name="at" >bei</string>
+    <string name="come_workout" >Kommen Sie mit mir auf Training </string>
+    <string name="save_workout_events_before_share" >Bitte speichern Training Ereignisse vor ihnen teilen.</string>
+    <string name="share_workout_event" >Teilen Workout Ereignis</string>
+    
+  <string name="kml_file">KML-Dateiformat
+  </string>
+  <string name="gpx_file">GPX-Datei-Format
+  </string>
+  <string name="select_export_file_type">Wählen Sie einen Dateiformattyp:
+  </string>
+  <string name="share_info">Teilen Training info
+  </string>
+  <string name="avg_speed_label">Durchschnittsgeschwindigkeit:
+  </string>
+  <string name="ERROR_CREATING_KML_FILE">Fehler beim Erstellen von KML-Datei aus dem Training.
+  </string>
+  <string name="ERROR_CREATING_GPX_FILE">Fehler beim Erstellen der GPX-Datei aus dem Training.
+  </string>
+  <string name="share_workout">E-Mail-KML-Datei
+  </string>
+  <string name="contact_email">info@yourworkoutgoals.com
+  </string>
+  <string name="feedback_label">Senden Sie Feedback, Fragen oder Kommentare an:
+  </string>
+  <string name="show">Zeigen Workout Informationen
+  </string>
+  <string name="hide">Ausblenden Workout Informationen
+  </string>
+  <string name="view_workout_info">Show / Hide Workout Info
+  </string>
+  <string name="avg_heart_rate_label">Durchschnittliche Herzfrequenz:
+  </string>
+  <string name="confirm_map_workout">Dies war ursprünglich ein zugeordnetes Training wollen Sie dieses Training zuordnen möchten?
+  </string>
+  <string name="error_saving_workout_events">Ein Fehler ist aufgetreten Spar Training Veranstaltungen.
+  </string>
+  <string name="view_goal_chart_error">Anzeigen der Spieltabelle gelten nur\'s, wenn Sie versuchen, Gewicht zu verlieren und haben den Betrag, den Sie jede Woche Satz verlieren.
+  </string>
+  <string name="check_license">Lizenzprüfung
+  </string>
+  <string name="checking_license">Überprüfen Lizenz &#8230;
+  </string>
+  <string name="dont_allow">Don\'t erlauben dem Anwender den Zugang
+  </string>
+  <string name="allow">Erlauben Sie dem Benutzer Zugriff
+  </string>
+  <string name="application_error">Anwendungsfehler: %1$s
+  </string>
+  <string name="unlicensed_dialog_title">Anwendung nicht lizenziert
+  </string>
+  <string name="unlicensed_dialog_body">Bitte kaufen Sie es von Android Market.
+  </string>
+  <string name="unlicensed_dialog_retry_body">Prüfen Sie, ob eine Netzwerkverbindung verfügbar ist.
+  </string>
+  <string name="buy_button">Kaufen App
+  </string>
+  <string name="retry_button">Wiederholen
+  </string>
+  <string name="quit_button">Beenden
+  </string>
+  <string name="notify_workout_reading_exceptions">Der Akku des Telefons\'s zu niedrig, Satelliten außerhalb der Reichweite oder ohne Abdeckung.
+  </string>
+  <string name="starting_time_label">Startzeit:
+  </string>
+  <string name="calories_to_burn_label">Kalorien zu verbrennen:
+  </string>
+  <string name="upcoming_workout_notification">Die nächsten Trainings-Veranstaltung (en)
+  </string>
+  <string name="reached_goal_for_calories_burned_today">Sie erreichen Ihr Ziel für heute Kalorien zu verbrennen.
+  </string>
+  <string name="connecting_short">Anschließen
+  </string>
+  <string name="connected_short">Verbunden
+  </string>
+  <string name="connection_error_code">Verbindungsfehler Fehlercode: %1$d
+  </string>
+  <string name="connection_error_disabled">Google-Play-Dienste deaktiviert
+  </string>
+  <string name="connection_error_internal">Ein interner Fehler aufgetreten
+  </string>
+  <string name="connection_error_invalid">Die Version der Google-Play-Dienste auf diesem Gerät ist nicht authentisch
+  </string>
+  <string name="connection_error_invalid_account">Der angegebene Kontoname ist ungültig
+  </string>
+  <string name="connection_error_license_check_failed">Die App ist für den Benutzer nicht lizenziert
+  </string>
+  <string name="connection_error_message">Verbindungsfehler Fehlermeldung: %1$s
+  </string>
+  <string name="connection_error_misconfigured">Die Anwendung ist falsch konfiguriert
+  </string>
+  <string name="connection_error_missing">Google-Play-Dienste fehlt
+  </string>
+  <string name="connection_error_needs_resolution">Zusätzliche Auflösung erforderlich
+  </string>
+  <string name="connection_error_network">Ein Netzwerkfehler aufgetreten
+  </string>
+  <string name="connection_error_outdated">Google-Play-Dienste ist nicht mehr aktuell
+  </string>
+  <string name="connection_error_sign_in_required">Der Benutzer wird nicht angemeldet
+  </string>
+  <string name="connection_error_unknown">Ein unbekannter Fehler ist aufgetreten
+  </string>
+  <color name="appBlueText">#0099CC</color>
+  <string name="removeWorkout">Entfernen Workout
+  </string>
+  <string name="view_workouts">Historische anzeigen Workouts
+  </string>
+  <string name="app_name">Workout Tore
+  </string>
+  <string name="goal_header">Mein Ziel
+  </string>
+  <string name="upcoming_workouts_header">Bevorstehende Workouts
+  </string>
+  <string name="my_workout">Mein Workout
+  </string>
+  <string name="emptyTime">00.00.00
+  </string>
+  <string name="zero">0.0
+  </string>
+  <string name="elevation_gain_decline_label">Elevation Gewinn / Decline:
+  </string>
+  <string name="elevation_label">Elevation:
+  </string>
+  <string name="set_goal_start_date">Stellen Goal Startdatum
+  </string>
+  <string name="view_goal_progress">Ansicht Workout Goal Progress
+  </string>
+  <string name="help_header">Hilfe
+  </string>
+  <string name="view_goal_chart">Ansicht Workout Tor Tabelle
+  </string>
+  <string name="view_workout_chart">Workout-Diagramm-Ansicht
+  </string>
+  <string name="take_picture">Nehmen Sie ein Bild
+  </string>
+  <string name="album_name">WorkoutGoals
+  </string>
+  <string name="view_workout_pictures">Ansicht Workout Bilder
+  </string>
+  <string name="accept">Akzeptieren
+  </string>
+  <string name="no_workouts_found">Keine Workouts Gefunden
+  </string>
+  <string name="format_header">Formatieren
+  </string>
+  <string name="format_header_help">Formatierung:
+  </string>
+  <string name="unsaved_goal">Möchten Sie Ihr Trainingsziel zu retten?
+  </string>
+  <string name="Sedentary">Sitzende
+  </string>
+  <string name="Light_Activity">Leichte Aktivität
+  </string>
+  <string name="Moderate_Activity">Moderate Aktivitäten
+  </string>
+  <string name="Very_Active">Sehr Aktiv
+  </string>
+  <string name="Extremely_Active">Extrem Aktiv
+  </string>
+  <string name="calories_to_burn_today_label">Kalorien zu verbrennen Heute:
+  </string>
+  <string name="metric_label">Zahlenformatierung
+  </string>
+  <string name="weights_measures_label">Maße und Gewichte
+  </string>
+  <string name="metric_system_label">Metric-System
+  </string>
+  <string name="goal_start_date_label">Spielbeginn:
+  </string>
+  <string name="max_speed_label">Max. Geschwindigkeit:
+  </string>
+  <string name="desired_goal_date_label">Mein Ziel Datum:
+  </string>
+  <string name="projected_goal_date_label">Projizierte Goal Datum:
+  </string>
+  <string name="event_settings_label">Ereigniseinstellungen
+  </string>
+  <string name="elevation_gain_label">Höhenunterschied:
+  </string>
+  <string name="elevation_decline_label">Elevation Ablehnen:
+  </string>
+  <string name="my_information_label">Meine Informationen
+  </string>
+  <string name="map_workout_label">Map My Workout
+  </string>
+  <string name="distance_label">Entfernung:
+  </string>
+  <string name="speed_label">Geschwindigkeit:
+  </string>
+  <string name="workout_tab">Workout
+  </string>
+  <string name="workout_map_tab">Workout Karten
+  </string>
+  <string name="workout_goal_tab">Trainingsziel
+  </string>
+  <string name="workout_events_tab">Workout Events
+  </string>
+  <string name="workout_event">Workout Ereignis
+  </string>
+  <string name="end_workout">End Workout
+  </string>
+  <string name="stop_workout">Stoppen Workout
+  </string>
+  <string name="resume_workout">Fortsetzen Workout
+  </string>
+  <string name="start_workout">Starten Workout
+  </string>
+  <string name="start_stop_workout">Start / Stop Workout
+  </string>
+  <string name="connect">Verbinden
+  </string>
+  <string name="heart_rate_monitor">Heart Rate Monitor
+  </string>
+  <string name="connected_label">Verbunden
+  </string>
+  <string name="calendar_account_email_label">Kalender Konto E-Mail:
+  </string>
+  <string name="synch_with_calendar_label">Synch mit Kalender:
+  </string>
+  <string name="map_accuracy_label">Karte Genauigkeit:
+  </string>
+  <string name="desired_weight_loss_label">Wunschgewichtsverlust:
+  </string>
+  <string name="lbs">Lbs
+  </string>
+  <string name="desired_weight_loss_per_week_label">Wunschgewichtsverlust pro Woche:
+  </string>
+  <string name="age_label">Alter:
+  </string>
+  <string name="gender_label">Geschlecht:
+  </string>
+  <string name="male_label">männlich
+  </string>
+  <string name="female_label">weiblich
+  </string>
+  <string name="weight_label">Mein Gewicht:
+  </string>
+  <string name="height_label">Höhe:
+  </string>
+  <string name="daily_calorie_intake_label">Durchschnittliche tägliche Kalorienzufuhr:
+  </string>
+  <string name="activity_level_label">Meine Aktivität:
+  </string>
+  <string name="save">Speichern
+  </string>
+  <string name="quit">Beenden
+  </string>
+  <string name="weekday_label">Weekday
+  </string>
+  <string name="calories_burned_this_week_label">Kalorienverbrauch in dieser Woche:
+  </string>
+  <string name="my_goal_activity_level_label">Mein Ziel Tierbew Level:
+  </string>
+  <string name="my_workout_events_label">Mein Workout Events
+  </string>
+  <string name="date_label">Datum
+  </string>
+  <string name="begin_date_label">Anfangsdatum
+  </string>
+  <string name="begin_time_label">Zeit
+  </string>
+  <string name="end_time_label">Endzeit
+  </string>
+  <string name="calories_label">Kalorien:
+  </string>
+  <string name="calories_label_no_colon">Kalorien
+  </string>
+  <string name="save_workout_events">Sparen Events
+  </string>
+  <string name="saving_workout_events">Speichern Workout Events &#8230;
+  </string>
+  <string name="add_workout_event">In Workout Ereignis
+  </string>
+  <string name="timer_label">Zeit:
+  </string>
+  <string name="delete_label">Löschen:
+  </string>
+  <string name="delete_label_no_colon">Löschen
+  </string>
+  <string name="spread_calories_to_burn">Gleichmäßig verteilt Kalorien
+  </string>
+  <string name="deleteworkoutTime_label">Löschen
+  </string>
+
+  <string name="calories_to_burn_per_week_label">Um Kalorien pro Woche Burn:
+  </string>
+  <string name="calendar_email_label">Konto E-Mail:
+  </string>
+  <string name="synch_label">Synch Events:
+  </string>
+  <string name="yes_label">Ja
+  </string>
+  <string name="no_label">Nein
+  </string>
+  <string name="add_to_calendar_label">In Kalender:
+  </string>
+  <string name="calendar_label">Kalender:
+  </string>
+  <string name="calories_burned_label">Kalorienverbrauch:
+  </string>
+  <string name="workout_time_label">Trainingszeit:
+  </string>
+  <string name="workout_subcategory_label">Kategorie (METS):
+  </string>
+  <string name="workout_category_label">Workout Kategorie:
+  </string>
+  <string name="workout_category_subcat_label">Workout Kategorie / Unterkategorie:
+  </string>
+  <string name="heart_rate_label">Herzfrequenz:
+  </string>
+  <string name="set_begin_time_label">Setze Anfangszeit:
+  </string>
+  <string name="set_end_time_label">Stellen Endzeit:
+  </string>
+  <string name="set_begin_date_label">Setzen Start Datum:
+  </string>
+  <string name="set_end_date_label">Set End-Datum:
+  </string>
+  <string name="Mon">Mo
+  </string>
+  <string name="Tues">Di
+  </string>
+  <string name="Wed">Mi
+  </string>
+  <string name="Thurs">Do
+  </string>
+  <string name="Fri">Fr
+  </string>
+  <string name="Sat">Sa
+  </string>
+  <string name="Sun">So
+  </string>
+  <string name="AM">A.M.
+  </string>
+  <string name="PM">P.M.
+  </string>
+  <string name="heightFeet_prompt">Ft
+  </string>
+  <string name="heightInches_prompt">Zoll
+  </string>
+  <string name="activityLevel_prompt">Aktivität
+  </string>
+  <string name="calendar_not_found">Kalender nicht gefunden.
+  </string>
+  <string name="cancel">Abbrechen
+  </string>
+  <string name="app_registration">App Registrierung
+  </string>
+  <string name="bluetooth_not_available">Bluetooth ist nicht verfügbar
+  </string>
+  <string name="bluetooth_health_profile_not_available">Bluetooth Gesundheitsprofil ist nicht verfügbar
+  </string>
+  <string name="channel_connection">Kanalverbindung
+  </string>
+  <string name="channel_connection_desc">(Einige Geräte automatisch Verbindung initiieren)
+  </string>
+  <string name="connection_state">Connection State
+  </string>
+  <string name="data_ind">Datenanzeige
+  </string>
+  <string name="disconnect">Trennen
+  </string>
+  <string name="disconnected">GETRENNT
+  </string>
+  <string name="empty"> </string>
+  <string name="read_data">Das Lesen von Daten &#8230;
+  </string>
+  <string name="read_data_done">Fertig mit Lesen von Daten &#8230;
+  </string>
+  <string name="register">Registrieren
+  </string>
+  <string name="select_device">Wählen Sie ein Gerät
+  </string>
+  <string name="status_create_channel">Neues Kanalstatus:% d
+  </string>
+  <string name="status_destroy_channel">Zerstöre Kanalstatus:% d
+  </string>
+  <string name="status_msg">Status Message
+  </string>
+  <string name="status_reg">App Registrierungsstatus:% d
+  </string>
+  <string name="status_unreg">App Abmeldestatus:% d
+  </string>
+  <string name="unregister">Registrierung aufheben
+  </string>
+  <string name="app_description">Zeigt die aktuelle Adresse und aktuelle oder aktualisierte Standort mit Standort Dienstleistungen
+  </string>
+  <string name="address_output_string">%1$s %2$s %3$s</string>
+  <string name="latitude_longitude">%1$.8f,%2$.8f
+  </string>
+  <string name="action_settings">Einstellungen
+  </string>
+  <string name="latlng">Breite / Länge:
+  </string>
+  <string name="address">Adresse:
+  </string>
+  <string name="connection_error_code_unknown">Unbekannt Verbindung Fehlercode: %1$d
+  </string>
+  <string name="connection_failed">Verbindung fehlgeschlagen
+  </string>
+  <string name="get_address">Holen Adresse
+  </string>
+  <string name="get_location">Erhalten Position
+  </string>
+  <string name="illegal_argument_exception">Illegale Argumente: Breite %1$.8f Grad %2$.8f
+  </string>
+  <string name="invalid_action">Ungültige Absicht Aktion %1$s
+  </string>
+  <string name="invalid_integer_id">Ungültige integer Anfrage-ID: %1$s
+  </string>
+  <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation ()
+  </string>
+  <string name="location_requested">Angeforderten regelmäßigen Updates
+  </string>
+  <string name="location_updated">Standort aktualisiert
+  </string>
+  <string name="location_update_error">Location Update fehlgeschlagen
+  </string>
+  <string name="location_update_error_detail">Code %1$d Nachricht %2$s
+  </string>
+  <string name="location_update_missing_update">
+  </string>
+  <string name="location_updates_stopped">Regelmäßige Updates gestoppt
+  </string>
+  <string name="log_new_location">Neuer Standort: %1$s
+  </string>
+  <string name="no_address_found">Keine Adresse für den Standort gefunden
+  </string>
+  <string name="no_connection">Keine Verbindung: Kann Standort anfordern
+  </string>
+  <string name="no_geocoder_available">Kein Geocoder zur Verfügung.
+  </string>
+  <string name="no_location_available">Standort nicht verfügbar
+  </string>
+  <string name="resolved">Bitte erneut versuchen Bedienung.
+  </string>
+  <string name="no_resolution">Google-Play-Dienste:. Keine Verbindung Fehler zu beheben
+  </string>
+  <string name="periodic_update_stop">Stoppen regelmäßige Updates
+  </string>
+  <string name="play_services_available">Google-Play-Dienste verfügbar
+  </string>
+  <string name="request_location_updates_in_progress">Kann\'t Anfrage Standort-Updates, vorherige Anfrage hasn \&#39; t fertig
+  </string>
+  <string name="start_updates">Starten Sie Updates
+  </string>
+  <string name="stop_updates">Stop-Updates
+  </string>
+  <string name="unknown">- Unbekannt -
+  </string>
+  <string name="unknown_activity_request_code">Hat eine unbekannte Aktivität Anforderungscode %1$d in onActivityResult.
+  </string>
+  <string name="setting_map_accuracy">Einstellen Karte Genauigkeit.
+  </string>
+  <string name="workout_ended">Workout beendet
+  </string>
+  <string name="calories_req">Vor Beginn eines Trainings ist es erforderlich, ein Trainingsziel, um Kalorien zu berechnen geben.
+  </string>
+  <string name="reached_max_heartrate">Sie haben erreicht die max empfehlen Herzfrequenz für Ihr Alter.
+  </string>
+  <string name="req_calc_calories">Vor Beginn eines Trainings ist es erforderlich, ein Trainingsziel, um Kalorien zu berechnen geben.
+  </string>
+  <string name="workout_stopped">Workout beendet.
+  </string>
+  <string name="events_create_goal">Vor dem Erstellen von Trainingsveranstaltungen ist es erforderlich, ein Trainingsziel eingeben.
+  </string>
+  <string name="load_event_error">Könnte Ereignis nicht hinzuzufügen.
+  </string>
+  <string name="delete_event_prompt">Sind Sie sicher, dass Sie dieses Event löschen möchten?
+  </string>
+  <string name="no_cal_found_for"> Kein Kalender Konto wurde gefunden
+  </string>
+  <string name="to_create_cal">Wollen Sie die Kalender-App öffnen?
+  </string>
+  <string name="event_save_success">Workout Veranstaltung (en) erfolgreich gespeichert.
+  </string>
+  <string name="cal_req">Ein Kalender, wenn das Hinzufügen Training Veranstaltungen in den Kalender erforderlich.
+  </string>
+  <string name="calories_zero_req">Workout Event-Null Kalorien kann nicht sein.
+  </string>
+  <string name="bluetooth_not_supported">Bluetooth-Gerät nicht unterstützt.
+  </string>
+  <string name="zephyr_only">Diese App ist nur Setup für Zephyr HxM BT Pulsmesser.
+  </string>
+  <string name="bluetooth_device_not_found">Keine Bluetooth-Geräte konnte nicht erkennen.
+  </string>
+  <string name="upcoming_events">Die nächsten Trainings-Ereignis geplant Kalorien zu verbrennen =
+  </string>
+  <string name="datePicker">Wählen Sie Datum,
+  </string>
+  <string name="timePicker">Wählen Sie Zeit
+  </string>
+  <string name="end_before_start_date">Enddatum sollte nach dem Startdatum werden
+  </string>
+  <string name="ok">Okay,
+  </string>
+  <string name="unsaved_events">Sind Sie sicher, dass Sie beenden nicht gespeicherte Ereignisse wollen?
+  </string>
+  <string name="yes">Ja
+  </string>
+  <string name="no">Nein
+  </string>
+  <string name="scheduled_calories">Geplante Kalorien zu verbrennen =
+  </string>
+  <string name="account_email_req">Kalender Konto E-Mail ist ein Pflichtfeld.
+  </string>
+  <string name="desired_weight_non">Gewünschten Gewichtsverlust ist keine Zahl.
+  </string>
+  <string name="height_non">Die Höhe ist keine Zahl.
+  </string>
+  <string name="desired_greater_zero">Gewünschten Gewichtsverlust muss größer oder gleich Null sein.
+  </string>
+  <string name="height_feet_bound">Höhe Füßen außerhalb der Grenzen zwischen 1-12 wählen.
+  </string>
+  <string name="height_inches_bound">Höhe Zoll außerhalb der Grenzen zwischen 1-11 wählen.
+  </string>
+  <string name="age_non">Das Alter ist keine Zahl.
+  </string>
+  <string name="gender_req">Geschlecht ist nicht ausgewählt.
+  </string>
+  <string name="weight_non">Gewicht ist keine Zahl.
+  </string>
+  <string name="calorie_intake_non">Tägliche Kalorienzufuhr ist keine Zahl.
+  </string>
+  <string name="losing_more_2_nope">Verlieren mehr als 2 Pfund pro Woche ist ungesund.
+  </string>
+  <string name="weight_greater">Gewicht muss größer als £ 1 sein.
+  </string>
+  <string name="age_greate_zero">Das Alter hat, größer zu sein als 0.
+  </string>
+  <string name="bmi_unhealthy">Nach Ihren Körper-Masse-Index, den Sie bereits in einem ungesunden Gewicht, mit einem Körper-Masse-Index von
+  </string>
+  <string name="bmi_underwieght">Untergewicht ist der Körper-Masse-Index
+  </string>
+  <string name="bmi_or_less">oder weniger gewünschten BMI
+  </string>
+  <string name="for_woman_rec_cal">Für die Frau ist es empfehlenswert, Ihre tägliche Kalorienzufuhr nicht unter 1200 sinken.
+  </string>
+  <string name="for_men_rec_cal">Für Männer ist es empfehlenswert, Ihre tägliche Kalorienzufuhr nicht unter 1800 sinken.
+  </string>
+  <string name="below_above_weight">Wenn Sie unter 90 lbs (40,82 kg) oder über 800 lbs (362,87 kg) sind es ratsam, dass Sie sprechen Sie mit Ihrem Arzt oder anderen qualifizierten Arzt, bevor Sie ein Trainingsziel. </string>
+  <string name="req_goal_date">Spielbeginn ist ein Pflichtfeld.
+  </string>
+  <string name="gps_disabled">Ihr Telefon\'s GPS scheint deaktiviert zu sein, wollen Sie es ermöglichen, Standorte zu erfassen?
+  </string>
+  <string name="workout_already_ended">Workout ist bereits vorbei.
+  </string>
+  <string name="confirm_del_workout">Sind Sie sicher, dass Sie dieses Training wirklich löschen?
+  </string>
+  <string name="workout_removed">Workout entfernt
+  </string>
+  <string name="error_workout_remove">Ein Fehler ist aufgetreten Entfernen Training.
+  </string>
+  <string name="no_chart_data">Es gibt keine Kartendaten zu sehen.
+  </string>
+  <string name="no_images">Es sind keine Bilder für diese Trainings.
+  </string>
+  <string name="to_take_pic">. Um ein Bild das Training hat bereits begonnen oder ausgeführt werden, nehmen
+  </string>
+  <string name="na">-
+  </string>
+  <string name="search">Suche
+  </string>
+  <string name="workout_out_event">Arbeiten Out Ereignis
+  </string>
+  <string name="add_values">In den Werten der Tabelle
+  </string>
+  <string name="x">X
+  </string>
+  <string name="y">Y
+  </string>
+  <string name="add">In
+  </string>
+  <string name="new_series">Neue Serie
+  </string>
+  <string name="workout_chart_desc">Inklusive Kalorienverbrauch, Herzfrequenz (wenn Bluetooth angeschlossen), Entfernung, Geschwindigkeit und Höhe (wenn Training war ein Training abgebildet).
+  </string>
+  <string name="calories_burned">Kalorienverbrauch
+  </string>
+  <string name="heartrate">Pulsuhren
+  </string>
+  <string name="distance_miles">Entfernung Miles
+  </string>
+  <string name="speed">Beschleunigen MPH
+  </string>
+  <string name="hundred_alt">Hunderte von Metern Höhe
+  </string>
+  <string name="distance_km">Entfernung Kilometer
+  </string>
+  <string name="speed_km">Beschleunigen KPH
+  </string>
+  <string name="hundred_meters_alt">Hunderte von Metern Höhe
+  </string>
+  <string name="tens_calories_burned">Zehn Kalorien verbrannt
+  </string>
+  <string name="workout_data_readings">Trainingsdaten Lesungen
+  </string>
+  <string name="time">Zeit
+  </string>
+  <string name="goal_chart_desc">Durch das Ziel Informationen dargestellt Workout Ziel eingegeben, können die tatsächlichen Fortschritte, und projiziert als Tagesmittelwert der verbrannten Kalorien.
+  </string>
+  <string name="my_workout_goal">Mein Trainingsziel
+  </string>
+  <string name="projected_workout">Projizierte Workout
+  </string>
+  <string name="actual_progress">Aktuelle Trainingsfortschritt
+  </string>
+  <string name="daily_chart_burned">Tages-Chart der verbrannten Kalorien
+  </string>
+  <string name="day">Tag
+  </string>
+  <string name="thousands_burned">Tausende von Kalorien verbrannt
+  </string>
+  <string name="drawer_open">Offen
+  </string>
+  <string name="drawer_close">Schließen
+  </string>
+  <string name="title_activity_help_info">Workout Tore Hilfe
+  </string>
+  <string name="load_service_error">Dienstleistungen konnte nicht geladen werden.
+  </string>
+  <string name="load_goal_error">Ein Datenbankfehler aufgetreten immer dieses Ziel.
+  </string>
+  <string name="load_goal_service_error">Ein Fehler ist aufgetreten immer dieses Ziel.
+  </string>
+  <string name="connection_lost">Verbindung wurde verloren.
+  </string>
+  <string name="load_image_error">Bild konnte nicht geladen
+  </string>
+  <string name="load_image_deleted_error">Es wurde möglicherweise gelöscht.
+  </string>
+  <string name="could_not_save_image">Bildstelle konnte nicht gespeichert werden.
+  </string>
+  <string name="error_occured">Ein Fehler ist aufgetreten.
+  </string>
+  <string name="load_camera_error">Fehler beim Laden der Kamera.
+  </string>
+  <string name="error_loading_subcat">Fehler beim Laden der Unterkategorie.
+  </string>
+  <string name="no_workout_to_remove">Kein Training zu entfernen.
+  </string>
+  <string name="delete_event_error">Veranstaltung konnte nicht gelöscht werden.
+  </string>
+  <string name="load_events_error">Training Ereignisse konnte nicht geladen werden.
+  </string>
+  <string name="cal_no_setup">Es gibt keine Kalender-Setup.
+  </string>
+  <string name="error_save_event">Fehler könnten Training Veranstaltung nicht retten.
+  </string>
+  <string name="goal_save_error">Ein Datenbankfehler aufgetreten Spar dieses Ziels.
+  </string>
+  <string name="goal_saved">Ziel Erfolgreich gespeichert!
+  </string>
+  <string name="add_event_error">Könnte Ereignis nicht hinzuzufügen.
+  </string>
+  <string name="BICYCLING">Radfahren
+  </string>
+  <string name="RUNNING">Laufen
+  </string>
+  <string name="WALKING">Wandern
+  </string>
+  <string name="GYM">Gym
+  </string>
+  <string name="SWIMMING">Schwimmen
+  </string>
+  <string name="SPORTS">Sport
+  </string>
+  <string name="MountainUphillVigorous">Berg, Bergauf, Kräftiger
+  </string>
+  <string name="MountainCompetitiveRacing">Berg, Wettkampf, Racing
+  </string>
+  <string name="Bmx">Bmx
+  </string>
+  <string name="MountainGeneral">Berg, General
+  </string>
+  <string name="MphLeisureTaylorCode">&lt;10 Mph, Freizeit (Taylor-Code 115)
+  </string>
+  <string name="ToFromWorkSelfSelectedPace">Nach / von der Arbeit, Selbst Ausgewählte Pace
+  </string>
+  <string name="OnDirtOrFarmRoadModeratePace">Auf Dirt Oder Farm Road, Moderate Pace
+  </string>
+  <string name="General">Allgemein
+  </string>
+  <string name="LeisureMph5">Freizeit, 5.5 Mph
+  </string>
+  <string name="LeisureMph9">Freizeit, 9.4 Mph
+  </string>
+  <string name="MphLeisureSlowLightEffort">10-11,9 Mph, Freizeit, Langsam, Leicht Effort
+  </string>
+  <string name="MphLeisureModerateEffort">12-13,9 Mph, Freizeit, mäßigem Aufwand
+  </string>
+  <string name="MphFastVigorousEffort">14-15,9 Mph, Schnelle, intensive Anstrengungen
+  </string>
+  <string name="MphRacingNotDrafting16">16-19 Mph, Racing / Nicht Drafting
+  </string>
+  <string name="MphRacingNotDrafting20">&gt; 20 Mph, Racing, Nicht Drafting
+  </string>
+  <string name="MphSeatedRpm">12 Mph, sitzend, 80 Rpm
+  </string>
+  <string name="MphStandingRpm">12 Mph, Stehend 60 Rpm
+  </string>
+  <string name="Unicycling">Einradfahren
+  </string>
+  <string name="JogWalkCombinationTaylorCode">Jog / Weg-Kombination (Taylor-Code 180)
+  </string>
+  <string name="JoggingGeneral">Joggen, Allgemein
+  </string>
+  <string name="JoggingInPlace">Joggen, In Place
+  </string>
+  <string name="JoggingOnAMiniTramp">Joggen, auf einem Mini-Tramp
+  </string>
+  <string name="MphMinMile13minMile">4 mph (13 Min / Meile)
+  </string>
+  <string name="MphMinMile12minMile">5 mph (12 Min / Meile)
+  </string>
+  <string name="MphMinMile11halfminMile">5.2 mph (11,5 Min / Meile)
+  </string>
+  <string name="MphMinMile10minMile">6 mph (10 Min / Meile)
+  </string>
+  <string name="MphMinMile9minMile">6,7 mph (9 Min / Meile)
+  </string>
+  <string name="MphMinMile8halfminMile">7 mph (8,5 Min / Meile)
+  </string>
+  <string name="MphMinMile8minMile">7,5 mph (8 Min / Meile)
+  </string>
+  <string name="MphMinMile7halfminMile">8 mph (7,5 Min / Meile)
+  </string>
+  <string name="MphMinMile7minMile">8.6 Mph (7 Min / Meile)
+  </string>
+  <string name="MphMinMile6halfminMile">9 mph (6,5 Min / Meile)
+  </string>
+  <string name="MphMinMile6minMile">10 mph (6 Min / Meile)
+  </string>
+  <string name="MphMinMile5halfminMile">11 mph (5,5 Min / Meile)
+  </string>
+  <string name="MphMinMile5minMile">12 mph (5 Min / Meile)
+  </string>
+  <string name="MphMinMile4sixminMile">13 mph (4,6 Min / Meile)
+  </string>
+  <string name="MphMinMile4threeminMile">14 mph (4,3 Min / Meile)
+  </string>
+  <string name="CrossCountry">Cross Country
+  </string>
+  <string name="TaylorCode">(Taylor-Code 200)
+  </string>
+  <string name="StairsUp">Treppen, Up
+  </string>
+  <string name="OnATrackTeamPractice">Auf einer Strecke, Team-Praxis
+  </string>
+  <string name="PushingAWheelchairOrBabyCarrier">Pushing einen Rollstuhl oder Baby Carrier
+  </string>
+  <string name="Marathon">Marathon
+  </string>
+  <string name="VideoGameEGWiiFit">Video Game (z. B. Wii Fit)
+  </string>
+  <string name="VideoGameEGWiiFitModerateEffort">Video Game (z. B. Wii Fit) Moderat Effort
+  </string>
+  <string name="VideoArcadeGameVigorousEffort">Video / Arcade Game Kräftige Effort
+  </string>
+  <string name="ArmyTypeObstacleCourseorBootCampTraining">Armee Art Hindernisparcours oder Boot Camp Ausbildung
+  </string>
+  <string name="BicyclingStationaryGeneral">Stationäre Radfahren, General
+  </string>
+  <string name="BicyclingStationaryVeryLightToLightEffort">Radfahren Stillstehen, Very Light To Light Effort
+  </string>
+  <string name="BicyclingStationaryModerateToVigorousEffort">Radfahren Stillstehen, mäßige bis kräftige Anstrengung
+  </string>
+  <string name="BicyclingStationaryVigorousEffort">Radfahren Stillstehen, kräftige Anstrengung
+  </string>
+  <string name="BicyclingStationaryVeryVigorousEffort">Radfahren Stillstehen, sehr kräftig Effort
+  </string>
+  <string name="BicyclingStationaryLightToModerateEffort">Radfahren Stillstehen, Light-To-mäßigem Aufwand
+  </string>
+  <string name="BicyclingStationaryRpmSpinBikeClass">Radfahren Stillstehen, RPM / Spin-Bike-Klasse
+  </string>
+  <string name="CalisthenicsEGPushUpsPullUpsVigorousEffort">Gymnastik (EG, Push-Ups, Pull-Ups), kräftige Anstrengung
+  </string>
+  <string name="CalisthenicsEGSitUpsLungesModerateEffort">Gymnastik (EG, Sit-Ups, Ausfallschritte), Moderate Effort
+  </string>
+  <string name="CalisthenicsEGSitupsLightEffort">Gymnastik (z. B. Situps), Licht Effort
+  </string>
+  <string name="CalisthenicsLightOrModerateEffort">Gymnastik, leichte oder moderate Anstrengung
+  </string>
+  <string name="CircuitTrainingModerateEffort">Zirkeltraining, mäßigem Aufwand
+  </string>
+  <string name="CircuitTrainingVigorousIntensity">Zirkeltraining, Kräftiger Intensity
+  </string>
+  <string name="CurvestmExerciseRoutinesInWomen">Curvestm Übung Routinen bei Frauen
+  </string>
+  <string name="EllipticalTrainerModerateEffort">Elliptical Trainer, mäßigem Aufwand
+  </string>
+  <string name="ResistanceTraining">Krafttraining
+  </string>
+  <string name="ResistanceWeightTrainingSquats">Widerstand (Gewicht) Training, Kniebeugen
+  </string>
+  <string name="ResistanceWeightTrainingMultipleExercises">Widerstand (Gewicht) Ausbildung, mehrere Übungen
+  </string>
+  <string name="HealthClubExerciseGeneralTaylorCode">Fitnessübung, General (Taylor-Code 160)
+  </string>
+  <string name="HealthClubExerciseClassesGeneral">Fitnessklub Sportklassen, General
+  </string>
+  <string name="HealthClubExerciseConditioningClasses">Fitnessübung, Anlage Klassen
+  </string>
+  <string name="HomeExerciseGeneral">Startseite Übung, General
+  </string>
+  <string name="StairTreadmillErgometerGeneral">Treppenlaufband-Ergometer, General
+  </string>
+  <string name="RopeSkippingGeneral">Rope Skipping, General
+  </string>
+  <string name="RowingStationaryErgometerVigorousEffort">Rudern, Stationäre Ergometer, kräftige Anstrengung
+  </string>
+  <string name="RowingStationaryGeneralModerateEffort">Rudern, Stillstehen, Generell, Moderat Effort
+  </string>
+  <string name="RowingStationaryWattsModerateEffort">Rudern, Stillstehen, 100 Watt, mäßigem Aufwand
+  </string>
+  <string name="RowingStationaryWattsVigorousEffort">Rudern, Stillstehen, 150 Watt, kräftige Anstrengung
+  </string>
+  <string name="RowingStationaryWattsVeryVigorousEffort">Rudern, Stillstehen, 200 Watt, sehr kräftig Effort
+  </string>
+  <string name="SkiMachineGeneral">Ski-Maschine, General
+  </string>
+  <string name="SlideBoardExerciseGeneral">Schieben Vorstands Übung, General
+  </string>
+  <string name="SlimnasticsJazzercise">Slimnastics, Jazzercise
+  </string>
+  <string name="StretchingMild">Dehnen, Mild
+  </string>
+  <string name="PilatesGeneral">Pilates, General
+  </string>
+  <string name="TeachingExerciseClassEGAerobicWater">Lehrfitnesskurs (z. B. Aerobic, Wasser)
+  </string>
+  <string name="TherapeuticExerciseBallFitballExercise">Therapeutische Übung Ball, Fitball Übung
+  </string>
+  <string name="UpperBodyExerciseArmErgometer">Oberkörper-Übung, Arm-Ergometer
+  </string>
+  <string name="UpperBodyExercise">Oberkörper Übung
+  </string>
+  <string name="WhirlpoolSitting">Whirlpool, Sitzen
+  </string>
+  <string name="AlaskaNativeGamesEskimoOlympicsGeneral">Alaska Native Spiele, Eskimo Olympics, General
+  </string>
+  <string name="ArcheryNonHunting">Bogenschießen, Nicht Jagd
+  </string>
+  <string name="BadmintonCompetitiveTaylorCode">Badminton, Wettkampf (Taylor-Code 450)
+  </string>
+  <string name="BadmintonSocialSinglesAndDoublesGeneral">Badminton, Sozial Einzel und Doppel, General
+  </string>
+  <string name="BasketballGameTaylorCode">Basketball, Spiel (Taylor-Code 490)
+  </string>
+  <string name="BasketballNonGameGeneralTaylorCode">Basketball, Nicht-Spiel, General (Taylor-Code 480)
+  </string>
+  <string name="BasketballGeneral">Basketball, General
+  </string>
+  <string name="BasketballOfficiatingTaylorCode">Basketball, Officiating (Taylor-Code 500)
+  </string>
+  <string name="BasketballShootingBaskets">Basketball, Korb
+  </string>
+  <string name="BasketballDrillsPractice">Basketball, Bohrer, Praxis
+  </string>
+  <string name="BasketballWheelchair">Basketball, Rollstuhl
+  </string>
+  <string name="Billiards">Billard
+  </string>
+  <string name="BowlingTaylorCode">Bowling (Taylor-Code 390)
+  </string>
+  <string name="BowlingIndoorBowlingAlley">Bowling, Indoor, Bowling-Anlage
+  </string>
+  <string name="BoxingInRingGeneral">Boxen, Im Ring, General
+  </string>
+  <string name="BoxingPunchingBag">Boxen, Boxsack
+  </string>
+  <string name="BoxingSparring">Boxen, Sparring
+  </string>
+  <string name="Broomball">Broomball
+  </string>
+  <string name="ChildrensGamesAdultsPlaying">Spiele für Kinder, Erwachsene spielen
+  </string>
+  <string name="CheerleadingGymnasticMovesCompetitive">Cheerleading, Gymnastik-Moves, Wettkampf
+  </string>
+  <string name="Coaching">Coaching
+  </string>
+  <string name="CoachingActivelyPlayingSportWithPlayers">Coaching, aktiv spielen Sport mit Spielern
+  </string>
+  <string name="CricketBattingBowlingFielding">Cricket, Batting, Bowling, Fielding
+  </string>
+  <string name="Croquet">Croquet
+  </string>
+  <string name="Curling">Curling
+  </string>
+  <string name="DartsWallOrLawn">Dart, Wand-oder Rasen
+  </string>
+  <string name="DragRacingPushingOrDrivingACar">Drag Racing, Schieben oder Fahrer eines PKW
+  </string>
+  <string name="AutoRacingOpenWheel">Autorennen, Open-Rad
+  </string>
+  <string name="Fencing">Fechten
+  </string>
+  <string name="FootballCompetitive">Fußball, Wettkampf
+  </string>
+  <string name="FootballTouchFlagGeneralTaylorCode">Fußball, Berühren, Flagge, General (Taylor-Code 510)
+  </string>
+  <string name="FootballTouchFlagLightEffort">Fußball, Berühren, Flagge, Licht Effort
+  </string>
+  <string name="FootballOrBaseballPlayingCatch">Fußball oder Baseball, Ball fangen
+  </string>
+  <string name="FrisbeePlayingGeneral">Frisbee-Spielen, General
+  </string>
+  <string name="FrisbeeUltimate">Frisbee, Ultimate
+  </string>
+  <string name="GolfGeneral">Golf, General
+  </string>
+  <string name="GolfWalkingCarryingClubs">Golf, Gehen, Tragen Clubs
+  </string>
+  <string name="GolfMiniatureDrivingRange">Golf, Mini, Driving Range
+  </string>
+  <string name="GolfWalkingPullingClubs">Golf, Gehen, Ziehen Clubs
+  </string>
+  <string name="GolfUsingPowerCartTaylorCode">Golf, mit Power Warenkorb (Taylor-Code 070)
+  </string>
+  <string name="GymnasticsGeneral">Gymnastik, General
+  </string>
+  <string name="HackySack">Hacky Sack
+  </string>
+  <string name="HandballGeneralTaylorCode">Handball, General (Taylor-Code 520)
+  </string>
+  <string name="HandballTeam">Handball Team
+  </string>
+  <string name="HighRopesCourseMultipleElements">Hochseilgarten, Mehrere Elemente
+  </string>
+  <string name="HangGliding">Drachenfliegen
+  </string>
+  <string name="HockeyField">Hockey, Feld
+  </string>
+  <string name="HockeyIceGeneral">Eishockey, Eis, Allgemein
+  </string>
+  <string name="HockeyIceCompetitive">Eishockey, Eis, Competitive
+  </string>
+  <string name="HorsebackRidingGeneral">Reiten, Allgemein
+  </string>
+  <string name="HorseChoresImpliedWalkingAndLiftingLoads">Pferde Chores, Angedeutete Walking und Heben von Lasten
+  </string>
+  <string name="SaddlingCleaningGroomingHarnessingHorse">Satteln, Putzen, putzen, Konfektionierung Pferd
+  </string>
+  <string name="HorsebackRidingTrotting">Reiten, Trabrennen
+  </string>
+  <string name="HorsebackRidingCanterOrGallop">Reiten, Canter Oder Gallop
+  </string>
+  <string name="HorsebackRidingWalking">Reiten, Wandern
+  </string>
+  <string name="HorsebackRidingJumping">Reiten, Springen
+  </string>
+  <string name="HorseCartDrivingStandingOrSitting">Pferdewagen, Fahren, Stehen oder Sitzen
+  </string>
+  <string name="HorseshoePitchingQuoits">Horseshoe Pitching, Quoits
+  </string>
+  <string name="JaiAlai">Jai Alai
+  </string>
+  <string name="MartialArtsPractice">Martial Arts, Praxis
+  </string>
+  <string name="MartialArtsDifferentTypesModeratePace">Martial Arts, verschiedene Arten, Moderate Pace
+  </string>
+  <string name="Juggling">Jonglieren
+  </string>
+  <string name="Kickball">Kickball
+  </string>
+  <string name="Lacrosse">Lacrosse
+  </string>
+  <string name="LawnBowlingBocceBallOutdoor">Lawn Bowling, Boccia, Außen
+  </string>
+  <string name="MotoCrossOffRoadMotorSports">Moto-Cross, Off-Road Motorsport
+  </string>
+  <string name="Orienteering">Orienteering
+  </string>
+  <string name="PaddleballCompetitive">Paddleball, Wettkampf
+  </string>
+  <string name="PaddleballCasualGeneralTaylorCode">Paddleball, Lässige, General (Taylor-Code 460)
+  </string>
+  <string name="PoloOnHorseback">Polo, zu Pferd
+  </string>
+  <string name="RacquetballCompetitive">Racquetball, Wettkampf
+  </string>
+  <string name="RacquetballGeneralTaylorCode">Racquetball, General (Taylor-Code 470)
+  </string>
+  <string name="RockOrMountainClimbing">Felsen oder Bergsteigen
+  </string>
+  <string name="RockClimbingAscendingRockHighDifficulty">Klettern, aufsteigender Rock, hohe Schwierigkeitsgrad
+  </string>
+  <string name="RockClimbingLowToModerateDifficulty">Klettern, Low-To-Schwierigkeitsgrad Mittel
+  </string>
+  <string name="RockClimbingRappelling">Klettern, Abseilen
+  </string>
+  <string name="RodeoSportsGeneralLightEffort">Rodeo Sport, Allgemein, Licht Effort
+  </string>
+  <string name="RodeoSportsGeneralModerateEffort">Rodeo Sport, Generell, Moderat Effort
+  </string>
+  <string name="RodeoSportsGeneralVigorousEffort">Rodeo Sport, Allgemein, kräftige Anstrengung
+  </string>
+  <string name="RopeJumpingFastPaceSkipsMin">Rope Jumping, Fast Pace, 120-160 Skips / Min
+  </string>
+  <string name="RopeJumpingModeratePaceSkipsMin">Rope Jumping, Moderate Pace, 100-120 Skips / Min
+  </string>
+  <string name="RopeJumpingSlowPaceSkipsMin">Rope Jumping, langsamen Tempo, &lt;100 Skips / Min
+  </string>
+  <string name="RugbyUnionTeamCompetitive">Rugby, Union, Team, Competitive
+  </string>
+  <string name="RugbyTouchNonCompetitive">Rugby, Touch-, Non-Competitive
+  </string>
+  <string name="Shuffleboard">Shuffleboard
+  </string>
+  <string name="SkateboardingGeneralModerateEffort">Skateboarding, General, Moderate Effort
+  </string>
+  <string name="SkateboardingCompetitiveVigorousEffort">Skateboarding, Wettkampf, kräftige Anstrengung
+  </string>
+  <string name="SkatingRollerTaylorCode">Skating, Roller (Taylor-Code 360)
+  </string>
+  <string name="RollerbladingMphRecreational">Rollerblading, (9,0 mph), Freizeit
+  </string>
+  <string name="RollerbladingMphModerate">Rollerblading, (11,0 mph), Moderate
+  </string>
+  <string name="RollerbladingToMphFast">Rollerblading, (13,0 bis 13,6 mph), Fast-
+  </string>
+  <string name="RollerbladingMphMaximalEffort">Rollerblading, (15,0 mph), maximale Anstrengung
+  </string>
+  <string name="SkydivingBaseJumpingBungeeJumping">Fallschirmspringen, Base Jumping, Bungee Jumping
+  </string>
+  <string name="SoccerCompetitive">Fußball, Competitive
+  </string>
+  <string name="SoccerCasualGeneralTaylorCode">Fußball, Lässige, General (Taylor-Code 540)
+  </string>
+  <string name="SoftballOrBaseballFastOrSlowPitch">Softball oder Baseball, Fast oder Slow Pitch
+  </string>
+  <string name="SoftballPractice">Softball, Praxis
+  </string>
+  <string name="SoftballOfficiating">Softball, Officiating
+  </string>
+  <string name="SoftballPitching">Softball, Pitching
+  </string>
+  <string name="SportsSpectatorPhysicallyMoving">Sport Zuschauer, Physikalisch Umzug
+  </string>
+  <string name="SquashTaylorCode">Squash (Taylor-Code 530)
+  </string>
+  <string name="SquashGeneral">Squash, Allgemein
+  </string>
+  <string name="TableTennisPingPongTaylorCode">Tischtennis, Ping Pong (Taylor-Code 410)
+  </string>
+  <string name="TaiChiQiGongGeneral">Tai Chi, Qi Gong, General
+  </string>
+  <string name="TaiChiQiGongSittingLightEffort">Tai Chi, Qi Gong, Sitzen, Licht-Effort
+  </string>
+  <string name="TennisGeneral">Tennis, General
+  </string>
+  <string name="TennisDoublesTaylorCode">Tennis, Doppel (Taylor-Code 430)
+  </string>
+  <string name="TennisDoubles">Tennis, Doppel
+  </string>
+  <string name="TennisSinglesTaylorCode">Tennis, Singles (Taylor-Code 420)
+  </string>
+  <string name="TennisHittingBallsNonGamePlayModerateEffort">Tennis, Schlagen Bälle, Nicht-Spiel zu spielen, mäßigem Aufwand
+  </string>
+  <string name="TrampolineRecreational">Trampolin, Freizeit
+  </string>
+  <string name="TrampolineCompetitive">Trampolin, Wettkampf
+  </string>
+  <string name="VolleyballTaylorCode">Volleyball (Taylor-Code 400)
+  </string>
+  <string name="VolleyballCompetitiveInGymnasium">Volleyball, Wettkampf, im Gymnasium
+  </string>
+  <string name="VolleyballNonCompetitiveMemberTeam">Volleyball, nicht-kompetitiver, 6 - 9 Mitglied-Team
+  </string>
+  <string name="VolleyballBeachInSand">Volleyball, Beach, Im Sand
+  </string>
+  <string name="WrestlingOneMatchMinutes">Wrestling (One Spiel = 5 Minuten)
+  </string>
+  <string name="WallyballGeneral">Wallyball, General
+  </string>
+  <string name="TrackAndFieldShotDiscusHammerThrow">Track and Field (Shot, Diskuswurf, Hammerwurf)
+  </string>
+  <string name="TrackAndFieldMisc">Track and Field Misc.
+  </string>
+  <string name="TrackAndFieldEGSteeplechaseHurdles">Leichtathletik (Z. B., Hindernislauf, Hürdenlauf)
+  </string>
+  <string name="LapsFreestyleFastVigorousEffort">Laps, Freestyle, Schnelle, intensive Anstrengungen
+  </string>
+  <string name="BackstrokeGeneralTrainingOrCompetition">Rückenschwimmen, Allgemein, Training oder Wettkampf
+  </string>
+  <string name="LapsModerateEffort">Laps, leichte oder moderate Anstrengung
+  </string>
+  <string name="BackstrokeRecreational">Rückenschwimmen, Freizeit
+  </string>
+  <string name="BreaststrokeGeneralTrainingOrCompetition">Brustschwimmen, Allgemein, Training oder Wettkampf
+  </string>
+  <string name="BreaststrokeRecreational">Brustschwimmen, Freizeit
+  </string>
+  <string name="ButterflyGeneral">Schmetterling, General
+  </string>
+  <string name="CrawlYardsMinuteVigorousEffort1">Crawl, ~ 75 Yards / Minute, kräftige Anstrengung
+  </string>
+  <string name="CrawlYardsMinuteVigorousEffort2">Crawl, ~ 50 Yards / Minute, kräftige Anstrengung
+  </string>
+  <string name="LakeOceanRiverTaylorCodes">See, Meer, Fluss (Taylor Codes 280, 295)
+  </string>
+  <string name="LeisurelyNotLapSwimmingGeneral">Gemächlich, Not Runde Schwimmen, Allgemein
+  </string>
+  <string name="SidestrokeGeneral">Side, General
+  </string>
+  <string name="Synchronized">Synchronisierte
+  </string>
+  <string name="TreadingWaterFastVigorousEffort">Wasser tretend, Schnelle, intensive Anstrengungen
+  </string>
+  <string name="TreadingWaterModerateEffortGeneral">Wasser tretend, Mäßige Anstrengung, Allgemein
+  </string>
+  <string name="BackpackingTaylorCode">Backpacking (Taylor-Code 050)
+  </string>
+  <string name="BackpackingHikingWalkingWithADaypack">Backpacking, Wandern, zu Fuß mit einem Daypack
+  </string>
+  <string name="CarryingPoundLoadonLevelGround">Trage 15 Pfund Last auf ebenem Boden
+  </string>
+  <string name="CarryingLbChildSlowWalking">Trage 15 Lb Kind, langsames Gehen
+  </string>
+  <string name="CarryingLoadUpstairsGeneral">Tragelast Upstairs, General
+  </string>
+  <string name="CarryingToLbLoadUpstairs1">Trage 1 bis 15 Lb laden, Upstairs
+  </string>
+  <string name="CarryingToLbLoadUpstairs2">Tragen 16 bis 24 Lb laden, Upstairs
+  </string>
+  <string name="CarryingToLbLoadUpstairs3">Tragen 25 bis 49 Lb laden, Upstairs
+  </string>
+  <string name="CarryingToLbLoadUpstairs4">Tragen 50 bis 74 Lb laden, Upstairs
+  </string>
+  <string name="CarryingLbLoadUpstairs">Tragen&gt; 74 Lb laden, Upstairs
+  </string>
+  <string name="LoadingUnloadingACarImpliedWalking">Einlegen / Entnehmen einer Auto, Angedeutete Wandern
+  </string>
+  <string name="ClimbingHillsNoLoad">Klettern Hills, ohne Last
+  </string>
+  <string name="ClimbingHillsWithToLbLoad1">Klettern Hügel Mit 0 bis 9 Lb Last
+  </string>
+  <string name="ClimbingHillsWithToLbLoad2">Klettern Hügel Mit 10 bis 20 Lb Last
+  </string>
+  <string name="ClimbingHillsWithToLbLoad3">Klettern Hügel Mit 21 bis 42 Lb Last
+  </string>
+  <string name="ClimbingHillsWithLbLoad">Klettern Hügel Mit 42 + Lb Last
+  </string>
+  <string name="DescendingStairs">Absteigende Treppen
+  </string>
+  <string name="HikingCrossCountryTaylorCode">Wandern, Langlauf (Taylor-Code 040)
+  </string>
+  <string name="ANormalPaceThroughFieldsAndHillsides">Einem normalen Tempo durch Felder und Hänge
+  </string>
+  <string name="BirdWatchingSlowWalk">Vogelbeobachtung, Langsam-Weg
+  </string>
+  <string name="MarchingModerateSpeedMilitaryNoPack">Marching, Moderate Geschwindigkeit, Militär, Nein Paket
+  </string>
+  <string name="MarchingRapidlyMilitaryNoPack">Marching Schnell, Militär, Nein Paket
+  </string>
+  <string name="PushingOrPullingStrollerToMph">Schieben oder Ziehen Wagen, 2,5 bis 3,1 Mph
+  </string>
+  <string name="PushingAWheelchairNonOccupational">Pushing einem Rollstuhl, Nichtberufs
+  </string>
+  <string name="RaceWalking">Race Walking
+  </string>
+  <string name="StairClimbingUsingOrClimbingUpLadder">Treppensteigen, Nutzung oder Klettern Leiter
+  </string>
+  <string name="StairClimbingSlowPace">Treppensteigen, langsam
+  </string>
+  <string name="StairClimbingFastPace">Treppensteigen, schnellen Tempo
+  </string>
+  <string name="UsingCrutches">Mit Krücken
+  </string>
+  <string name="LessThanMphLevelStrollingVerySlow">Weniger als 2.0 Mph, Ebene, Bummeln, sehr langsam
+  </string>
+  <string name="MphLevelSlowPaceFirmSurface">2.0 Mph, Niveau, Zeit Pace, feste Oberfläche
+  </string>
+  <string name="WalkingForPleasureTaylorCode">Gehen For Pleasure (Taylor-Code 010)
+  </string>
+  <string name="WalkingFromHouseToCarOrBus">Gehen von Haus zu Auto oder Bus
+  </string>
+  <string name="WalkingTheDog">Gehen der Hund
+  </string>
+  <string name="TwoHalfMphLevelFirmSurface">2.5 Mph, ebenen, festen Oberfläche
+  </string>
+  <string name="MphDownhill">2.5 Mph, Downhill
+  </string>
+  <string name="ToMphLevelModeratePaceFirmSurface">2,8 bis 3,2 Mph, Ebene, Moderate Pace, feste Oberfläche
+  </string>
+  <string name="MphLevelWalkingForExercise">3.5 Mph, Ebene, Walking für Übung
+  </string>
+  <string name="ToMphUphillToGrade1">2,9 bis 3,5 Mph, Uphill, 1 bis 5% Grad
+  </string>
+  <string name="ToMphUphillToGrade2">2,9 bis 3,5 Mph, Uphill, 6 bis 15 Prozent Grade
+  </string>
+  <string name="MphLevelFirmSurfaceVeryBriskPace">4.0 Mph, ebenen, festen Oberfläche, sehr lebhaft Pace
+  </string>
+  <string name="MphLevelFirmSurfaceVeryVeryBrisk">4.5 Mph, ebenen, festen Oberfläche, sehr, sehr Brisk
+  </string>
+  <string name="FiveMphLevelFirmSurface">5.0 Mph, ebenen, festen Oberfläche
+  </string>
+  <string name="MphUphillGrade">5.0 Mph, Uphill, 3% Grad
+  </string>
+  <string name="ForPleasureWorkBreak">For Pleasure, Arbeitspause
+  </string>
+  <string name="GrassTrack">Grass Spur
+  </string>
+  <string name="NormalPacePlowedFieldOrSand">Normale Pace, Gepflügtes Feld-oder Sand
+  </string>
+  <string name="ToWorkOrClassTaylorCode">Um Oder Class (Taylor-Code 015) Arbeit
+  </string>
+  <string name="ToAndFromAnOuthouse">Zu und von einem Nebengebäude
+  </string>
+  <string name="ToMphNordicWalkingModeratePace">3,5 bis 4 Mph, Nordic Walking Moderate Pace
+  </string>
+  <string name="MphNordicWalkingLevelFastPace">5.0 Mph, Nordic Walking, Ebene, Fast Pace
+  </string>
+  <string name="ForExerciseWithSkiPolesNordicWalkingUphill">Für Übung, mit Skistöcken, Nordic Walking, Uphill
+  </string>
+  <string name="BackwardsMphLevel">Nach hinten lehnen, 3,5 Mph, Stufe
+  </string>
+  <string name="BackwardsMphUphillGrade">Nach hinten lehnen, 3,5 Mph, Uphill, 5% Grad
+  </string>
+  <string name="disclaimer_text">WENN SIE NICHT ZU TUN SIE NICHT DIE SOFTWARE.
+  </string>
+  <string name="disclaimer_warranties_header">HAFTUNGSAUSSCHLUSS
+  </string>
+  <string name="disclaimer_warranties">Die Software wird Ihnen nach Zahlung einer Lizenz und auf einem &quot;WIE IST&quot;-Basis, ohne technische Unterstützung oder Gewährleistung jeglicher Art, einschließlich, ohne Einschränkung, keine Garantie oder Gewährleistung der Eignung für einen bestimmten Zweck und Nichtverletzung.
+  </string>
+  <string name="disclaimer_liability_header">HAFTUNGSAUSSCHLUSS
+  </string>
+  <string name="disclaimer_liability">Diese Begrenzung des \ nliability gelten, ob die Schäden ergeben sich aus der Nutzung oder Nichtnutzung der Software oder anderer Services \ durch die Tore Workout-Anwendung (einschließlich solcher Schäden, die durch Dritte entstanden sind) nsupplied oder Fehler der Software.
+  </string>
+  <string name="disclaimer_doctor_header">Sprechen Sie mit Ihrem Arzt
+  </string>
+  <string name="disclaimer_doctor">Andere symptons suggestive des Herzens, der Lunge oder anderen schweren Krankheit bewusst vor Beginn einer Übung Programm sind:
+  </string>
+  <string name="disclaimer_doctor2">
+    <li>
+      Schmerzen oder Beschwerden in der Brust, Hals, Kiefer oder Arme während körperlicher Aktivität
+    </li>
+  </string>
+  <string name="disclaimer_doctor3">
+    <li>
+      Schwindel oder Bewusstlosigkeit
+    </li>
+  </string>
+  <string name="disclaimer_doctor4">
+    <li>
+      Atemnot mit leichter Belastung oder in Ruhe oder im Liegen oder zu Bett gehen
+    </li>
+  </string>
+  <string name="disclaimer_doctor5">
+    <li>
+      Knöchelschwellung, vor allem nachts
+    </li>
+  </string>
+  <string name="disclaimer_doctor6">
+    <li>
+      Ein Herzgeräusch oder ein schneller Herzschlag oder ausgeprägte
+    </li>
+  </string>
+  <string name="disclaimer_doctor7">
+    <li>
+      Muskelschmerzen beim Gehen im Obergeschoss oder auf einen Hügel, die weg geht, wenn Sie sich ausruhen
+    </li>
+  </string>
+  <string name="disclaimer_doctor8">Wenn Sie unsicher sind, Ihren Gesundheitszustand, haben mehrere gesundheitliche Probleme, oder schwanger sind, sprechen Sie mit Ihrem Arzt, bevor Sie ein Trainingsprogramm.
+  </string>
+  <string name="disclaimer_license_header">Lizenzbedingungen
+  </string>
+  <string name="disclaimer_license">Diese Lizenz ermöglicht Ihnen:. (A) die Software auf einem einzigen Gerät, und wenn Sie die Software auf mehr als einem Gerät nutzen möchten, müssen Sie eine andere Kopie der Software zu lizenzieren
+  </string>
+  <string name="disclaimer_restrictions_header">Nutzungsbeschränkungen
+  </string>
+  <string name="disclaimer_restrictions">Jeder Versuch, dies zu tun ist nichtig und ohne Wirkung.
+  </string>
+  <string name="disclaimer_ownership_header">Eigentümer
+  </string>
+  <string name="disclaimer_ownership">Alle nicht ausdrücklich in dieser Lizenz gewährten Rechte, einschließlich nationalen und internationalen Urheberrechte sind durch den Eigentümer vorbehalten.
+  </string>
+  <string name="disclaimer_proprietary_header">Proprietäre Markierungen
+  </string>
+  <string name="disclaimer_proprietary">Der Besitzer\'s Logos, Produktnamen, Handbücher, Dokumentationen und andere Support-Materialien sind urheberrechtlich geschützt.
+  </string>
+  <string name="disclaimer_accept">I ACCEPT und haben alle BEDINGUNGEN ANGEGEBEN LESEN
+  </string>
+  <string name="action_buttons_header">Action Items:
+  </string>
+  <string name="desired_weight_loss_help">Derzeit ist normal (gesundes Gewicht) in der BMI-Bereich von 18,5 bis 25 ist.
+  </string>
+  <string name="desired_weight_loss_per_week_help">Die Menge an Gewicht Sie gerne pro Woche verlieren.
+  </string>
+  <string name="calories_burned_this_week_help">Die Anzahl der Kalorien, die Sie in dieser Woche gebrannt haben, nach der Anzahl der Trainingseinheiten erstellt diese Woche von Sonntag bis Samstag.
+  </string>
+  <string name="calories_to_burn_per_week_help">Die Kalorien verbrannt ist Ihr (durchschnittliche tägliche Kalorienzufuhr - (BMR * Aktivität)) + (Kalorien zu verbrennen, um eine bestimmte Menge an Gewicht pro Woche verlieren)).
+  </string>
+  <string name="projected_goal_date_help">Diese Ansicht enthält auch eine Diagrammansicht, um zu veranschaulichen projiziert wird, geschätzt, und die tatsächlichen Fortschritte Trainingsziel.
+  </string>
+  <string name="desired_goal_date_help">Vor allem die Menge an Gewicht, die Sie gerne pro Woche verlieren.
+  </string>
+  <string name="upcoming_workouts_help">Workout Ereignisse der Woche.
+  </string>
+  <string name="formatting_info">Metric System zeigt Informationen in Kilometer, Kilometer eine Stunde, Meter, Kilogramm und Zentimeter.
+  </string>
+  <string name="save_goal_info">Dies wird zu sparen, wenn das Trainingsziel ist gültig.
+  </string>
+  <string name="goal_start_date_help">Sie können Ihr Ziel Fortschritt auf der Startseite mit einem Klick auf das Diagramm-Symbol zu sehen.
+  </string>
+  <string name="age_help">Diese wird verwendet, um maximalen Herzfrequenz, Kalorienbedarf und Kalorienverbrauch zu ermitteln.
+  </string>
+  <string name="gender_help">Diese wird verwendet, um max täglichen Kalorienbedarf zu bestimmen, und Kalorien verbrannt.
+  </string>
+  <string name="weight_help">Diese wird verwendet, um den Kalorienverbrauch zu ermitteln und Ihre aktuelle BMI (Körper-Masse-Index).
+  </string>
+  <string name="height_help">Diese wird verwendet, um Ihre aktuelle BMI (Körper-Masse-Index) bestimmen.
+  </string>
+  <string name="daily_calorie_intake_help">Die minimale Anzahl von Kalorien pro Tag für Männer 1800 und 1200 für Frauen.
+  </string>
+  <string name="activity_level_help">Ihre aktuelle Aktivität.
+  </string>
+  <string name="activity_level_help_sedentary">
+    <li>
+      Ein Beispiel hierfür wäre ein Office Arbeitnehmer wenig oder keine Übung.
+    </li>
+  </string>
+  <string name="activity_level_help_light">
+    <li>
+      Leichte Aktivität, ein Beispiel für diese PAL würden regelmäßig zu Fuß oder leichte Übung, PAL von (1.375).
+    </li>
+  </string>
+  <string name="activity_level_help_moderate">
+    <li>
+      Moderate Aktivität, enthält diese Ausübung mehrmals pro Woche und drängen sich ziemlich schwer, PAL von (1.55).  Dies kann auch schwere Hausarbeit, Gartenarbeit, Yardwork.
+    </li>
+  </string>
+  <string name="activity_level_help_very_active">
+    <li>
+      Sehr aktiv, als Bauarbeiter arbeiten, oder du Teilnahme an Sport, Joggen, Mountainbiking täglich, PAL von (1.7).
+    </li>
+  </string>
+  <string name="activity_level_help_ex_active">
+    <li>
+      Extrem Aktive umfasst dies jemand, der täglich 2 Stunden schwimmen kann, PAL von (2.0).
+    </li>
+  </string>
+  <string name="activity_level_help_pal">PAL = (TEE/24hours) / BMR.
+  </string>
+  <string name="view_pictures_info">Anzeigen von Bildern aus diesem Training und früheren Trainings übernommen.
+  </string>
+  <string name="view_chart_info">Workout Informationen gespeichert, wenn Sie die Herzfrequenz-Monitor angeschlossen sind.
+  </string>
+  <string name="save_workout_events_info">Speichert Training-Events, erstellt Meldungen und fügt Ereignisse Android\'s Kalender-Anwendung, wenn in den Kalender markiert ist.
+  </string>
+  <string name="add_workout_event_info">Sie können auch Veranstaltungen zu Android\'s Kalender-Anwendung hinzufügen.
+  </string>
+  <string name="events_spread_info">Gleichmäßig verteilt Kalorien, um zwischen den aktuellen Ereignissen auf der Seite zu brennen.
+  </string>
+  <string name="add_to_calendar_help">Dies wird gefragt, ob Sie trainieren, Ihre Veranstaltungen Telefone Kalender-App hinzufügen möchten.
+  </string>
+  <string name="calendar_email_help">Sie können diese E-Mail in den Einstellungen unter Konten anzuzeigen, Google.
+  </string>
+  <string name="calendar_help">Diese Dropdown-Kontonamen wird für eine bestimmte E-Mail-Konto zu zeigen.
+  </string>
+  <string name="synch_help">Dies wird gefragt, ob Sie mit Ihrem Training Veranstaltungen Google Kalender im Web oder einfach nur auf die Kalender-App auf dem Handy synchronisieren möchten.
+  </string>
+  <string name="workout_events_label">Workout Events:
+  </string>
+  <string name="map_take_picture">Bilder zeigen, bis auf der Karte in der Lage approximiert die Bilder entnommen wurde (Ist das Bild nicht angezeigt wird sicher sein, um es zu vergrößern oder verschieben Sie die Karte).
+  </string>
+  <string name="map_end_workout_info">Beenden eines Trainings können Sie eine neue mit verschiedenen Kategorie / Unterkategorie, Ansicht Trainingsdaten in einem Diagramm zu starten, und entfernen Sie das Training mit der zugehörigen Informationen.
+  </string>
+  <string name="take_picture_info">Das Training hat bereits begonnen werden.
+  </string>
+  <string name="map_workout_info">Diese Information ist auch sichtbar in einem Diagramm nach dem Training beendet wurde.
+  </string>
+  <string name="view_workouts_info">Sie können für die letzten Trainingseinheiten zu suchen, Training, Training Ansicht Karteninformationen, und Blick Training Bilder zu entfernen.
+  </string>
+  <string name="end_workout_info">Beenden eines Trainings können Sie eine neue mit verschiedenen Kategorie / Unterkategorie starten.
+  </string>
+  <string name="start_stop_info">Startet / Stoppt einen bestehenden Training.
+  </string>
+  <string name="connect_info">Verbinden Sie sich ZEPHYR HxM Heart Rate Monitor durch bluetooth.
+  </string>
+  <string name="connecting">Verbinden mit Pulsmesser durch bluetooth.
+  </string>
+  <string name="connected">Durch Bluetooth-Verbindung zum Pulsmesser.
+  </string>
+  <string name="time_help">Es wird empfohlen, zu beenden und ein neues Training, wenn die Änderung der Art der Übung.
+  </string>
+  <string name="calories_burned_help">Die Zahl der verbrannten Kalorien während dieses Trainings.
+  </string>
+  <string name="heart_rate_help">Derzeit Diese App ist so konfiguriert, mit ZEPHYR HxM Heart Rate Monitor zu arbeiten.
+  </string>
+  <string name="workout_category_subcat_help">Für die Frau ist die verwendete Formel ((-20,4022 + (0,4472 * Herzfrequenz) + (0,1263 * Kilogramm Gewicht) + (0,074 * Alter)) / 4,184) * 60,0 = Kalorien pro Stunde.
+  </string>
+  <string name="calories_to_burn_help">Die geplanten Trainings Veranstaltung Kalorien zu verbrennen, minus der Anzahl der verbrannten Kalorien heute.
+  </string>
+  <string name="map_accuracy_help">Die Genauigkeit der Karten-Einstellungen.
+  </string>
+  <string name="map_accuracy_default">
+    <li>
+      Standard 100-Meter-Genauigkeit, während auf der Seite Training Karte, wenn das Telefon eingeschlafen ist ein Lese wird etwa alle 20 Sekunden.
+    </li>
+  </string>
+  <string name="map_accuracy_fine">
+    <li>
+      Beste Genauigkeit zur Verfügung, während auf der Seite Training Karte, wenn das Telefon eingeschlafen ist ein Lese wird etwa alle 10 Sekunden.  Dies verbraucht Akkulaufzeit schneller.
+    </li>
+  </string>
+  <string name="map_accuracy_conserve">
+    <li>
+      100-Meter-Genauigkeit, während auf der Seite Training Karte, wenn das Telefon eingeschlafen ist ein Messwert über jede Minute genommen.
+    </li>
+  </string>
+  <string name="workout_help_ref">Die Workout-Karte knüpft an die Karten-App aufzeichnen, wo Sie gewesen sind.
+  </string>
+  <string name="distance_help">Die Strecke, die Sie zurückgelegt haben, während die Zeit geht.
+  </string>
+  <string name="speed_help">Ihre aktuelle Geschwindigkeit aus der vorherigen Position Lesung basiert.
+  </string>
+  <string name="max_speed_help">Die maximale Geschwindigkeit, die Sie während des Trainings erreicht, während die Zeit an war.
+  </string>
+  <string name="elevation_gain_decline_help">
+    Die Höhe der Höhen Sie gewonnen haben und während des Trainings zurück. Dies wird entweder in Fuß oder Metern, abhängig von der Formatierungseinstellung.
+  </string>
+</resources>

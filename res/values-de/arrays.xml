@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string-array name="MapAccuracy">
+        <item>Default</item>
+        <item>Fine (Batterieverbrauch)</item>
+        <item>Sparen</item>
+    </string-array>
+
+    <string-array name="WeightToLose">
+        <item>0.0</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.25</item>
+        <item>1.5</item>
+        <item>1.75</item>
+        <item>2.0</item>
+    </string-array>
+    
+    <string-array name="WeightToLoseKg">
+        <item>0.0</item>
+        <item>0.113</item>
+        <item>0.227</item>
+        <item>0.340</item>
+        <item>0.454</item>
+        <item>0.567</item>
+        <item>0.680</item>
+        <item>0.794</item>
+        <item>0.907</item>
+    </string-array>
+    
+    
+    <string-array name="HeightFeet">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="HeightInches">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="ActivityLevel">
+        <item>@string/Sedentary</item>
+        <item>@string/Light_Activity</item>
+        <item>@string/Moderate_Activity</item>
+        <item>@string/Very_Active</item>
+        <item>@string/Extremely_Active</item>
+    </string-array>
+    
+    <string-array name="Days">
+        <item>@string/Mon</item>
+        <item>@string/Tues</item>
+        <item>@string/Wed</item>
+        <item>@string/Thurs</item>
+        <item>@string/Fri</item>
+        <item>@string/Sat</item>
+        <item>@string/Sun</item>
+    </string-array>
+    
+    <string-array name="Hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="amPm">
+        <item>@string/AM</item>
+        <item>@string/PM</item>
+    </string-array>
+    
+    <string-array name="Minutes">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+		<item>33</item>
+		<item>34</item>
+		<item>35</item>
+		<item>36</item>
+		<item>37</item>
+		<item>38</item>
+		<item>39</item>
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+		<item>43</item>
+		<item>44</item>
+		<item>45</item>
+		<item>46</item>
+		<item>47</item>
+		<item>48</item>
+		<item>49</item>
+		<item>50</item>
+		<item>51</item>
+		<item>52</item>
+		<item>53</item>
+		<item>54</item>
+		<item>55</item>
+		<item>56</item>
+		<item>57</item>
+		<item>58</item>
+		<item>59</item>
+    </string-array>
+
+	<string-array name="WorkoutCategories" >
+        <item>@string/BICYCLING</item>
+        <item>@string/RUNNING</item>
+        <item>@string/WALKING</item>
+        <item>@string/SWIMMING</item>
+        <item>@string/SPORTS</item>
+        <item>@string/GYM</item>
+    </string-array>
+    
+	 <string-array name="Calories" >
+        <item>@string/ALL</item>
+        <item>&lt;=500</item>
+        <item>&lt;=1000</item>
+        <item>&lt;=1500</item>
+        <item>&lt;=2000</item>
+        <item>&lt;=2500</item>
+        <item>+2500</item>
+    </string-array>
+    
+    <string-array name="Distances" >
+        <item>@string/ALL</item>
+        <item>&lt;=5</item>
+		<item>&lt;=10</item>
+        <item>&lt;=15</item>
+        <item>&lt;=20</item>
+        <item>&lt;=25</item>
+        <item>&lt;=30</item>
+        <item>&lt;=35</item>
+        <item>&lt;=40</item>
+        <item>&lt;=45</item>
+        <item>&lt;=50</item>
+        <item>&lt;=55</item>
+        <item>&lt;=60</item>
+        <item>&lt;=65</item>
+        <item>&lt;=70</item>
+        <item>+70</item>
+    </string-array>
+    
+    
+    <string-array name="ElevationDeclines" >
+        <item>@string/ALL</item>
+        <item>&lt;=500</item>
+        <item>&lt;=1000</item>
+        <item>&lt;=1500</item>
+        <item>&lt;=2000</item>
+        <item>&lt;=2500</item>
+        <item>&lt;=3000</item>
+        <item>&lt;=3500</item>
+        <item>&lt;=4000</item>
+        <item>&lt;=4500</item>
+        <item>&lt;=5000</item>
+        <item>&lt;=5500</item>
+        <item>&lt;=6000</item>
+        <item>&lt;=6500</item>
+        <item>&lt;=7000</item>
+        <item>+7000</item>
+    </string-array>
+    
+    <string-array name="ElevationGains" >
+        <item>@string/ALL</item>
+        <item>&lt;=500</item>
+        <item>&lt;=1000</item>
+        <item>&lt;=1500</item>
+        <item>&lt;=2000</item>
+        <item>&lt;=2500</item>
+        <item>&lt;=3000</item>
+        <item>&lt;=3500</item>
+        <item>&lt;=4000</item>
+        <item>&lt;=4500</item>
+        <item>&lt;=5000</item>
+        <item>&lt;=5500</item>
+        <item>&lt;=6000</item>
+        <item>&lt;=6500</item>
+        <item>&lt;=7000</item>
+        <item>+7000</item>
+    </string-array>
+    
+    <string-array name="WorkoutTimes" >
+        <item>@string/ALL</item>
+        <item>&lt;=0:30:00</item>
+		<item>&lt;=1:00:00</item>
+		<item>&lt;=1:30:00</item>
+		<item>&lt;=2:00:00</item>
+		<item>&lt;=2:30:00</item>
+		<item>&lt;=3:00:00</item>
+		<item>&lt;=3:30:00</item>
+		<item>&lt;=4:00:00</item>
+		<item>+4:00:00</item>
+    </string-array>
+    
+</resources>

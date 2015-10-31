@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Text" >
+
+    <item
+        android:id="@+id/spreadWorkoutEventCaloriesToBurn"
+        android:icon="@drawable/collections_sort_by_size"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/spread_calories_to_burn"
+        android:titleCondensed="@string/spread_calories_to_burn"/>
+    <item
+        android:id="@+id/addWorkoutEvent"
+        android:icon="@drawable/content_new_event"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/add_workout_event"
+        android:titleCondensed="@string/add_workout_event"/>
+    <item
+        android:id="@+id/saveWorkoutEvents"
+        android:icon="@drawable/navigation_accept"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/save_workout_events"
+        android:titleCondensed="@string/save_workout_events"/>
+     <item
+        android:id="@+id/viewWorkoutEvents"
+        style="@style/Text"
+        android:icon="@drawable/collections_view_as_list"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/view_workout_events"/>
+    <item
+        android:id="@+id/help"
+        style="@style/Text"
+        android:icon="@drawable/action_help"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/help_header"/>
+
+</menu>

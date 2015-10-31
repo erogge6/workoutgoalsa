@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        android:id="@+id/map_content"
+        style="@style/ActivityContainerNoBgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/workout_help_ref"
+            style="@style/Text.Left"
+            android:text="@string/workout_help_ref" />
+        
+        <TextView
+            android:id="@+id/movingTimeLabel"
+            style="@style/Header"
+            android:layout_below="@+id/workout_help_ref"
+            android:text="@string/moving_time_label" />
+
+        <TextView
+            android:id="@+id/movingTime"
+            style="@style/Text.Left"
+            android:layout_below="@+id/movingTimeLabel"
+            android:text="@string/moving_time_help" />
+        
+        <TextView
+            android:id="@+id/caloriesMovingTimeLabel"
+            style="@style/Header"
+            android:layout_below="@+id/movingTime"
+            android:text="@string/calories_moving_time_label" />
+
+        <TextView
+            android:id="@+id/caloriesMovingTime"
+            style="@style/Text.Left"
+            android:layout_below="@+id/caloriesMovingTimeLabel"
+            android:text="@string/calories_moving_time_help" />
+
+        <TextView
+            android:id="@+id/distanceLabel"
+            style="@style/Header"
+            android:layout_below="@+id/caloriesMovingTime"
+            android:text="@string/distance_label" />
+
+        <TextView
+            android:id="@+id/distance"
+            style="@style/Text.Left"
+            android:layout_below="@+id/distanceLabel"
+            android:text="@string/distance_help" />
+        
+        <TextView
+            android:id="@+id/distanceTodayLabel"
+            style="@style/Header"
+            android:layout_below="@+id/distance"
+            android:text="@string/distance_today_label" />
+
+        <TextView
+            android:id="@+id/distanceToday"
+            style="@style/Text.Left"
+            android:layout_below="@+id/distanceTodayLabel"
+            android:text="@string/distance_today_help" />
+
+        <TextView
+            android:id="@+id/speedLabel"
+            style="@style/Header"
+            android:layout_below="@+id/distanceToday"
+            android:text="@string/speed_label" />
+
+        <TextView
+            android:id="@+id/speed"
+            style="@style/Text.Left"
+            android:layout_below="@+id/speedLabel"
+            android:text="@string/speed_help" />
+
+        <TextView
+            android:id="@+id/maxSpeedLabel"
+            style="@style/Header"
+            android:layout_below="@+id/speed"
+            android:text="@string/max_speed_label" />
+
+        <TextView
+            android:id="@+id/maxSpeed"
+            style="@style/Text.Left"
+            android:layout_below="@+id/maxSpeedLabel"
+            android:text="@string/max_speed_help" />
+
+        <TextView
+            android:id="@+id/elevationGainDeclineLabel"
+            style="@style/Header"
+            android:layout_below="@+id/maxSpeed"
+            android:text="@string/elevation_gain_decline_label" />
+
+        <TextView
+            android:id="@+id/elevationGainDecline"
+            style="@style/Text.Left"
+            android:layout_below="@+id/elevationGainDeclineLabel"
+            android:text="@string/elevation_gain_decline_help" />
+        
+        <TextView
+            android:id="@+id/mapAccuracyLabel"
+            style="@style/Header"
+            android:layout_below="@+id/elevationGainDecline"
+            android:text="@string/map_accuracy_label" />
+
+        <TextView
+            android:id="@+id/mapAccuracy"
+            style="@style/Text.Left"
+            android:layout_below="@+id/mapAccuracyLabel"
+            android:text="@string/map_accuracy_help" />
+        
+        <TextView
+            android:id="@+id/mapAccuracyDefault"
+            style="@style/Text.Left"
+            android:layout_below="@+id/mapAccuracy"
+            android:text="@string/map_accuracy_default" />
+        
+        <TextView
+            android:id="@+id/mapAccuracyFine"
+            style="@style/Text.Left"
+            android:layout_below="@+id/mapAccuracyDefault"
+            android:text="@string/map_accuracy_fine" />
+        
+        <TextView
+            android:id="@+id/mapAccuracyConserve"
+            style="@style/Text.Left"
+            android:layout_below="@+id/mapAccuracyFine"
+            android:text="@string/map_accuracy_conserve" />
+        
+        <TextView
+            android:id="@+id/searchLabel"
+            style="@style/Header"
+            android:layout_below="@+id/mapAccuracyConserve"
+            android:text="@string/search" />
+        
+        <TextView
+            android:id="@+id/searchInfo"
+            style="@style/Text.Left"
+            android:layout_below="@+id/searchLabel"
+            android:text="@string/map_search_info" />
+        
+        <TextView
+            android:id="@+id/searchButtonsLabel"
+            style="@style/Header"
+            android:layout_below="@+id/searchInfo"
+            android:text="@string/search_buttons_header" />
+        
+        <ImageView
+            android:id="@+id/pageUpIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/searchButtonsLabel"
+            android:contentDescription="@string/page_up"
+            android:src="@drawable/navigation_next_item" />
+
+        <TextView
+            android:id="@+id/pageUp"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/searchButtonsLabel"
+            android:layout_toRightOf="@+id/pageUpIcon"
+            android:text="@string/page_up_help" />
+        
+        <ImageView
+            android:id="@+id/pageDownIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/pageUpIcon"
+            android:contentDescription="@string/page_down"
+            android:src="@drawable/navigation_previous_item" />
+
+        <TextView
+            android:id="@+id/pageDown"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/pageUpIcon"
+            android:layout_toRightOf="@+id/pageDownIcon"
+            android:text="@string/page_down_help" />
+        
+         <ImageView
+            android:id="@+id/searchIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/pageDownIcon"
+            android:contentDescription="@string/search"
+            android:src="@drawable/action_search" />
+
+        <TextView
+            android:id="@+id/search"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/pageDownIcon"
+            android:layout_toRightOf="@+id/searchIcon"
+            android:text="@string/search_help" />
+        
+        <ImageView
+            android:id="@+id/clearSearchIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/search"
+            android:contentDescription="@string/clear_mapped_workouts"
+            android:src="@drawable/navigation_cancel" />
+
+        <TextView
+            android:id="@+id/clearSearch"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/search"
+            android:layout_toRightOf="@+id/clearSearchIcon"
+            android:text="@string/clear_search_help" />
+
+        <TextView
+            android:id="@+id/actionButtonsLabel"
+            style="@style/Header"
+            android:layout_below="@+id/clearSearch"
+            android:text="@string/action_buttons_header" />
+        
+        <ImageView
+            android:id="@+id/showIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:contentDescription="@string/show"
+            android:src="@drawable/navigation_next_item" />
+
+        <TextView
+            android:id="@+id/show"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:layout_toRightOf="@+id/showIcon"
+            android:text="@string/show" />
+        
+        <ImageView
+            android:id="@+id/hideIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/show"
+            android:contentDescription="@string/hide"
+            android:src="@drawable/navigation_previous_item" />
+
+        <TextView
+            android:id="@+id/hide"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/show"
+            android:layout_toRightOf="@+id/showIcon"
+            android:text="@string/hide" />
+
+        <ImageView
+            android:id="@+id/connectIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/hide"
+            android:contentDescription="@string/connect"
+            android:src="@drawable/device_access_bluetooth" />
+
+        <TextView
+            android:id="@+id/connect"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/hide"
+            android:layout_toRightOf="@+id/connectIcon"
+            android:text="@string/connect_info" />
+
+        <ImageView
+            android:id="@+id/connectingIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/connect"
+            android:contentDescription="@string/connecting"
+            android:src="@drawable/device_access_bluetooth_searching" />
+
+        <TextView
+            android:id="@+id/connecting"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/connect"
+            android:layout_toRightOf="@+id/connectingIcon"
+            android:text="@string/connecting" />
+
+        <ImageView
+            android:id="@+id/connectedIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/connecting"
+            android:contentDescription="@string/connected"
+            android:src="@drawable/device_access_bluetooth_connected" />
+
+        <TextView
+            android:id="@+id/connected"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/connecting"
+            android:layout_toRightOf="@+id/connectIcon"
+            android:text="@string/connected" />
+
+        <ImageView
+            android:id="@+id/startStopWorkoutIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/connected"
+            android:contentDescription="@string/start_workout"
+            android:src="@drawable/device_access_alarms" />
+
+        <TextView
+            android:id="@+id/startStopWorkoutInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/connected"
+            android:layout_toRightOf="@+id/connectIcon"
+            android:text="@string/start_stop_info" />
+
+        <ImageView
+            android:id="@+id/endWorkoutIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/startStopWorkoutInfo"
+            android:contentDescription="@string/end_workout"
+            android:src="@drawable/navigation_accept" />
+
+        <TextView
+            android:id="@+id/endWorkoutInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/startStopWorkoutInfo"
+            android:layout_toRightOf="@+id/endWorkoutIcon"
+            android:text="@string/map_end_workout_info" />
+
+        <ImageView
+            android:id="@+id/takePictureIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/endWorkoutInfo"
+            android:contentDescription="@string/take_picture_info"
+            android:src="@drawable/content_new_picture" />
+
+        <TextView
+            android:id="@+id/takePictureInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/endWorkoutInfo"
+            android:layout_toRightOf="@+id/takePictureIcon"
+            android:text="@string/map_take_picture" />
+        
+        <ImageView
+            android:id="@+id/shareIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/takePictureInfo"
+            android:contentDescription="@string/share_info"
+            android:src="@drawable/share" />
+
+        <TextView
+            android:id="@+id/shareIconInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/takePictureInfo"
+            android:layout_toRightOf="@+id/shareIcon"
+            android:text="@string/map_share_info" />
+        
+        <ImageView
+            android:id="@+id/importIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/shareIconInfo"
+            android:contentDescription="@string/import_gps_file"
+            android:src="@drawable/download" />
+
+        <TextView
+            android:id="@+id/importIconInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/shareIconInfo"
+            android:layout_toRightOf="@+id/importIcon"
+            android:text="@string/import_info" />
+
+        <ImageView
+            android:id="@+id/helpIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/importIconInfo"
+            android:contentDescription="@string/help_header"
+            android:src="@drawable/action_help" />
+
+        <TextView
+            android:id="@+id/viewHelp"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/importIconInfo"
+            android:layout_toRightOf="@+id/helpIcon"
+            android:text="@string/help_header" />
+    </RelativeLayout>
+
+</ScrollView>

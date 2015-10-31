@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityContainerBg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        style="@style/ActivityContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/myInfoContentContainer"
+            style="@style/ContentContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/bgContentContainer"
+                style="@style/BgContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo_bg_drawable" >
+
+                <TextView
+                    android:id="@+id/myInformation"
+                    style="@style/Header"
+                    android:text="@string/my_information_label" />
+
+                <TextView
+                    android:id="@+id/ageLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignRight="@+id/sexLabel"
+                    android:layout_below="@+id/myInformation"
+                    android:labelFor="@+id/age"
+                    android:text="@string/age_label" />
+
+                <EditText
+                    android:id="@+id/age"
+                    style="@style/Input.Number"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/myInformation" />
+
+                <TextView
+                    android:id="@+id/sexLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/ageLabel"
+                    android:layout_toLeftOf="@+id/sex"
+                    android:text="@string/gender_label" />
+
+                <RadioGroup
+                    android:id="@+id/sex"
+                    style="@style/Input.Radio"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/ageLabel"
+                    android:padding="2dp" >
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:checked="true"
+                        android:text="@string/male_label" />
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:text="@string/female_label" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/weightLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignRight="@+id/activityLevelLabel"
+                    android:layout_below="@+id/sexLabel"
+                    android:labelFor="@+id/weightLbs"
+                    android:text="@string/weight_label" />
+
+                <EditText
+                    android:id="@+id/weightLbs"
+                    style="@style/Input.Number"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/sexLabel"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/heightFeetLabel"
+                    style="@style/Label"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/weightLabel"
+                    android:labelFor="@+id/weightLbs"
+                    android:text="@string/height_label" />
+
+                <Spinner
+                    android:id="@+id/heightFeet"
+                    style="@style/Input.Spinner.HeightDropdown"
+                    android:layout_below="@+id/weightLbs"
+                    android:layout_toLeftOf="@+id/heightInches"
+                    android:prompt="@string/heightFeet_prompt" />
+
+                <Spinner
+                    android:id="@+id/heightInches"
+                    style="@style/Input.Spinner.HeightDropdown"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/weightLbs"
+                    android:prompt="@string/heightInches_prompt" />
+
+                <TextView
+                    android:id="@+id/heightCmLabel"
+                    style="@style/Label"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/weightLabel"
+                    android:labelFor="@+id/heightCm"
+                    android:text="@string/height_label"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/heightCm"
+                    style="@style/Input"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/weightLbs"
+                    android:inputType="number"
+                    android:visibility="gone" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/dailyCalorieIntakeLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/heightFeetLabel"
+                    android:layout_toLeftOf="@+id/dailyCalorieIntake"
+                    android:labelFor="@+id/dailyCalorieIntake"
+                    android:text="@string/daily_calorie_intake_label" />
+
+                <EditText
+                    android:id="@+id/dailyCalorieIntake"
+                    style="@style/Input"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/heightFeetLabel"
+                    android:inputType="number" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/activityLevelLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/dailyCalorieIntakeLabel"
+                    android:layout_toLeftOf="@+id/dailyCalorieIntake"
+                    android:text="@string/activity_level_label" />
+
+                <Spinner
+                    android:id="@+id/activityLevel"
+                    style="@style/Input.Spinner.ActivityLevel"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/dailyCalorieIntake"
+                    android:prompt="@string/activityLevel_prompt" />
+
+                <TextView
+                    android:id="@+id/bmrLabel"
+                    style="@style/Label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/activityLevelLabel"
+                    android:text="@string/bmr_label" />
+
+                <TextView
+                    android:id="@+id/bmr"
+                    style="@style/TextNumberBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/activityLevelLabel"
+                    android:textIsSelectable="false" />
+                
+                <TextView
+                    android:id="@+id/bmiLabel"
+                    style="@style/Label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bmrLabel"
+                    android:text="@string/bmi_label" />
+
+                <TextView
+                    android:id="@+id/bmi"
+                    style="@style/TextNumberBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/bmrLabel"
+                    android:textIsSelectable="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/goalFormContentContainer"
+            style="@style/ContentContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myInfoContentContainer"
+            android:padding="0dp" >
+
+            <RelativeLayout
+                android:id="@+id/myGoalContentContainer"
+                style="@style/BgContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/myGoalLabel"
+                    style="@style/Header"
+                    android:text="@string/goal_header" />
+
+                <TextView
+                    android:id="@+id/goalStartDateLabel"
+                    style="@style/Label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/myGoalLabel"
+                    android:text="@string/goal_start_date_label" />
+
+                <ImageButton
+                    android:id="@+id/goalDatePicker"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/myGoalLabel"
+                    android:layout_marginTop="12dp"
+                    android:layout_toRightOf="@+id/goalStartDateLabel"
+                    android:contentDescription="@string/set_goal_start_date"
+                    android:onClick="onClick"
+                    android:src="@drawable/collections_go_to_today" />
+
+                <TextView
+                    android:id="@+id/goalStartDate"
+                    style="@style/Text"
+                    android:layout_below="@+id/myGoalLabel"
+                    android:layout_marginLeft="28dp"
+                    android:layout_toRightOf="@+id/goalDatePicker"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/desiredWeightLossLabel"
+                    style="@style/Label"
+                    android:layout_below="@+id/goalStartDateLabel"
+                    android:layout_toLeftOf="@+id/desiredWeightLoss"
+                    android:labelFor="@+id/desiredWeightLoss"
+                    android:text="@string/desired_weight_loss_label" />
+
+                <EditText
+                    android:id="@+id/desiredWeightLoss"
+                    style="@style/Input.Number"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/goalStartDateLabel" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/weightLostPerWeekLbLabel"
+                    style="@style/Label"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/desiredWeightLossLabel"
+                    android:layout_toLeftOf="@+id/weightLostPerWeekLb"
+                    android:text="@string/desired_weight_loss_per_week_label" />
+
+                <Spinner
+                    android:id="@+id/weightLostPerWeekLb"
+                    style="@style/Input.Spinner.WeightLostPerWeekLb"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/desiredWeightLoss"
+                    android:prompt="@string/lbs" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/metricContentContainer"
+            style="@style/ContentContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/goalFormContentContainer"
+            android:gravity="fill"
+            android:padding="0dp"
+            android:paddingBottom="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/bgmetricContainer"
+                style="@style/BgContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/formatHeader"
+                    style="@style/Header"
+                    android:text="@string/format_header" />
+
+                <RadioGroup
+                    android:id="@+id/displayMetric"
+                    style="@style/Input.Radio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/formatHeader"
+                    android:layout_marginBottom="20dp"
+                    android:padding="2dp" >
+
+                    <RadioButton
+                        android:id="@+id/weightsMeasures"
+                        android:layout_width="wrap_content"
+                        android:checked="true"
+                        android:text="@string/weights_measures_label" />
+
+                    <RadioButton
+                        android:id="@+id/metricSystem"
+                        android:layout_width="wrap_content"
+                        android:text="@string/metric_system_label" />
+                </RadioGroup>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

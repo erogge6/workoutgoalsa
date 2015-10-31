@@ -1,0 +1,11 @@
+<resources>
+    <color name="black_overlay">#66000000</color>
+	<color name="android_blue">#0099CC</color>
+	<color name="android_purple">#9933CC</color>
+	<color name="android_green">#669900</color>
+	<color name="android_orange">#FF8800</color>
+	<color name="android_red">#CC0000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="light_grey">#F0F0F0</color>
+	<color name="grey">#99999999</color>
+</resources>

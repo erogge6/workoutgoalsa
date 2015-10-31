@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_container"
+    style="@style/ActivityContainerBg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/clock_bg_drawable" >
+
+    <RelativeLayout
+        style="@style/ActivityContainerNoBgColor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/timer_cont"
+            style="@style/borderTopBottomCont"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/workoutTime"
+                style="@style/Timer"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/emptyTime"
+                android:textIsSelectable="false" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/caloriesBurnedLabel"
+            style="@style/Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timer_cont"
+            android:text="@string/calories_burned_label" />
+
+        <TextView
+            android:id="@+id/caloriesBurned"
+            style="@style/TextNumberBlue"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/timer_cont"
+            android:text="@string/zero"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/caloriesToBurnTodayLabel"
+            style="@style/Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/caloriesBurnedLabel"
+            android:text="@string/calories_to_burn_today_label" />
+
+        <TextView
+            android:id="@+id/caloriesToBurnToday"
+            style="@style/TextNumberBlue"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/caloriesBurnedLabel"
+            android:text="@string/zero"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/heartRateLabel"
+            style="@style/Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/caloriesToBurnTodayLabel"
+            android:text="@string/heart_rate_label" />
+
+        <ImageView
+            android:id="@+id/heartRateImage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/caloriesToBurnTodayLabel"
+            android:layout_marginTop="12dp"
+            android:layout_toLeftOf="@+id/heartRate"
+            android:contentDescription="@string/heart_rate_monitor"
+            android:src="@drawable/heart_rate" />
+
+        <TextView
+            android:id="@+id/heartRate"
+            style="@style/TextNumberBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/caloriesToBurnTodayLabel"
+            android:text="@string/zero"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:id="@+id/workoutCategoryLabel"
+            style="@style/Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/heartRateLabel"
+            android:text="@string/workout_category_label" />
+
+        <Spinner
+            android:id="@+id/workoutCategory"
+            style="@style/Input.Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/heartRateLabel" />
+
+        <TextView
+            android:id="@+id/workoutSubCategoryLabel"
+            style="@style/Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/workoutCategoryLabel"
+            android:text="@string/workout_subcategory_label" />
+
+        <Spinner
+            android:id="@+id/workoutSubcategory"
+            style="@style/Input.Spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workoutSubCategoryLabel" />
+    </RelativeLayout>
+
+</ScrollView>

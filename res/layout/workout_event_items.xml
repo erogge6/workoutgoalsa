@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="wrap_content"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:paddingRight="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/itemBg"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/calendar_bg_sm_drawable" >
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/Text.Small"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="1dp"
+            android:text="@string/zero" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/Text.Small"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/date"
+            android:padding="1dp"
+            android:text="@string/zero" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

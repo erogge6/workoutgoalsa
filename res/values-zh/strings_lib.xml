@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="close">关闭</string>
+<string name="share_workout_events_info">邀请朋友到你的锻炼活动。锻炼后的事件，以便其他应用程序的用户可以搜索，查看，以及获取路线。</string>
+<string name="view_workout_events_info">查看张贴的锻炼活动。搜索与谷歌地图上看到你选择的半径范围内即将到来的锻炼活动（通过点击地图上）。</string>
+<string name="get_directions_colon">行车路线：</string>
+<string name="get_directions">规划路线</string>
+<string name="posted_workout_event">张贴锻炼活动</string>
+<string name="error_searching_workout_events">发生错误寻找的锻炼活动。请稍后再试。</string>
+<string name="successfully_remove_shared_workout_event">成功删除发布的锻炼活动。</string>
+<string name="could_not_find_shared_workout_to_remove_event">找不到一个贴锻炼事件删除。</string>
+<string name="error_removed_workout_event">发生错误去除张贴的锻炼活动。</string>
+<string name="view_workout_events">查看张贴的锻炼活动</string>
+<string name="workout_event_already_posted">锻炼活动已经发布。</string>
+<string name="error_posting_workout_event">出错张贴锻炼活动。</string>
+<string name="workout_event_posted_success">发布成功的锻炼活动。</string>
+<string name="address_required">地址是必填字段。</string>
+<string name="begin_date_before_now">事件​​\的开始日期是当前日期之前。</string>
+<string name="end_date_before_now">事件​​\的结束日期是当前日期之前。</string>
+<string name="share">分享</string>
+<string name="end_date_label_colon">结束日期：</string>
+<string name="begin_date_label_colon">开始时间：</string>
+<string name="address_label">地址：</string>
+<string name="post_workout_event">锻炼后事件</string>
+<string name="calories_moving_time_help">期间，您其实已经在你的锻炼运动时燃烧的卡路里。</string>
+<string name="moving_time_help">你其实已经在你的锻炼活动的时间。</string>
+<string name="moving_time_label">移动时间：</string>
+<string name="calories_moving_time_label">移动时热量消耗：</string>
+<string name="import_info">进口。GPX（路线和轨迹）和。KML文件到谷歌地图。锻炼目标可以访问下载文件夹中的文件。这是文件从网站或电子邮件保存，如果你不将它们保存到谷歌驱动器。此外，您可以将文件复制到WorkoutGoal\的文件夹。该文件导入和左视图中，直到它被清除或活动被关闭了。你可以在图表中看到的距离和高程信息。高程数据是直接从文件中提取和权重未格式化，测量或公制系统。</string>
+<string name="hundred_unit_alt">数以百计的单位高度</string>
+<string name="no_gps_files_found">找不到。KML或。GPX文件导入。</string>
+<string name="imported_file_info">进口文件信息</string>
+<string name="imported_file_readings">进口文件阅读</string>
+<string name="clear_imported">清除进口</string>
+<string name="error_with_file">错误读取的文件描述符。</string>
+<string name="file_not_found">文件未找到。</string>
+<string name="xml_parse_error">错误读取XML。</string>
+<string name="downloads">下载</string>
+<string name="workout_goals_dir">锻炼目标文件夹</string>
+<string name="import_gps_file">导入GPS文件</string>
+
+  <string name="bmi_label">身体质量指数（BMI）
+  </string>
+  <string name="bmr_label">基础代谢率（BMR）
+  </string>
+  <string name="could_not_find_shared_workout_to_remove">锻炼不被共享的。
+  </string>
+  <string name="map_search_info">如果你不能找到你要找的东西随时分享任何锻炼路线！
+  </string>
+  <string name="share_workouts_available">您可以通过共享的行动项目的其它应用程序的用户分享你的锻炼路线。
+  </string>
+  <string name="ALL">所有
+  </string>
+  <string name="cat_label">猫：
+  </string>
+  <string name="decline_label">下降：
+  </string>
+  <string name="gain_label">增益：
+  </string>
+  <string name="time_label">时间：
+  </string>
+  <string name="view_workout_chart_colon">查看锻炼图表：
+  </string>
+  <string name="page">页：
+  </string>
+  <string name="user">网友：
+  </string>
+  <string name="total_results">合计：
+  </string>
+  <string name="of">的
+  </string>
+  <string name="congrats_distance_achieved">你取得今天你的距离的目标。
+  </string>
+  <string name="hundreds_burned">数百卡路里燃烧的
+  </string>
+  <string name="category_label">类别：
+  </string>
+  <string name="unfollow_route">停止追随这种锻炼\的路径
+  </string>
+  <string name="follow_route">遵循这种锻炼\的路径
+  </string>
+  <string name="sharing_workout">上传你的锻炼到云中。
+  </string>
+  <string name="choose_workout_event">选择一个事件来分享
+  </string>
+  <string name="calories">卡路里
+  </string>
+  <string name="desc_to_big">说明只能最多255个字符。
+  </string>
+  <string name="clear_search_help">清除搜索训练从地图上。
+  </string>
+  <string name="search_help">需要此功能的网络连接。
+  </string>
+  <string name="search_buttons_header">搜索按钮
+  </string>
+  <string name="page_up_help">显示结果为附近的共享锻炼的下一个页面。
+  </string>
+  <string name="page_down_help">显示结果为附近的共享锻炼的前一页。
+  </string>
+  <string name="distance_today_help">今天的总规划基于距离过一周中某一天的锻炼活动距离（S）的。
+  </string>
+  <string name="total_schedules_calories_help">这是每一个锻炼事件\的热量总和。
+  </string>
+  <string name="workout_events_help">当锻炼事件被保存的通知是建立在即将到来的锻炼活动当天上午通知。
+  </string>
+  <string name="view_goal_chart_info">否则，此图表显示你的目标是燃烧卡路里，你的预期目标，以消耗热量（卡路里每天烧掉平均），并从锻炼目标开始日期刻录到日期的实际热量。
+  </string>
+  <string name="distance_covered_this_week_help">总距离本周覆盖。
+  </string>
+  <string name="distance_this_week_help">这是基于关闭的锻炼活动距离的总和。
+  </string>
+  <string name="scheduled_calories_per_week_help">这是基于关闭的事件锻炼身体热量的总和。
+  </string>
+  <string name="workout_stats_tab">统计
+  </string>
+  <string name="total_schedules_calories_label">计划总热量要刻录：
+  </string>
+  <string name="total_schedules_distance_label">计划总距离：
+  </string>
+  <string name="daily_chart_burned_distance">卡路里日线图烧毁，行驶距离
+  </string>
+  <string name="kph">KPH 
+  </string>
+  <string name="mph">英里每小时
+  </string>
+  <string name="scheduled_burn_per_week_label">卡路里每星期：
+  </string>
+  <string name="sheduled_distance_per_week">每周距离：
+  </string>
+  <string name="distance_to_cover_this_week_label">距离本周涵盖：
+  </string>
+  <string name="miles">万里
+  </string>
+  <string name="km">KM 
+  </string>
+  <string name="total_schedules_calories_distance_label">计划总热量与距离：
+  </string>
+  <string name="scheduled_distance">预定的距离
+  </string>
+  <string name="distance_calories_zero_req">距离和卡路里不能为零。
+  </string>
+  <string name="end_label">年底
+  </string>
+  <string name="distance_label_no_colon">距离
+  </string>
+  <string name="distance_today_label">距离今天：
+  </string>
+  <string name="distance_covered_since_goal_date_label">由于目标日期距离：
+  </string>
+  <string name="calories_burned_since_goal_date_label">卡路里由于目标日期：
+  </string>
+  <string name="distance_covered_this_week_label">覆盖距离本周：
+  </string>
+  <string name="remove_workout">删除的锻炼。
+  </string>
+  <string name="successfully_remove_shared_workout">锻炼是从共享中删除。
+  </string>
+  <string name="error_removed_workout">发生错误删除此共享的锻炼。
+  </string>
+  <string name="remove_workout_header">删除锻炼
+  </string>
+  <string name="remove_from_both">删除此锻炼，停止与其他应用程序的用户共享（只有当这种锻炼已被分享）。
+  </string>
+  <string name="remove_from_shared">停止与其他应用程序的用户共享（只有当这种锻炼已被分享）。
+  </string>
+  <string name="share_workout_req">分享一个锻炼的距离必须大于零。
+  </string>
+  <string name="searched_workout_header">搜索到锻炼
+  </string>
+  <string name="paging_to">正在搜索结果页
+  </string>
+  <string name="no_search_results_found">成为第一个在该领域分享你的锻炼！
+  </string>
+  <string name="workout_already_shared">锻炼已经是存在于云中。
+  </string>
+  <string name="clear_mapped_workouts">清除搜索训练。
+  </string>
+  <string name="searching_workouts">搜索附近锻炼&#8230;
+  </string>
+  <string name="error_searching_workouts">发生错误寻找锻炼。
+  </string>
+  <string name="error_saving_workout">发生错误的锻炼保存到云端。
+  </string>
+  <string name="workout_save_success">锻炼保存到云成功。
+  </string>
+  <string name="page_down">下一页
+  </string>
+  <string name="page_up">上一页
+  </string>
+  <string name="search_mapped_workouts">搜索通过映射的锻炼路线附近。
+  </string>
+  <string name="username_label">用户名：
+  </string>
+  <string name="share_workout_with_users">分享锻炼与其他用户
+  </string>
+  <string name="share_workout_header">分享锻炼
+  </string>
+  <string name="title_label">标题：
+  </string>
+  <string name="description_label">说明：
+  </string>
+  <string name="title_req">标题是必需的。
+  </string>
+  <string name="select_share_option">选择一项购股权：
+  </string>
+
+   <string name="share_workout_events" >分享锻炼活动</string>
+   <string name="share_workout_information" >分享锻炼信息。如果有心脏率读数为CSV（逗号分隔值）文件将被附加与读取数据。</string>
+   <string name="map_share_info" >通过搜索功能共享映射的训练与其他应用程序的用户。创建KML，GPX，或CSV（逗号分隔值）文件，谷歌地图或谷歌地球，与锻炼相关的信息。这个文件可以上传到谷歌驱动器或通过电子邮件发送。</string>
+
+  <string name="calories_to_burn" >卡路里烧伤</string>
+  <string name="csv_file" >CSV文件格式</string>
+  <string name="longitude" >经度</string>
+  <string name="latitude" >纬度</string>
+  <string name="altitude" >海拔</string>
+  <string name="distance" >距离</string>
+  <string name="reading_time" >阅读时间</string>
+  <string name="at" >在</string>
+  <string name="come_workout" >锻炼来和我一起上 </string>
+  <string name="save_workout_events_before_share" >请分享他们之前保存的锻炼活动。</string>
+  <string name="share_workout_event" >分享锻炼活动</string>
+  
+  <string name="kml_file">KML文件格式
+  </string>
+  <string name="gpx_file">GPX档案格式
+  </string>
+  <string name="select_export_file_type">选择一种文件格式类型：
+  </string>
+  <string name="share_info">分享锻炼资讯
+  </string>
+  <string name="avg_speed_label">平均速度：
+  </string>
+  <string name="ERROR_CREATING_KML_FILE">错误的锻炼创建KML文件。
+  </string>
+  <string name="ERROR_CREATING_GPX_FILE">错误的锻炼创造GPX文件。
+  </string>
+  <string name="share_workout">电子邮件KML文件
+  </string>
+  <string name="contact_email">info@yourworkoutgoals.com 
+  </string>
+  <string name="feedback_label">发送反馈意见，问题或意见：
+  </string>
+  <string name="show">显示锻炼信息
+  </string>
+  <string name="hide">隐藏锻炼信息
+  </string>
+  <string name="view_workout_info">显示/隐藏锻炼信息
+  </string>
+  <string name="avg_heart_rate_label">平均心率：
+  </string>
+  <string name="confirm_map_workout">这本来是一个映射的锻炼，你要映射这个锻炼？
+  </string>
+  <string name="error_saving_workout_events">发生错误节约锻炼活动。
+  </string>
+  <string name="view_goal_chart_error">查看目标表只适用\的，如果你想减肥，你都不想失去每星期集中的金额。
+  </string>
+  <string name="check_license">检查许可证
+  </string>
+  <string name="checking_license">检查许可证&#8230; 
+  </string>
+  <string name="dont_allow">唐吨允许用户访问
+  </string>
+  <string name="allow">允许用户接入
+  </string>
+  <string name="application_error">应用程序错误： %1$s 的
+  </string>
+  <string name="unlicensed_dialog_title">申请未获许可
+  </string>
+  <string name="unlicensed_dialog_body">请从Android Market购买。
+  </string>
+  <string name="unlicensed_dialog_retry_body">检查以查看是否有网络连接可用。
+  </string>
+  <string name="buy_button">购买应用程序
+  </string>
+  <string name="retry_button">重试
+  </string>
+  <string name="quit_button">退出
+  </string>
+  <string name="notify_workout_reading_exceptions">这款手机\的电池可能太低，卫星够不着，或没有覆盖的。
+  </string>
+  <string name="starting_time_label">开始时间：
+  </string>
+  <string name="calories_to_burn_label">热量燃烧：
+  </string>
+  <string name="upcoming_workout_notification">即将举行的活动锻炼（S）
+  </string>
+  <string name="reached_goal_for_calories_burned_today">你达到你的目标，今天的卡路里燃烧。
+  </string>
+  <string name="connecting_short">连接
+  </string>
+  <string name="connected_short">连接
+  </string>
+  <string name="connection_error_code">连接失败错误代码：％ 1$d 个
+  </string>
+  <string name="connection_error_disabled">谷歌游戏服务被禁用，
+  </string>
+  <string name="connection_error_internal">发生内部错误
+  </string>
+  <string name="connection_error_invalid">的谷歌Play业务在此设备上的版本是不是正宗的
+  </string>
+  <string name="connection_error_invalid_account">指定的帐户名无效
+  </string>
+  <string name="connection_error_license_check_failed">该应用程序是不许可用户
+  </string>
+  <string name="connection_error_message">连接失败错误信息： %1$s 的
+  </string>
+  <string name="connection_error_misconfigured">该应用程序配置错误
+  </string>
+  <string name="connection_error_missing">谷歌播放服务缺失
+  </string>
+  <string name="connection_error_needs_resolution">需要额外的解析
+  </string>
+  <string name="connection_error_network">出现网络错误
+  </string>
+  <string name="connection_error_outdated">谷歌播放服务已过期
+  </string>
+  <string name="connection_error_sign_in_required">该用户没有登录
+  </string>
+  <string name="connection_error_unknown">发生未知错误
+  </string>
+  <color name="appBlueText">#0099CC</color>
+  <string name="removeWorkout">删除锻炼</string>
+  <string name="view_workouts">查看过去的锻炼
+  </string>
+  <string name="app_name">锻炼目标
+  </string>
+  <string name="goal_header">我的目标
+  </string>
+  <string name="upcoming_workouts_header">即将到来的锻炼
+  </string>
+  <string name="my_workout">我的锻炼
+  </string>
+  <string name="emptyTime">00:00:00 
+  </string>
+  <string name="zero">0.0 
+  </string>
+  <string name="elevation_gain_decline_label">海拔/拒绝：
+  </string>
+  <string name="elevation_label">海拔：
+  </string>
+  <string name="set_goal_start_date">设定目标开始日期
+  </string>
+  <string name="view_goal_progress">查看锻炼目标陆侃
+  </string>
+  <string name="help_header">帮助中心
+  </string>
+  <string name="view_goal_chart">查看锻炼目标走势图
+  </string>
+  <string name="view_workout_chart">查看锻炼图表
+  </string>
+  <string name="take_picture">拍摄照片
+  </string>
+  <string name="album_name">WorkoutGoals 
+  </string>
+  <string name="view_workout_pictures">查看锻炼图片
+  </string>
+  <string name="accept">接受
+  </string>
+  <string name="no_workouts_found">没有找到锻炼
+  </string>
+  <string name="format_header">格式化
+  </string>
+  <string name="format_header_help">格式：
+  </string>
+  <string name="unsaved_goal">你要保存你的锻炼目标是什么？
+  </string>
+  <string name="Sedentary">久坐
+  </string>
+  <string name="Light_Activity">光活动
+  </string>
+  <string name="Moderate_Activity">适度活动
+  </string>
+  <string name="Very_Active">非常活跃的
+  </string>
+  <string name="Extremely_Active">极度活跃
+  </string>
+  <string name="calories_to_burn_today_label">热量烧伤今天：
+  </string>
+  <string name="metric_label">数字格式
+  </string>
+  <string name="weights_measures_label">度量衡
+  </string>
+  <string name="metric_system_label">公制系统
+  </string>
+  <string name="goal_start_date_label">目标开始日期：
+  </string>
+  <string name="max_speed_label">最高转速：
+  </string>
+  <string name="desired_goal_date_label">我的目标日期：
+  </string>
+  <string name="projected_goal_date_label">预计目标日期：
+  </string>
+  <string name="event_settings_label">事件设置
+  </string>
+  <string name="elevation_gain_label">海拔：
+  </string>
+  <string name="elevation_decline_label">海拔衰落：
+  </string>
+  <string name="my_information_label">我的信息
+  </string>
+  <string name="map_workout_label">地图我锻炼
+  </string>
+  <string name="distance_label">距离：
+  </string>
+  <string name="speed_label">速度：
+  </string>
+  <string name="workout_tab">锻炼
+  </string>
+  <string name="workout_map_tab">锻炼地图
+  </string>
+  <string name="workout_goal_tab">锻炼目标
+  </string>
+  <string name="workout_events_tab">锻炼活动
+  </string>
+  <string name="workout_event">锻炼活动
+  </string>
+  <string name="end_workout">结束体育锻炼
+  </string>
+  <string name="stop_workout">停止锻炼
+  </string>
+  <string name="resume_workout">恢复锻炼
+  </string>
+  <string name="start_workout">开始锻炼
+  </string>
+  <string name="start_stop_workout">启动/停止锻炼
+  </string>
+  <string name="connect">连线
+  </string>
+  <string name="heart_rate_monitor">心脏监测仪
+  </string>
+  <string name="connected_label">连接
+  </string>
+  <string name="calendar_account_email_label">日历户口电邮：
+  </string>
+  <string name="synch_with_calendar_label">与同步日历：
+  </string>
+  <string name="map_accuracy_label">地图精度：
+  </string>
+  <string name="desired_weight_loss_label">理想的减肥效果：
+  </string>
+  <string name="lbs">磅
+  </string>
+  <string name="desired_weight_loss_per_week_label">理想的减肥每星期：
+  </string>
+  <string name="age_label">年龄：
+  </string>
+  <string name="gender_label">性别：
+  </string>
+  <string name="male_label">男
+  </string>
+  <string name="female_label">女
+  </string>
+  <string name="weight_label">我的体重：
+  </string>
+  <string name="height_label">身高：
+  </string>
+  <string name="daily_calorie_intake_label">平均每日摄取的热量：
+  </string>
+  <string name="activity_level_label">我的活跃程度：
+  </string>
+  <string name="save">保存
+  </string>
+  <string name="quit">退出
+  </string>
+  <string name="weekday_label">平日
+  </string>
+  <string name="calories_burned_this_week_label">消耗热量本周行情如下：
+  </string>
+  <string name="my_goal_activity_level_label">我的目标Activty等级：
+  </string>
+  <string name="my_workout_events_label">我的锻炼活动
+  </string>
+  <string name="date_label">日期
+  </string>
+  <string name="begin_date_label">开始日期
+  </string>
+  <string name="begin_time_label">时间
+  </string>
+  <string name="end_time_label">结束时间
+  </string>
+  <string name="calories_label">热量：
+  </string>
+  <string name="calories_label_no_colon">卡路里
+  </string>
+  <string name="save_workout_events">除活动
+  </string>
+  <string name="saving_workout_events">节能锻炼活动&#8230; 
+  </string>
+  <string name="add_workout_event">加入锻炼活动
+  </string>
+  <string name="timer_label">时间：
+  </string>
+  <string name="delete_label">删除：
+  </string>
+  <string name="delete_label_no_colon">删除
+  </string>
+  <string name="spread_calories_to_burn">均匀地分布热量
+  </string>
+  <string name="deleteworkoutTime_label">删除
+  </string>
+  <string name="calories_to_burn_per_week_label">卡路里燃烧每周：
+  </string>
+  <string name="calendar_email_label">户口电邮：
+  </string>
+  <string name="synch_label">同步事件：
+  </string>
+  <string name="yes_label">是的
+  </string>
+  <string name="no_label">没有
+  </string>
+  <string name="add_to_calendar_label">添加到日历：
+  </string>
+  <string name="calendar_label">日历：
+  </string>
+  <string name="calories_burned_label">热量消耗：
+  </string>
+  <string name="workout_time_label">训练时间：
+  </string>
+  <string name="workout_subcategory_label">子类别（METS）：
+  </string>
+  <string name="workout_category_label">锻炼分类：
+  </string>
+  <string name="workout_category_subcat_label">锻炼类别/子类别：
+  </string>
+  <string name="heart_rate_label">心脏速率：
+  </string>
+  <string name="set_begin_time_label">设置开始时间：
+  </string>
+  <string name="set_end_time_label">设置结束时间：
+  </string>
+  <string name="set_begin_date_label">设置开始时间：
+  </string>
+  <string name="set_end_date_label">设置结束日期：
+  </string>
+  <string name="Mon">周一
+  </string>
+  <string name="Tues">周二
+  </string>
+  <string name="Wed">周三
+  </string>
+  <string name="Thurs">周四
+  </string>
+  <string name="Fri">周五
+  </string>
+  <string name="Sat">坐
+  </string>
+  <string name="Sun">周日
+  </string>
+  <string name="AM">上午
+  </string>
+  <string name="PM">下午
+  </string>
+  <string name="heightFeet_prompt">英尺
+  </string>
+  <string name="heightInches_prompt">英寸
+  </string>
+  <string name="activityLevel_prompt">活跃​​程度
+  </string>
+  <string name="calendar_not_found">没有找到日历。
+  </string>
+  <string name="cancel">取消
+  </string>
+  <string name="app_registration">应用程序注册
+  </string>
+  <string name="bluetooth_not_available">蓝牙不可用
+  </string>
+  <string name="bluetooth_health_profile_not_available">蓝牙健康状况不适
+  </string>
+  <string name="channel_connection">通道连接
+  </string>
+  <string name="channel_connection_desc">（有些设备会自动启动连接）
+  </string>
+  <string name="connection_state">连接状态
+  </string>
+  <string name="data_ind">数据指示灯
+  </string>
+  <string name="disconnect">断开
+  </string>
+  <string name="disconnected">DISCONNECTED 
+  </string>
+  <string name="empty">
+  </string>
+  <string name="read_data">读取数据&#8230; 
+  </string>
+  <string name="read_data_done">完成了读取数据&#8230; 
+  </string>
+  <string name="register">注册
+  </string>
+  <string name="select_device">选择一个设备
+  </string>
+  <string name="status_create_channel">创建通道状态：％d的
+  </string>
+  <string name="status_destroy_channel">摧毁通道状态：％d的
+  </string>
+  <string name="status_msg">状态消息
+  </string>
+  <string name="status_reg">应用程序的注册状态：％d的
+  </string>
+  <string name="status_unreg">应用程序注销状态：％d的
+  </string>
+  <string name="unregister">取消注册
+  </string>
+  <string name="app_description">显示当前地址和使用位置服务目前或更新的位置
+  </string>
+  <string name="address_output_string"> %1$s 的％ 2$s 的％ 3$s 的
+  </string>
+  <string name="latitude_longitude"> %1$.8f 美元F， %2$.8f 美元f 
+  </string>
+  <string name="action_settings">设置
+  </string>
+  <string name="latlng">纬度/经度：
+  </string>
+  <string name="address">地址：
+  </string>
+  <string name="connection_error_code_unknown">未知的连接错误代码：％ 1$d 个
+  </string>
+  <string name="connection_failed">连接失败
+  </string>
+  <string name="get_address">获取地址
+  </string>
+  <string name="get_location">获取地点
+  </string>
+  <string name="illegal_argument_exception">非法参数：纬度 %1$.8f 美元f经度 %2$.8f 美元f 
+  </string>
+  <string name="invalid_action">无效的意图动作 %1$s 的</string>
+  <string name="invalid_integer_id">无效的整数请求ID： %1$s 的
+  </string>
+  <string name="IO_Exception_getFromLocation">IO异常的Geocoder.getFromLocation（）
+  </string>
+  <string name="location_requested">请定期更新
+  </string>
+  <string name="location_updated">位置更新
+  </string>
+  <string name="location_update_error">位置更新失败
+  </string>
+  <string name="location_update_error_detail">代码％ 1$d 个消息％ 2$s 的
+  </string>
+  <string name="location_update_missing_update">位置更新错误。没有传入位置。
+  </string>
+  <string name="location_updates_stopped">停止定期更新
+  </string>
+  <string name="log_new_location">新位置：%1$s  的
+  </string>
+  <string name="no_address_found">未找到位置的地址
+  </string>
+  <string name="no_connection">无连接：不能请求位置
+  </string>
+  <string name="no_geocoder_available">没有地址解析器可用。
+  </string>
+  <string name="no_location_available">不提供位置
+  </string>
+  <string name="resolved">请重试操作。
+  </string>
+  <string name="no_resolution">谷歌播放服务：无法解析连接错误
+  </string>
+  <string name="periodic_update_stop">停止定期更新
+  </string>
+  <string name="play_services_available">谷歌播放服务是可用的
+  </string>
+  <string name="request_location_updates_in_progress">可以吨请求位置更新，以前的要求不是招吨成品
+  </string>
+  <string name="start_updates">开始更新
+  </string>
+  <string name="stop_updates">停止更新
+  </string>
+  <string name="unknown"> - 未知 -  
+  </string>
+  <string name="unknown_activity_request_code">接收到未知的活动请求代码％ 1$d 个在onActivityResult。
+  </string>
+  <string name="setting_map_accuracy">设定用映射图的精度。
+  </string>
+  <string name="workout_ended">锻炼结束
+  </string>
+  <string name="calories_req">在开始锻炼之前，它需要为了计算热量输入一个锻炼目标。
+  </string>
+  <string name="reached_max_heartrate">您已达到最大建议心脏速率为你的年龄。
+  </string>
+  <string name="req_calc_calories">在开始锻炼之前，它需要为了计算热量输入一个锻炼目标。
+  </string>
+  <string name="workout_stopped">停止锻炼。
+  </string>
+  <string name="events_create_goal">在创建的锻炼活动，要求输入一个锻炼目标。
+  </string>
+  <string name="load_event_error">无法添加事件。
+  </string>
+  <string name="delete_event_prompt">您确定要删除这个活动？
+  </string>
+  <string name="no_cal_found_for">没有日历帐户被发现的
+  </string>
+  <string name="to_create_cal">你要打开的日历应用程序？
+  </string>
+  <string name="event_save_success">锻炼活动（次）保存成功。
+  </string>
+  <string name="cal_req">日历是必需的，如果增加锻炼事件到日历。
+  </string>
+  <string name="calories_zero_req">锻炼事件热量不能为零。
+  </string>
+  <string name="bluetooth_not_supported">设备不支持蓝牙。
+  </string>
+  <string name="zephyr_only">这个程序是只设置为西风HXM BT的心脏监测仪。
+  </string>
+  <string name="bluetooth_device_not_found">无法检测到任何蓝牙设备。
+  </string>
+  <string name="upcoming_events">即将到来的锻炼活动如期卡路里燃烧= 
+  </string>
+  <string name="datePicker">选择日期
+  </string>
+  <string name="timePicker">选择时间
+  </string>
+  <string name="end_before_start_date">结束日期应晚于开始日期
+  </string>
+  <string name="ok">好了
+  </string>
+  <string name="unsaved_events">您确定要退出有未保存的事件？
+  </string>
+  <string name="yes">是的
+  </string>
+  <string name="no">没有
+  </string>
+  <string name="scheduled_calories">定卡路里燃烧= 
+  </string>
+  <string name="account_email_req">日历帐户电子邮件是必填字段。
+  </string>
+  <string name="desired_weight_non">理想的减肥是不是一个数字。
+  </string>
+  <string name="height_non">高度不是数字。
+  </string>
+  <string name="desired_greater_zero">理想的减肥必须大于或等于零。
+  </string>
+  <string name="height_feet_bound">高脚出界1-12之间选择。
+  </string>
+  <string name="height_inches_bound">身高英寸出界1-11之间选择。
+  </string>
+  <string name="age_non">年龄不是一个数字。
+  </string>
+  <string name="gender_req">性别没有被选中。
+  </string>
+  <string name="weight_non">重量是不是一个号码。
+  </string>
+  <string name="calorie_intake_non">每日摄取的热量是不是一个数字。
+  </string>
+  <string name="losing_more_2_nope">每周损失超过2斤不健康的。
+  </string>
+  <string name="weight_greater">重量必须大于1的一斤。
+  </string>
+  <string name="age_greate_zero">年龄必须大于0。
+  </string>
+  <string name="bmi_unhealthy">根据你的身体质量指数你已经在一个不健康的体重，与身体质量指数
+  </string>
+  <string name="bmi_underwieght">体重过轻的体重指数是
+  </string>
+  <string name="bmi_or_less">以下您想要的体重指数是
+  </string>
+  <string name="for_woman_rec_cal">对于女性，建议你每天卡路里摄取量不低于1200。
+  </string>
+  <string name="for_men_rec_cal">对于男性来说，建议你每天卡路里摄取量不低于1800。
+  </string>
+  <string name="below_above_weight">
+      如果你是低于90磅（40.82公斤）或超过800磅（362.87公斤），建议您创建一个锻炼目标前咨询您的医生或其他合格的医务人员。
+  </string>
+  <string name="req_goal_date">目标开始日期是必填字段。
+  </string>
+  <string name="gps_disabled">您的手机\的GPS似乎被禁用了，你要使它能够捕捉位置？
+  </string>
+  <string name="workout_already_ended">训练已经结束。
+  </string>
+  <string name="confirm_del_workout">您确定要删除这个锻炼？
+  </string>
+  <string name="workout_removed">锻炼删除
+  </string>
+  <string name="error_workout_remove">发生错误移除锻炼。
+  </string>
+  <string name="no_chart_data">没有图表数据进行查看。
+  </string>
+  <string name="no_images">有这种锻炼没有图像。
+  </string>
+  <string name="to_take_pic">要拍摄照片的锻炼已经已经启动或运行。
+  </string>
+  <string name="na"> -  
+  </string>
+  <string name="search">搜索
+  </string>
+  <string name="workout_out_event">制定活动
+  </string>
+  <string name="add_values">将值添加到图表
+  </string>
+  <string name="x">X 
+  </string>
+  <string name="y">Ÿ
+  </string>
+  <string name="add">新增
+  </string>
+  <string name="new_series">新系列
+  </string>
+  <string name="workout_chart_desc">包括消耗的卡路里，心率（如果蓝牙连接），距离，速度和高度（如果锻炼是一个映射锻炼）。
+  </string>
+  <string name="calories_burned">热量消耗
+  </string>
+  <string name="heartrate">心率
+  </string>
+  <string name="distance_miles">距离数
+  </string>
+  <string name="speed">加快公共卫生
+  </string>
+  <string name="hundred_alt">几百英尺高度
+  </string>
+  <string name="distance_km">距离公里
+  </string>
+  <string name="speed_km">加快KPH 
+  </string>
+  <string name="hundred_meters_alt">几百米的海拔高度
+  </string>
+  <string name="tens_calories_burned">热量消耗几十
+  </string>
+  <string name="workout_data_readings">体育锻炼数据读
+  </string>
+  <string name="time">时间
+  </string>
+  <string name="goal_chart_desc">通过目标信息说明锻炼目标进入，实际进度和预计的卡路里，平均每天烧掉。
+  </string>
+  <string name="my_workout_goal">我的锻炼目标
+  </string>
+  <string name="projected_workout">预计锻炼
+  </string>
+  <string name="actual_progress">实际的锻炼进度
+  </string>
+  <string name="daily_chart_burned">燃烧的热量每日图表
+  </string>
+  <string name="day">日
+  </string>
+  <string name="thousands_burned">数以千计的卡路里燃烧的
+  </string>
+  <string name="drawer_open">开放
+  </string>
+  <string name="drawer_close">关闭
+  </string>
+  <string name="title_activity_help_info">锻炼目标帮助中心
+  </string>
+  <string name="load_service_error">无法加载服务。
+  </string>
+  <string name="load_goal_error">发生数据库错误得到了这个目标。
+  </string>
+  <string name="load_goal_service_error">发生错误得到了这个目标。
+  </string>
+  <string name="connection_lost">连接已丢失。
+  </string>
+  <string name="load_image_error">无法加载图像
+  </string>
+  <string name="load_image_deleted_error">它可能已被删除。
+  </string>
+  <string name="could_not_save_image">无法保存图像的位置。
+  </string>
+  <string name="error_occured">发生错误。
+  </string>
+  <string name="load_camera_error">错误会发生载入相机。
+  </string>
+  <string name="error_loading_subcat">错误加载的子类别。
+  </string>
+  <string name="no_workout_to_remove">没有锻炼删除。
+  </string>
+  <string name="delete_event_error">无法删除事件。
+  </string>
+  <string name="load_events_error">无法加载的锻炼活动。
+  </string>
+  <string name="cal_no_setup">有没有日历的设置。
+  </string>
+  <string name="error_save_event">错误也救不了锻炼活动。
+  </string>
+  <string name="goal_save_error">发生数据库错误保存这个目标。
+  </string>
+  <string name="goal_saved">目标保存成功！
+  </string>
+  <string name="add_event_error">无法添加事件。
+  </string>
+  <string name="BICYCLING">骑自行车
+  </string>
+  <string name="RUNNING">运行
+  </string>
+  <string name="WALKING">走
+  </string>
+  <string name="GYM">健身房
+  </string>
+  <string name="SWIMMING">游泳
+  </string>
+  <string name="SPORTS">体育
+  </string>
+  <string name="MountainUphillVigorous">山，上坡，大力
+  </string>
+  <string name="MountainCompetitiveRacing">山，竞争，竞赛
+  </string>
+  <string name="Bmx">小轮车
+  </string>
+  <string name="MountainGeneral">山，一般
+  </string>
+  <string name="MphLeisureTaylorCode">&lt;10英里每小时，休闲（泰勒代号115）
+  </string>
+  <string name="ToFromWorkSelfSelectedPace">/下班，自我选择的吴佩慈
+  </string>
+  <string name="OnDirtOrFarmRoadModeratePace">有污点或农圃道，稳健的步伐
+  </string>
+  <string name="General">一般
+  </string>
+  <string name="LeisureMph5">休闲，5.5 MPH 
+  </string>
+  <string name="LeisureMph9">休闲，9.4 MPH 
+  </string>
+  <string name="MphLeisureSlowLightEffort">10-11.9英里每小时，休闲，缓慢，轻便省力
+  </string>
+  <string name="MphLeisureModerateEffort">12-13.9英里每小时，休闲，中等强度
+  </string>
+  <string name="MphFastVigorousEffort">14-15.9英里，快速，积极努力
+  </string>
+  <string name="MphRacingNotDrafting16">16-19英里每小时，赛车/不制图
+  </string>
+  <string name="MphRacingNotDrafting20">&gt; 20英里每小时，赛车游戏，不制图
+  </string>
+  <string name="MphSeatedRpm">12英里，坐式，80转
+  </string>
+  <string name="MphStandingRpm">12英里每小时，站在60转
+  </string>
+  <string name="Unicycling">独轮车
+  </string>
+  <string name="JogWalkCombinationTaylorCode">慢跑/散步组合（泰勒代号180）
+  </string>
+  <string name="JoggingGeneral">慢跑，一​​般
+  </string>
+  <string name="JoggingInPlace">慢跑，在广场
+  </string>
+  <string name="JoggingOnAMiniTramp">慢跑，在一个小流浪汉
+  </string>
+  <string name="MphMinMile13minMile">4英里每小时（13分钟/英里）
+  </string>
+  <string name="MphMinMile12minMile">5英里每小时（12分钟/英里）
+  </string>
+  <string name="MphMinMile11halfminMile">5.2英里（11.5分钟/英里）
+  </string>
+  <string name="MphMinMile10minMile">6英里（10分钟/英里）
+  </string>
+  <string name="MphMinMile9minMile">6.7英里（9分钟/英里）
+  </string>
+  <string name="MphMinMile8halfminMile">7英里（8.5分钟/英里）
+  </string>
+  <string name="MphMinMile8minMile">7.5英里（8分钟/英里）
+  </string>
+  <string name="MphMinMile7halfminMile">8英里（7.5分钟/英里）
+  </string>
+  <string name="MphMinMile7minMile">8.6英里（7分钟/英里）
+  </string>
+  <string name="MphMinMile6halfminMile">9英里（6.5分钟/英里）
+  </string>
+  <string name="MphMinMile6minMile">10英里（6分钟/英里）
+  </string>
+  <string name="MphMinMile5halfminMile">11英里（5.5分钟/英里）
+  </string>
+  <string name="MphMinMile5minMile">12 MPH（5分钟/英里）
+  </string>
+  <string name="MphMinMile4sixminMile">13英里（4.6分钟/英里）
+  </string>
+  <string name="MphMinMile4threeminMile">14英里（4.3分钟/英里）
+  </string>
+  <string name="CrossCountry">越野
+  </string>
+  <string name="TaylorCode">（泰勒代码200）
+  </string>
+  <string name="StairsUp">楼梯，向上
+  </string>
+  <string name="OnATrackTeamPractice">在一个轨道，团队业务
+  </string>
+  <string name="PushingAWheelchairOrBabyCarrier">推轮椅或婴儿背带
+  </string>
+  <string name="Marathon">马拉松
+  </string>
+  <string name="VideoGameEGWiiFit">视频游戏（例如，Wii Fit的）
+  </string>
+  <string name="VideoGameEGWiiFitModerateEffort">视频游戏（例如，Wii Fit的）中度努力
+  </string>
+  <string name="VideoArcadeGameVigorousEffort">视频/街机游戏一鼓作气
+  </string>
+  <string name="ArmyTypeObstacleCourseorBootCampTraining">陆军型障碍赛或训练营培训
+  </string>
+  <string name="BicyclingStationaryGeneral">骑自行车固定，一般
+  </string>
+  <string name="BicyclingStationaryVeryLightToLightEffort">骑自行车固定，很轻轻便省力
+  </string>
+  <string name="BicyclingStationaryModerateToVigorousEffort">骑自行车固定，中度到剧烈劲道
+  </string>
+  <string name="BicyclingStationaryVigorousEffort">骑自行车固定，一鼓作气
+  </string>
+  <string name="BicyclingStationaryVeryVigorousEffort">骑自行车固定，非常积极努力
+  </string>
+  <string name="BicyclingStationaryLightToModerateEffort">骑自行车固定，轻至中度的努力
+  </string>
+  <string name="BicyclingStationaryRpmSpinBikeClass">骑自行车平稳，转速/动感单车类
+  </string>
+  <string name="CalisthenicsEGPushUpsPullUpsVigorousEffort">健美操（如俯卧撑，引体向上），积极努力
+  </string>
+  <string name="CalisthenicsEGSitUpsLungesModerateEffort">健美操（如仰卧起坐，弓步），中度努力
+  </string>
+  <string name="CalisthenicsEGSitupsLightEffort">健美操（例如，仰卧起坐），轻便省力
+  </string>
+  <string name="CalisthenicsLightOrModerateEffort">健美操，轻度或中度劲道
+  </string>
+  <string name="CircuitTrainingModerateEffort">循环训练，适当的努力
+  </string>
+  <string name="CircuitTrainingVigorousIntensity">循环训练，高强度运动
+  </string>
+  <string name="CurvestmExerciseRoutinesInWomen">Curvestm练习套路在女性
+  </string>
+  <string name="EllipticalTrainerModerateEffort">椭圆机，中度努力
+  </string>
+  <string name="ResistanceTraining">阻力训练
+  </string>
+  <string name="ResistanceWeightTrainingSquats">阻力（重量）培训，蹲
+  </string>
+  <string name="ResistanceWeightTrainingMultipleExercises">阻力（重量）训练，多练习
+  </string>
+  <string name="HealthClubExerciseGeneralTaylorCode">健康俱乐部锻炼，一般（泰勒代号160）
+  </string>
+  <string name="HealthClubExerciseClassesGeneral">健康俱乐部锻炼类，一般
+  </string>
+  <string name="HealthClubExerciseConditioningClasses">健康俱乐部锻炼，调理类
+  </string>
+  <string name="HomeExerciseGeneral">家里练习，一般
+  </string>
+  <string name="StairTreadmillErgometerGeneral">楼梯跑步机测力计，一般
+  </string>
+  <string name="RopeSkippingGeneral">跳绳，一般
+  </string>
+  <string name="RowingStationaryErgometerVigorousEffort">赛艇，固定测力计，一鼓作气
+  </string>
+  <string name="RowingStationaryGeneralModerateEffort">赛艇，文具，一般，中等劲道
+  </string>
+  <string name="RowingStationaryWattsModerateEffort">赛艇，文具，100瓦，中等强度
+  </string>
+  <string name="RowingStationaryWattsVigorousEffort">赛艇，文具，150瓦，一鼓作气
+  </string>
+  <string name="RowingStationaryWattsVeryVigorousEffort">赛艇，文具，200瓦，非常积极努力
+  </string>
+  <string name="SkiMachineGeneral">滑雪机​​，一般
+  </string>
+  <string name="SlideBoardExerciseGeneral">滑板运动，一般
+  </string>
+  <string name="SlimnasticsJazzercise">Slimnastics，Jazzercise 
+  </string>
+  <string name="StretchingMild">拉伸，轻度
+  </string>
+  <string name="PilatesGeneral">普拉提，一般
+  </string>
+  <string name="TeachingExerciseClassEGAerobicWater">教学习题课（例如，有氧，水）
+  </string>
+  <string name="TherapeuticExerciseBallFitballExercise">食疗健身球，健身球练习
+  </string>
+  <string name="UpperBodyExerciseArmErgometer">上半身的运动，手臂测力计
+  </string>
+  <string name="UpperBodyExercise">上半身的运动
+  </string>
+  <string name="WhirlpoolSitting">惠而浦，坐
+  </string>
+  <string name="AlaskaNativeGamesEskimoOlympicsGeneral">阿拉斯加原住民运动会，爱斯基摩人的奥运会，一般
+  </string>
+  <string name="ArcheryNonHunting">射箭，非狩猎
+  </string>
+  <string name="BadmintonCompetitiveTaylorCode">羽毛球，竞争（泰勒代号450）
+  </string>
+  <string name="BadmintonSocialSinglesAndDoublesGeneral">羽毛球，社会单打和双打，一般
+  </string>
+  <string name="BasketballGameTaylorCode">篮球，游戏（泰勒代号490）
+  </string>
+  <string name="BasketballNonGameGeneralTaylorCode">篮球，非游戏中，一般（泰勒代号480）
+  </string>
+  <string name="BasketballGeneral">篮球，一般
+  </string>
+  <string name="BasketballOfficiatingTaylorCode">篮球，主持（泰勒代码500）
+  </string>
+  <string name="BasketballShootingBaskets">篮球，射篮
+  </string>
+  <string name="BasketballDrillsPractice">篮球，钻头，实践
+  </string>
+  <string name="BasketballWheelchair">篮球，轮椅
+  </string>
+  <string name="Billiards">台球
+  </string>
+  <string name="BowlingTaylorCode">保龄球（泰勒代号390）
+  </string>
+  <string name="BowlingIndoorBowlingAlley">保龄球，室内，保龄球馆
+  </string>
+  <string name="BoxingInRingGeneral">拳击，在戒指，一般
+  </string>
+  <string name="BoxingPunchingBag">拳击，冲孔袋
+  </string>
+  <string name="BoxingSparring">拳击，散打
+  </string>
+  <string name="Broomball">Broomball 
+  </string>
+  <string name="ChildrensGamesAdultsPlaying">儿童游戏，成人游戏
+  </string>
+  <string name="CheerleadingGymnasticMovesCompetitive">啦啦队，体操的动作，竞争
+  </string>
+  <string name="Coaching">教练
+  </string>
+  <string name="CoachingActivelyPlayingSportWithPlayers">教练，积极发挥体育与球员
+  </string>
+  <string name="CricketBattingBowlingFielding">板球，棒球，保龄球，菲尔丁
+  </string>
+  <string name="Croquet">槌球
+  </string>
+  <string name="Curling">冰壶
+  </string>
+  <string name="DartsWallOrLawn">飞镖，墙或草坪
+  </string>
+  <string name="DragRacingPushingOrDrivingACar">飙车，推或驾驶汽车
+  </string>
+  <string name="AutoRacingOpenWheel">赛车，开放式车轮
+  </string>
+  <string name="Fencing">击剑
+  </string>
+  <string name="FootballCompetitive">足球，竞争
+  </string>
+  <string name="FootballTouchFlagGeneralTaylorCode">足球，触摸，标志，通用（泰勒代号510）
+  </string>
+  <string name="FootballTouchFlagLightEffort">足球，触摸，旗，轻便省力
+  </string>
+  <string name="FootballOrBaseballPlayingCatch">足球或棒球，追赶
+  </string>
+  <string name="FrisbeePlayingGeneral">飞盘扮演，一般
+  </string>
+  <string name="FrisbeeUltimate">飞盘，旗舰版
+  </string>
+  <string name="GolfGeneral">高尔夫球，一般
+  </string>
+  <string name="GolfWalkingCarryingClubs">高尔夫球，散步，手持木棍
+  </string>
+  <string name="GolfMiniatureDrivingRange">高尔夫球，微型，练习场
+  </string>
+  <string name="GolfWalkingPullingClubs">高尔夫球，散步，拉俱乐部
+  </string>
+  <string name="GolfUsingPowerCartTaylorCode">高尔夫球，使用电源车（泰勒代号070）
+  </string>
+  <string name="GymnasticsGeneral">体操，一般
+  </string>
+  <string name="HackySack">哈克麻袋
+  </string>
+  <string name="HandballGeneralTaylorCode">手球，一般（泰勒代号520）
+  </string>
+  <string name="HandballTeam">手球，团队
+  </string>
+  <string name="HighRopesCourseMultipleElements">高空绳索课程，多元素
+  </string>
+  <string name="HangGliding">滑翔翼
+  </string>
+  <string name="HockeyField">曲棍球，现场
+  </string>
+  <string name="HockeyIceGeneral">曲棍球，冰，一般
+  </string>
+  <string name="HockeyIceCompetitive">曲棍球，冰，竞争
+  </string>
+  <string name="HorsebackRidingGeneral">骑马，一般
+  </string>
+  <string name="HorseChoresImpliedWalkingAndLiftingLoads">马做牛做马，引伸行走及起重负载
+  </string>
+  <string name="SaddlingCleaningGroomingHarnessingHorse">鞍，清洁，美容，治理马
+  </string>
+  <string name="HorsebackRidingTrotting">骑马，小跑
+  </string>
+  <string name="HorsebackRidingCanterOrGallop">骑马，慢跑或者快操
+  </string>
+  <string name="HorsebackRidingWalking">骑马，散步
+  </string>
+  <string name="HorsebackRidingJumping">骑马，跳
+  </string>
+  <string name="HorseCartDrivingStandingOrSitting">马车，驾驶，站立或坐着
+  </string>
+  <string name="HorseshoePitchingQuoits">马蹄投球，投环
+  </string>
+  <string name="JaiAlai">回力
+  </string>
+  <string name="MartialArtsPractice">武术，练习
+  </string>
+  <string name="MartialArtsDifferentTypesModeratePace">武术，不同类型，稳健的步伐
+  </string>
+  <string name="Juggling">杂耍
+  </string>
+  <string name="Kickball">蹴鞠
+  </string>
+  <string name="Lacrosse">长曲棍球
+  </string>
+  <string name="LawnBowlingBocceBallOutdoor">草地保龄球，地掷球球，室外
+  </string>
+  <string name="MotoCrossOffRoadMotorSports">摩托越野赛，越野汽车运动
+  </string>
+  <string name="Orienteering">定向越野
+  </string>
+  <string name="PaddleballCompetitive">板球，竞争
+  </string>
+  <string name="PaddleballCasualGeneralTaylorCode">板球，休闲，通用（泰勒代号460）
+  </string>
+  <string name="PoloOnHorseback">马球，在马背上
+  </string>
+  <string name="RacquetballCompetitive">短柄墙球，竞争
+  </string>
+  <string name="RacquetballGeneralTaylorCode">短柄墙球，一般（泰勒代号470）
+  </string>
+  <string name="RockOrMountainClimbing">岩石或登山
+  </string>
+  <string name="RockClimbingAscendingRockHighDifficulty">攀岩，递增摇滚，难度高
+  </string>
+  <string name="RockClimbingLowToModerateDifficulty">攀岩，低到中等难度
+  </string>
+  <string name="RockClimbingRappelling">攀岩，速降
+  </string>
+  <string name="RodeoSportsGeneralLightEffort">圈地运动，通用，轻便省力
+  </string>
+  <string name="RodeoSportsGeneralModerateEffort">圈地运动，一般，中等劲道
+  </string>
+  <string name="RodeoSportsGeneralVigorousEffort">圈地运动，通用，积极努力
+  </string>
+  <string name="RopeJumpingFastPaceSkipsMin">花式跳绳，节奏快，跳过120-160 /分钟
+  </string>
+  <string name="RopeJumpingModeratePaceSkipsMin">花式跳绳，稳健的步伐，跳过100-120 /分钟
+  </string>
+  <string name="RopeJumpingSlowPaceSkipsMin">花式跳绳，慢，&lt;跳100下/分钟
+  </string>
+  <string name="RugbyUnionTeamCompetitive">英式橄榄球联盟，团队，竞争
+  </string>
+  <string name="RugbyTouchNonCompetitive">英式橄榄球，触摸，非竞争
+  </string>
+  <string name="Shuffleboard">沙狐球
+  </string>
+  <string name="SkateboardingGeneralModerateEffort">滑板，一般，中等劲道
+  </string>
+  <string name="SkateboardingCompetitiveVigorousEffort">滑板，竞争，积极努力
+  </string>
+  <string name="SkatingRollerTaylorCode">溜冰，滚轴（泰勒代号360）
+  </string>
+  <string name="RollerbladingMphRecreational">滑旱冰，（9.0英里），休闲
+  </string>
+  <string name="RollerbladingMphModerate">滑旱冰，（11.0英里），中度
+  </string>
+  <string name="RollerbladingToMphFast">滑旱冰，（13.0〜13.6英里），快速
+  </string>
+  <string name="RollerbladingMphMaximalEffort">滑旱冰，（15.0英里），最大努力
+  </string>
+  <string name="SkydivingBaseJumpingBungeeJumping">跳伞，跳伞，蹦极
+  </string>
+  <string name="SoccerCompetitive">足球，竞争
+  </string>
+  <string name="SoccerCasualGeneralTaylorCode">足球，休闲，通用（泰勒代号540）
+  </string>
+  <string name="SoftballOrBaseballFastOrSlowPitch">垒球，棒球，快或慢的间距
+  </string>
+  <string name="SoftballPractice">垒球，实践
+  </string>
+  <string name="SoftballOfficiating">垒球，主持
+  </string>
+  <string name="SoftballPitching">垒球，投球
+  </string>
+  <string name="SportsSpectatorPhysicallyMoving">运动比赛，物理移动
+  </string>
+  <string name="SquashTaylorCode">壁球（泰勒代号530）
+  </string>
+  <string name="SquashGeneral">壁球，一般
+  </string>
+  <string name="TableTennisPingPongTaylorCode">乒乓球，乒乓（泰勒代号410）
+  </string>
+  <string name="TaiChiQiGongGeneral">太极，气功，一般
+  </string>
+  <string name="TaiChiQiGongSittingLightEffort">太极，气功，坐，轻便省力
+  </string>
+  <string name="TennisGeneral">网球，一般
+  </string>
+  <string name="TennisDoublesTaylorCode">网球，双打（泰勒代号430）
+  </string>
+  <string name="TennisDoubles">网球，双打
+  </string>
+  <string name="TennisSinglesTaylorCode">网球，单打（泰勒代号420）
+  </string>
+  <string name="TennisHittingBallsNonGamePlayModerateEffort">网球，击球，非游戏玩法，中等强度
+  </string>
+  <string name="TrampolineRecreational">蹦床运动，休闲
+  </string>
+  <string name="TrampolineCompetitive">蹦床，竞争
+  </string>
+  <string name="VolleyballTaylorCode">排球（泰勒代号400）
+  </string>
+  <string name="VolleyballCompetitiveInGymnasium">排球，竞争力，在体育馆
+  </string>
+  <string name="VolleyballNonCompetitiveMemberTeam">排球，非竞争性，6  -  9成员团队
+  </string>
+  <string name="VolleyballBeachInSand">排球，沙滩，在沙子
+  </string>
+  <string name="WrestlingOneMatchMinutes">摔跤（One比赛= 5分钟）
+  </string>
+  <string name="WallyballGeneral">Wallyball，总
+  </string>
+  <string name="TrackAndFieldShotDiscusHammerThrow">田径（铅球，铁饼，链球）
+  </string>
+  <string name="TrackAndFieldMisc">田径杂项
+  </string>
+  <string name="TrackAndFieldEGSteeplechaseHurdles">田径（例如，障碍赛，障碍）
+  </string>
+  <string name="LapsFreestyleFastVigorousEffort">圈，自由式，快速，积极努力
+  </string>
+  <string name="BackstrokeGeneralTrainingOrCompetition">仰泳，通用，训练还是比赛
+  </string>
+  <string name="LapsModerateEffort">圈，轻，中度劲道
+  </string>
+  <string name="BackstrokeRecreational">仰泳，休闲
+  </string>
+  <string name="BreaststrokeGeneralTrainingOrCompetition">蛙泳，一般，训练还是比赛
+  </string>
+  <string name="BreaststrokeRecreational">蛙泳，休闲
+  </string>
+  <string name="ButterflyGeneral">蝴蝶，一般
+  </string>
+  <string name="CrawlYardsMinuteVigorousEffort1">抓取，〜75码/分钟，一鼓作气
+  </string>
+  <string name="CrawlYardsMinuteVigorousEffort2">抓取，〜50码/分钟，一鼓作气
+  </string>
+  <string name="LakeOceanRiverTaylorCodes">湖，海，河（泰勒代码280，295）
+  </string>
+  <string name="LeisurelyNotLapSwimmingGeneral">悠然自得，不立游泳，一般
+  </string>
+  <string name="SidestrokeGeneral">侧泳，一般
+  </string>
+  <string name="Synchronized">同步
+  </string>
+  <string name="TreadingWaterFastVigorousEffort">踩水，快速，积极努力
+  </string>
+  <string name="TreadingWaterModerateEffortGeneral">踩水，劲道适中，一般
+  </string>
+  <string name="BackpackingTaylorCode">背包（泰勒代号050）
+  </string>
+  <string name="BackpackingHikingWalkingWithADaypack">背包旅行，远足，散步与一个背包
+  </string>
+  <string name="CarryingPoundLoadonLevelGround">在进行坪15磅重的负载
+  </string>
+  <string name="CarryingLbChildSlowWalking">携带15磅的孩子，慢速行走
+  </string>
+  <string name="CarryingLoadUpstairsGeneral">载重楼上的，一般
+  </string>
+  <string name="CarryingToLbLoadUpstairs1">携带1到15磅负载，楼上的
+  </string>
+  <string name="CarryingToLbLoadUpstairs2">承载16到24磅负载，楼上的
+  </string>
+  <string name="CarryingToLbLoadUpstairs3">携带25至49磅负载，楼上的
+  </string>
+  <string name="CarryingToLbLoadUpstairs4">携带50至74磅负载，楼上的
+  </string>
+  <string name="CarryingLbLoadUpstairs">账面&gt; 74磅负载，楼上的
+  </string>
+  <string name="LoadingUnloadingACarImpliedWalking">装货/卸货车，引伸行走
+  </string>
+  <string name="ClimbingHillsNoLoad">爬山，空载
+  </string>
+  <string name="ClimbingHillsWithToLbLoad1">爬山以0比9磅负载
+  </string>
+  <string name="ClimbingHillsWithToLbLoad2">爬山10至20磅负载
+  </string>
+  <string name="ClimbingHillsWithToLbLoad3">爬山用21到42磅负载
+  </string>
+  <string name="ClimbingHillsWithLbLoad">爬山用42 +磅负载
+  </string>
+  <string name="DescendingStairs">降楼梯
+  </string>
+  <string name="HikingCrossCountryTaylorCode">徒步旅行，越野（泰勒代号040）
+  </string>
+  <string name="ANormalPaceThroughFieldsAndHillsides">正常的速度穿过田野和山坡
+  </string>
+  <string name="BirdWatchingSlowWalk">观鸟，慢步走
+  </string>
+  <string name="MarchingModerateSpeedMilitaryNoPack">行军，速度适中，军事，无包
+  </string>
+  <string name="MarchingRapidlyMilitaryNoPack">踏着快速，军事，无包
+  </string>
+  <string name="PushingOrPullingStrollerToMph">推或拉推车，2.5至3.1英里每小时
+  </string>
+  <string name="PushingAWheelchairNonOccupational">推着轮椅，非职业
+  </string>
+  <string name="RaceWalking">竞走
+  </string>
+  <string name="StairClimbingUsingOrClimbingUpLadder">爬楼梯，使用或者爬上梯子
+  </string>
+  <string name="StairClimbingSlowPace">爬楼梯，缓慢节奏
+  </string>
+  <string name="StairClimbingFastPace">爬楼梯，快节奏
+  </string>
+  <string name="UsingCrutches">使用拐杖
+  </string>
+  <string name="LessThanMphLevelStrollingVerySlow">不到2.0英里，级别，散步，非常慢
+  </string>
+  <string name="MphLevelSlowPaceFirmSurface">2.0英里，级别，缓慢节奏，坚固的表面
+  </string>
+  <string name="WalkingForPleasureTaylorCode">散步的乐趣（泰勒代号010）
+  </string>
+  <string name="WalkingFromHouseToCarOrBus">步行从家到汽车或巴士
+  </string>
+  <string name="WalkingTheDog">遛狗
+  </string>
+  <string name="TwoHalfMphLevelFirmSurface">2.5英里，等级，坚固的表面
+  </string>
+  <string name="MphDownhill">2.5英里每小时，下坡
+  </string>
+  <string name="ToMphLevelModeratePaceFirmSurface">2.8到3.2英里，级别，稳健的步伐，坚固的表面
+  </string>
+  <string name="MphLevelWalkingForExercise">3.5英里，级别，步行锻炼
+  </string>
+  <string name="ToMphUphillToGrade1">2.9到3.5英里，上坡，1〜5％等级
+  </string>
+  <string name="ToMphUphillToGrade2">2.9到3.5英里，上坡，6％〜15％等级
+  </string>
+  <string name="MphLevelFirmSurfaceVeryBriskPace">4.0英里，等级，坚固的表面，非常轻快的步伐
+  </string>
+  <string name="MphLevelFirmSurfaceVeryVeryBrisk">4.5英里，等级，坚固的表面，非常，非常轻灵
+  </string>
+  <string name="FiveMphLevelFirmSurface">5.0英里，等级，坚固的表面
+  </string>
+  <string name="MphUphillGrade">5.0英里，上坡，3％级
+  </string>
+  <string name="ForPleasureWorkBreak">为了消遣，工作休息
+  </string>
+  <string name="GrassTrack">草追踪
+  </string>
+  <string name="NormalPacePlowedFieldOrSand">正常的步伐，耕过的田里或砂
+  </string>
+  <string name="ToWorkOrClassTaylorCode">工作或类（泰勒代号015）
+  </string>
+  <string name="ToAndFromAnOuthouse">并从外屋
+  </string>
+  <string name="ToMphNordicWalkingModeratePace">3.5为4英里，北欧式健走稳健的步伐
+  </string>
+  <string name="MphNordicWalkingLevelFastPace">5.0英里，北欧式健走，级别，快节奏
+  </string>
+  <string name="ForExerciseWithSkiPolesNordicWalkingUphill">对于运动，用滑雪杖，越野行走，上坡
+  </string>
+  <string name="BackwardsMphLevel">向后，3.5英里，级别
+  </string>
+  <string name="BackwardsMphUphillGrade">向后，3.5英里，上坡，5％级
+  </string>
+  <string name="disclaimer_text">如果您不希望这样做，请不要使用该软件。
+  </string>
+  <string name="disclaimer_warranties_header">担保免责声明
+  </string>
+  <string name="disclaimer_warranties">本软件支付许可后，并在提供给您的“原样”的基础，没有任何形式，包括任何技术支持或担保，但不限于适销性，适合特定用途和非侵权的任何保证或条件。 
+  </string>
+  <string name="disclaimer_liability_header">责任限制
+  </string>
+  <string name="disclaimer_liability"> 责任这种限制应适用损害赔偿是否源于软件或任何其他服务\的锻炼目标应用程序（包括第三方造成的此类损失）nsupplied的使用或滥用，或软件错误。
+  </string>
+  <string name="disclaimer_doctor_header">谈谈你的医生
+  </string>
+  <string name="disclaimer_doctor">提示心脏，肺或其他严重的疾病要注意在开始锻炼计划之前的其他征兆包括：
+  </string>
+  <string name="disclaimer_doctor2">
+    <li>
+      疼痛或不适，体力活动期间，你的胸部，颈部，下巴或手臂
+    </li>
+  </string>
+  <string name="disclaimer_doctor3">
+    <li>
+      头晕或意识丧失
+    </li>
+  </string>
+  <string name="disclaimer_doctor4">
+    <li>
+      呼吸轻度劳累或休息急促或当躺下或睡觉
+    </li>
+  </string>
+  <string name="disclaimer_doctor5">
+    <li>
+      踝关节肿胀，尤其是在夜间
+    </li>
+  </string>
+  <string name="disclaimer_doctor6">
+    <li>
+      心脏有杂音，或快速或明显的心跳
+    </li>
+  </string>
+  <string name="disclaimer_doctor7">
+    <li>
+      肌肉疼痛行走或上楼时即消失的一座小山上，当你休息
+    </li>
+  </string>
+  <string name="disclaimer_doctor8">如果你不确定自己的健康状况，有多种健康问题，或正在怀孕，开始运动计划之前，与你的医生说话。
+  </string>
+  <string name="disclaimer_license_header">条款许可的
+  </string>
+  <string name="disclaimer_license">此许可证允许您：（一）使用单一的设备上的软件，以及如果你想使用该软件在多台设备，你必须许可软件的另一副本
+  </string>
+  <string name="disclaimer_restrictions_header">使用限制
+  </string>
+  <string name="disclaimer_restrictions">任何试图这样做的应是无效的，没有效果。
+  </string>
+  <string name="disclaimer_ownership_header">所有权
+  </string>
+  <string name="disclaimer_ownership">在此授权未明确授予的所有权利，包括国内和国际版权，由业主保留。
+  </string>
+  <string name="disclaimer_proprietary_header">专有标志
+  </string>
+  <string name="disclaimer_proprietary">业主\的徽标，产品名称，手册，文档和其它辅助材料受版权保护。
+  </string>
+  <string name="disclaimer_accept">我接受并且已阅读上市勇者无敌条款
+  </string>
+  <string name="action_buttons_header">行动项目：
+  </string>
+  <string name="desired_weight_loss_help">目前，正常（健康体重）是在18.5到25的体重指数范围内。
+  </string>
+  <string name="desired_weight_loss_per_week_help">重量你想每周失去的金额。
+  </string>
+  <string name="calories_burned_this_week_help">，你这个星期烧毁，根据通过创建星期六本周从周日锻炼的数量的卡路里数
+  </string>
+  <string name="calories_to_burn_per_week_help">的热量来燃烧你的（平均每日摄取的热量 - （BMR *活动水平））+（卡路里燃烧失去一定量的体重每星期））。
+  </string>
+  <string name="projected_goal_date_help">这种观点还包括一个图表视图来说明预计，估计和实际的锻炼目标的进展情况。
+  </string>
+  <string name="desired_goal_date_help">重量的主要是你想每周失去的金额。
+  </string>
+  <string name="upcoming_workouts_help">锻炼事件发生一周。
+  </string>
+  <string name="formatting_info">以公里为公制系统显示的信息，千米小时，米，公斤，厘米。
+  </string>
+  <string name="save_goal_info">这将节省如果锻炼目标是有效的。
+  </string>
+  <string name="goal_start_date_help">您可以通过点击图表图标查看主页选项卡上的目标的进展情况。
+  </string>
+  <string name="age_help">这是用来确定最大心脏速率，每日热量需求，并且消耗的卡路里。
+  </string>
+  <string name="gender_help">这是用来确定最大的每日热量需求，和消耗的热量。
+  </string>
+  <string name="weight_help">这是用来确定燃烧的热量和当前的BMI（身体质量指数）。
+  </string>
+  <string name="height_help">这是用来确定当前的BMI（身体质量指数）。
+  </string>
+  <string name="daily_calorie_intake_help">每天卡路里，男性的最低数量为1800和1200的妇女。
+  </string>
+  <string name="activity_level_help">您当前的活动水平。
+  </string>
+  <string name="activity_level_help_sedentary">
+    <li>
+      （1.2）久坐不动的体力活动水平（PAL制式）。  这方面的一个例子是一个上班族得到很少或没有运动。
+    </li>
+  </string>
+  <string name="activity_level_help_light">
+    <li>
+      光活动，本暂定配额通知书的例子会定期步行或轻锻炼，（1.375）PAL制式。
+    </li>
+  </string>
+  <string name="activity_level_help_moderate">
+    <li>
+      中等强度的运动，这包括运动一周几次，并推动自己相当困难，为（1.55）PAL制式。  这还可以包括繁重的家务，园艺，露天工作。
+    </li>
+  </string>
+  <string name="activity_level_help_very_active">
+    <li>
+      非常活跃，您的工作是建筑工人还是你参加运动，慢跑，每天骑山地自行车，中（1.7）PAL制式。
+    </li>
+  </string>
+  <string name="activity_level_help_ex_active">
+    <li>
+      非常活跃，这包括人谁可以每天游泳两个小时，（2.0）PAL制式。
+    </li>
+  </string>
+  <string name="activity_level_help_pal">PAL =（TEE/24hours）/ BMR。
+  </string>
+  <string name="view_pictures_info">查看拍摄的照片从这种锻炼和以前的锻炼。
+  </string>
+  <string name="view_chart_info">锻炼信息存储，如果你连接到心脏监测仪。
+  </string>
+  <string name="save_workout_events_info">保存的锻炼活动，创建通知，并添加事件到 Android 的日历应用程序，如果添加到日历标记。
+  </string>
+  <string name="add_workout_event_info">您也可以添加事件到 Android 的日历应用程序。
+  </string>
+  <string name="events_spread_info">均匀地散布热量页面上的时事之间燃烧。
+  </string>
+  <string name="add_to_calendar_help">这是询问您是否要锻炼活动添加到您的手机日历应用程序。
+  </string>
+  <string name="calendar_email_help">您可以在设置下的帐户查看该电子邮件，谷歌。
+  </string>
+  <string name="calendar_help">此下拉会显示给定帐户的电子邮件帐户名称。
+  </string>
+  <string name="synch_help">这是询问您是否要进行同步的锻炼活动与您的谷歌日历在网络上或只是在手机上的日历应用程序。
+  </string>
+  <string name="workout_events_label">锻炼活动：
+  </string>
+  <string name="map_take_picture">图片显示在proximated位置的照片拍摄（如果图片没有显示出来，一定要放大或移动地图）在地图上。
+  </string>
+  <string name="map_end_workout_info">结束锻炼，可以启动一个新的与不同的类别/子类别，查看锻炼图表中的信息，并删除与其相关联的信息的锻炼。
+  </string>
+  <string name="take_picture_info">锻炼也已经启动。
+  </string>
+  <string name="map_workout_info">此信息也可见在试训已经结束后的图表。
+  </string>
+  <string name="view_workouts_info">您可以搜索过去的锻炼，锻炼取出，观察锻炼的图表信息，并查看锻炼的图片。
+  </string>
+  <string name="end_workout_info">结束锻炼，可以启动一个新的与不同的类别/子类别。
+  </string>
+  <string name="start_stop_info">启动/停止一个现有的锻炼。
+  </string>
+  <string name="connect_info">通过蓝牙连接到ZEPHYR HXM心率监测。
+  </string>
+  <string name="connecting">通过蓝牙连接心率监测。
+  </string>
+  <string name="connected">通过蓝牙连接心率监测。
+  </string>
+  <string name="time_help">建议将结束，并创建一个新的锻炼，如果改变运动的类型。
+  </string>
+  <string name="calories_burned_help">这个锻炼过程中的卡路里数烧毁。
+  </string>
+  <string name="heart_rate_help">目前这款应用程序配置了ZEPHYR HXM心率监测工作。
+  </string>
+  <string name="workout_category_subcat_help">对于女性使用的公式是（（-20.4022 +（0.4472 *心脏率）+（0.1263 *千克体重）+（0.074 *年龄））/ 4.184）*每小时60.0 =热量。
+  </string>
+  <string name="calories_to_burn_help">本次预定锻炼活动的卡路里燃烧负卡路里的数量今天烧了。
+  </string>
+  <string name="map_accuracy_help">在地图的精度设置。
+  </string>
+  <string name="map_accuracy_default">
+    <li>
+      缺省为100米精度的同时锻炼地图页面上，当手机处于睡眠状态的读数取约每20秒。
+    </li>
+  </string>
+  <string name="map_accuracy_fine">
+    <li>
+      提供最佳的精确度，同时锻炼地图页面上，当手机处于睡眠状态的读数是采取每10秒左右。This consumes battery life faster.这会消耗电池的寿命快。
+    </li>
+  </string>
+  <string name="map_accuracy_conserve">
+    <li>
+      百米的准确性，同时锻炼地图页面上，当手机处于睡眠状态的读数取约每分钟。
+    </li>
+  </string>
+  <string name="workout_help_ref">锻炼映射关系到地图应用程序来记录你曾去过何处。
+  </string>
+  <string name="distance_help">。你已经把在定时器走的距离
+  </string>
+  <string name="speed_help">您当前的速度根据关闭以前的位置读数。
+  </string>
+  <string name="max_speed_help">
+    你在锻炼过程中达到，而定时器是在最大速度。
+  </string>
+  <string name="elevation_gain_decline_help">
+    
+  </string>
+</resources>

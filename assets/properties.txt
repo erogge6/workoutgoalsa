@@ -1,0 +1,3 @@
+IWorkoutGoalService = com.ericrogge.workoutgoals.services.WorkoutGoalServiceImpl
+IWorkoutEventService = com.ericrogge.workoutgoals.services.WorkoutEventServiceImpl
+IWorkoutService = com.ericrogge.workoutgoals.services.WorkoutServiceImpl

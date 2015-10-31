@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="start"
+    android:background="@color/light_grey"
+    android:choiceMode="singleChoice"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0dp" >
+
+    <RelativeLayout
+        android:id="@+id/map_content"
+        style="@style/ActivityContainerNoBgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/map_big_bg_drawable"
+        android:paddingTop="0dp" >
+
+        <RelativeLayout
+            android:id="@+id/workout_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:id="@+id/viewChartInfoLabel"
+                style="@style/smLabel"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="15dp"
+                android:text="@string/view_workout_chart_colon" />
+
+            <ImageButton
+                android:id="@+id/viewChartInfo"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:background="@+drawable/chart_btn_container"
+                android:contentDescription="@string/view_workout_chart"
+                android:padding="10dp"
+                android:src="@drawable/chart" />
+
+            <TextView
+                android:id="@+id/getDirectionsLabel"
+                style="@style/smLabel"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/viewChartInfoLabel"
+                android:text="@string/get_directions_colon" />
+
+            <ImageButton
+                android:id="@+id/getDirections"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/viewChartInfoLabel"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                android:background="@+drawable/chart_btn_container"
+                android:contentDescription="@string/get_directions"
+                android:padding="10dp"
+                android:src="@drawable/directions" />
+
+            <TextView
+                android:id="@+id/distanceLabel"
+                style="@style/smLabel"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/getDirectionsLabel"
+                android:layout_marginBottom="15dp"
+                android:text="@string/distance_label" />
+
+            <TextView
+                android:id="@+id/distance"
+                style="@style/smTextNumberBlue"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/getDirectionsLabel"
+                android:layout_marginBottom="15dp"
+                android:text="@string/zero"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/elevationGainDeclineLabel"
+                style="@style/smLabel"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/distanceLabel"
+                android:text="@string/elevation_gain_decline_label" />
+
+            <TextView
+                android:id="@+id/elevationGainDecline"
+                style="@style/smTextNumberBlue"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/distanceLabel"
+                android:text="@string/zero"
+                android:textIsSelectable="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

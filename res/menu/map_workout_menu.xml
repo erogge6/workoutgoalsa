@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/viewWorkoutInfo"
+        style="@style/Text"
+        android:icon="@drawable/navigation_previous_item"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/view_workout_info"/>
+    <item
+        android:id="@+id/connect"
+        style="@style/Text"
+        android:icon="@drawable/device_access_bluetooth"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/connect"/>
+    <item
+        android:id="@+id/startWorkout"
+        style="@style/Text"
+        android:icon="@drawable/device_access_alarms"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/start_workout"/>
+    <item
+        android:id="@+id/endWorkout"
+        style="@style/Text"
+        android:icon="@drawable/navigation_accept"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/end_workout"
+        android:titleCondensed="@string/end_workout"/>
+    <item
+        android:id="@+id/takePicture"
+        style="@style/Text"
+        android:icon="@drawable/content_new_picture"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/take_picture"/>
+    <item
+        android:id="@+id/importFile"
+        style="@style/Text"
+        android:icon="@drawable/download"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/import_gps_file"/>
+    <item
+        android:id="@+id/help"
+        style="@style/Text"
+        android:icon="@drawable/action_help"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/help_header"/>
+
+</menu>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/post_workout_event"
+        android:layout_width="fill_parent"
+        android:layout_height="238dp"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp" >
+
+
+        <RelativeLayout
+            android:id="@+id/post_workout_event_content"
+            style="@style/ActivityContainerNoBgColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calendar_bg_drawable"
+            android:paddingTop="0dp" >
+            
+
+
+            <RelativeLayout
+                android:id="@+id/workout_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp" >
+
+                <TextView
+                    android:id="@+id/userLabel"
+                    style="@style/smLabel"
+                    android:layout_toLeftOf="@+id/username"
+                    android:text="@string/username_label" />
+
+                <TextView
+                    android:id="@+id/username"
+                    style="@style/smTextNumberBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/workoutEventBeginDateLabel"
+                    style="@style/smLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/userLabel"
+                    android:text="@string/begin_date_label_colon" />
+
+                <ImageButton
+                    android:id="@+id/workoutEventBeginDatePicker"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/userLabel"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/workoutEventBeginDateLabel"
+                    android:contentDescription="@string/set_goal_start_date"
+                    android:onClick="onClick"
+                    android:src="@drawable/collections_go_to_today" />
+
+                <TextView
+                    android:id="@+id/workoutEventBeginDate"
+                    style="@style/smTextNumberBlue"
+                    android:layout_alignRight="@+id/username"
+                    android:layout_below="@+id/userLabel"
+                    android:layout_toRightOf="@+id/workoutEventBeginDatePicker"
+                    android:gravity="right"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/workoutEventEndDateLabel"
+                    style="@style/smLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/workoutEventBeginDateLabel"
+                    android:text="@string/end_date_label_colon" />
+
+                <ImageButton
+                    android:id="@+id/workoutEventEndDatePicker"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_below="@+id/workoutEventBeginDatePicker"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_toRightOf="@+id/workoutEventEndDateLabel"
+                    android:contentDescription="@string/set_goal_start_date"
+                    android:onClick="onClick"
+                    android:src="@drawable/collections_go_to_today" />
+
+                <TextView
+                    android:id="@+id/workoutEventEndDate"
+                    style="@style/smTextNumberBlue"
+                    android:layout_alignRight="@+id/workoutEventBeginDate"
+                    android:layout_below="@+id/workoutEventBeginDateLabel"
+                    android:layout_toRightOf="@+id/workoutEventBeginDatePicker"
+                    android:gravity="right"
+                    android:textAlignment="viewEnd"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/titleLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutEventEndDateLabel"
+                    android:labelFor="@+id/title"
+                    android:text="@string/title_label" />
+
+                <EditText
+                    android:id="@+id/title"
+                    style="@style/smInput"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/workoutEventEndDateLabel" />
+
+                <TextView
+                    android:id="@+id/mapWorkoutCategoryLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/titleLabel"
+                    android:layout_toLeftOf="@+id/workoutCategory"
+                    android:paddingTop="12dp"
+                    android:text="@string/workout_category_label" />
+
+                <Spinner
+                    android:id="@+id/workoutCategory"
+                    style="@style/Input.Spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/titleLabel" />
+
+                <TextView
+                    android:id="@+id/workoutSubCategoryLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutCategory"
+                    android:text="@string/workout_subcategory_label" />
+
+                <Spinner
+                    android:id="@+id/workoutSubcategory"
+                    style="@style/Input.Spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_below="@+id/workoutSubCategoryLabel" />
+
+                <TextView
+                    android:id="@+id/workoutEventDescriptionLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutSubcategory"
+                    android:labelFor="@+id/workoutEventDescription"
+                    android:text="@string/description_label" />
+
+                <EditText
+                    android:id="@+id/workoutEventDescription"
+                    style="@style/smInput"
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/workoutEventDescriptionLabel" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/workoutEventAddressLabel"
+                    style="@style/smLabel"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/workoutEventDescription"
+                    android:labelFor="@+id/workoutEventAddress"
+                    android:text="@string/address_label" />
+
+                <EditText
+                    android:id="@+id/workoutEventAddress"
+                    style="@style/smInput"
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/workoutEventAddressLabel" >
+                </EditText>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/map_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_workout_event"
+        android:background="@color/grey"
+        android:paddingTop="2dp" >
+
+        <fragment
+            android:id="@+id/map_content_frame"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/post_workout_btns"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map_frame"
+        android:background="@color/grey"
+        android:paddingTop="2dp" 
+         >
+
+                            
+
+        <Button
+            android:id="@+id/cancel"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_weight=".45"
+            android:padding="0dp"
+            android:background="@android:color/white"
+            android:paddingTop="0dp"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/post"
+            style="?android:attr/buttonBarStyle"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:padding="0dp"
+            android:layout_height="55dp"
+            android:layout_weight=".55"
+            android:background="@android:color/white"
+            android:paddingTop="0dp"
+            android:text="@string/post_workout_event" />
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="#40333333"
+        android:id="@+id/address_progress" 
+        android:visibility="gone">
+
+        <ProgressBar 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

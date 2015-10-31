@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        style="@style/ActivityContainerNoBgColor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/addToCalendarLabel"
+            style="@style/Header"
+            android:text="@string/add_to_calendar_label" />
+
+        <TextView
+            android:id="@+id/addToCalendar"
+            style="@style/Text.Left"
+            android:layout_below="@+id/addToCalendarLabel"
+            android:text="@string/add_to_calendar_help" />
+
+        <TextView
+            android:id="@+id/accountEmailLabel"
+            style="@style/Header"
+            android:layout_below="@+id/addToCalendar"
+            android:text="@string/calendar_email_label" />
+
+        <TextView
+            android:id="@+id/accountEmail"
+            style="@style/Text.Left"
+            android:layout_below="@+id/accountEmailLabel"
+            android:text="@string/calendar_email_help" />
+
+        <TextView
+            android:id="@+id/calendarLabel"
+            style="@style/Header"
+            android:layout_below="@+id/accountEmail"
+            android:text="@string/calendar_label" />
+
+        <TextView
+            android:id="@+id/calendarHelp"
+            style="@style/Text.Left"
+            android:layout_below="@+id/calendarLabel"
+            android:text="@string/calendar_help" />
+
+        <TextView
+            android:id="@+id/synchLabel"
+            style="@style/Header"
+            android:layout_below="@+id/calendarHelp"
+            android:text="@string/synch_label" />
+
+        <TextView
+            android:id="@+id/synch"
+            style="@style/Text.Left"
+            android:layout_below="@+id/synchLabel"
+            android:text="@string/synch_help" />
+
+        <TextView
+            android:id="@+id/workoutEventsLabel"
+            style="@style/Header"
+            android:layout_below="@+id/synch"
+            android:text="@string/workout_events_label" />
+
+        <TextView
+            android:id="@+id/workoutEventsHelp"
+            style="@style/Text.Left"
+            android:layout_below="@+id/workoutEventsLabel"
+            android:text="@string/workout_events_help" />
+
+        <TextView
+            android:id="@+id/totalScheduledCaloriesLabel"
+            style="@style/Header"
+            android:layout_below="@+id/workoutEventsHelp"
+            android:text="@string/total_schedules_calories_distance_label" />
+
+        <TextView
+            android:id="@+id/totalScheduledCalories"
+            style="@style/Text.Left"
+            android:layout_below="@+id/totalScheduledCaloriesLabel"
+            android:text="@string/total_schedules_calories_help" />
+
+        <TextView
+            android:id="@+id/goalCaloriesLabel"
+            style="@style/Header"
+            android:layout_below="@+id/totalScheduledCalories"
+            android:text="@string/calories_to_burn_per_week_label" />
+
+        <TextView
+            android:id="@+id/caloriesToBurnPerWeek"
+            style="@style/Text.Left"
+            android:layout_below="@+id/goalCaloriesLabel"
+            android:text="@string/calories_to_burn_per_week_help" />
+
+        <TextView
+            android:id="@+id/actionButtonsLabel"
+            style="@style/Header"
+            android:layout_below="@+id/caloriesToBurnPerWeek"
+            android:text="@string/action_buttons_header" />
+
+        <ImageView
+            android:id="@+id/eventSpreadIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:contentDescription="@string/spread_calories_to_burn"
+            android:src="@drawable/collections_sort_by_size" />
+
+        <TextView
+            android:id="@+id/eventSpreadInfo"
+            style="@style/HelpTextInfo"
+            android:layout_toRightOf="@+id/eventSpreadIcon"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:text="@string/events_spread_info" />
+
+        <ImageView
+            android:id="@+id/addWorkoutEventIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/eventSpreadInfo"
+            android:contentDescription="@string/add_workout_event"
+            android:src="@drawable/content_new_event" />
+
+        <TextView
+            android:id="@+id/addWorkoutEventInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/eventSpreadInfo"
+            android:layout_toRightOf="@+id/addWorkoutEventIcon"
+            android:text="@string/add_workout_event_info" />
+        
+        <ImageView
+            android:id="@+id/saveWorkoutEventsIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/addWorkoutEventInfo"
+            android:contentDescription="@string/save_workout_events"
+            android:src="@drawable/navigation_accept" />
+
+        <TextView
+            android:id="@+id/saveWorkoutEventsInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/addWorkoutEventInfo"
+            android:layout_toRightOf="@+id/addWorkoutEventIcon"
+            android:text="@string/save_workout_events_info" />
+        
+        <ImageView
+            android:id="@+id/viewWorkoutEvents"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/saveWorkoutEventsInfo"
+            android:contentDescription="@string/view_workout_events"
+            android:src="@drawable/collections_view_as_list" />
+
+        <TextView
+            android:id="@+id/viewWorkoutEventsInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/saveWorkoutEventsInfo"
+            android:layout_toRightOf="@+id/shareEventsIcon"
+            android:text="@string/view_workout_events_info" />
+        
+        <ImageView
+            android:id="@+id/shareEventsIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/viewWorkoutEventsInfo"
+            android:contentDescription="@string/share_workout_events"
+            android:src="@drawable/share" />
+
+        <TextView
+            android:id="@+id/shareEventsInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/viewWorkoutEventsInfo"
+            android:layout_toRightOf="@+id/shareEventsIcon"
+            android:text="@string/share_workout_events_info" />
+        
+        <ImageView
+            android:id="@+id/helpIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/shareEventsInfo"
+            android:contentDescription="@string/help_header"
+            android:src="@drawable/action_help" />
+
+        <TextView
+            android:id="@+id/viewHelp"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/shareEventsInfo"
+            android:layout_toRightOf="@+id/helpIcon"
+            android:text="@string/help_header" />
+    </RelativeLayout>
+
+</ScrollView>

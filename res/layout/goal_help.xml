@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        style="@style/ActivityContainerNoBgColor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/goalStartDateLabel"
+            style="@style/Header"
+            android:text="@string/goal_start_date_label" />
+
+        <TextView
+            android:id="@+id/goalStartDate"
+            style="@style/Text.Left"
+            android:layout_below="@+id/goalStartDateLabel"
+            android:text="@string/goal_start_date_help" />
+
+        <TextView
+            android:id="@+id/desiredWeightLossLabel"
+            style="@style/Header"
+            android:layout_below="@+id/goalStartDate"
+            android:text="@string/desired_weight_loss_label" />
+
+        <TextView
+            android:id="@+id/desiredWeightLoss"
+            style="@style/Text.Left"
+            android:layout_below="@+id/desiredWeightLossLabel"
+            android:text="@string/desired_weight_loss_help" />
+
+        <TextView
+            android:id="@+id/weightLostPerWeekLbLabel"
+            style="@style/Header"
+            android:layout_below="@+id/desiredWeightLoss"
+            android:text="@string/desired_weight_loss_per_week_label" />
+
+        <TextView
+            android:id="@+id/weightLostPerWeekLb"
+            style="@style/Text.Left"
+            android:layout_below="@+id/weightLostPerWeekLbLabel"
+            android:text="@string/desired_weight_loss_per_week_help" />
+
+        <TextView
+            android:id="@+id/ageLabel"
+            style="@style/Header"
+            android:layout_below="@+id/weightLostPerWeekLb"
+            android:text="@string/age_label" />
+
+        <TextView
+            android:id="@+id/age"
+            style="@style/Text.Left"
+            android:layout_below="@+id/ageLabel"
+            android:text="@string/age_help" />
+
+        <TextView
+            android:id="@+id/sexLabel"
+            style="@style/Header"
+            android:layout_below="@+id/age"
+            android:text="@string/gender_label" />
+
+        <TextView
+            android:id="@+id/sex"
+            style="@style/Text.Left"
+            android:layout_below="@+id/sexLabel"
+            android:text="@string/gender_help" />
+
+        <TextView
+            android:id="@+id/weightLabel"
+            style="@style/Header"
+            android:layout_below="@+id/sex"
+            android:text="@string/weight_label" />
+
+        <TextView
+            android:id="@+id/weightLbs"
+            style="@style/Text.Left"
+            android:layout_below="@+id/weightLabel"
+            android:text="@string/weight_help" />
+
+        <TextView
+            android:id="@+id/heightFeetLabel"
+            style="@style/Header"
+            android:layout_below="@+id/weightLbs"
+            android:text="@string/height_label" />
+
+        <TextView
+            android:id="@+id/heightFeet"
+            style="@style/Text.Left"
+            android:layout_below="@+id/heightFeetLabel"
+            android:text="@string/height_help" />
+
+        <TextView
+            android:id="@+id/dailyCalorieIntakeLabel"
+            style="@style/Header"
+            android:layout_below="@+id/heightFeet"
+            android:text="@string/daily_calorie_intake_label" />
+
+        <TextView
+            android:id="@+id/dailyCalorieIntake"
+            style="@style/Text.Left"
+            android:layout_below="@+id/dailyCalorieIntakeLabel"
+            android:text="@string/daily_calorie_intake_help" />
+
+        <TextView
+            android:id="@+id/activityLevelLabel"
+            style="@style/Header"
+            android:layout_below="@+id/dailyCalorieIntake"
+            android:text="@string/activity_level_label" />
+
+        <TextView
+            android:id="@+id/activity_level_help_sedentary"
+            style="@style/Text.Left"
+            android:layout_below="@+id/activityLevelLabel"
+            android:text="@string/activity_level_help_sedentary" />
+
+        <TextView
+            android:id="@+id/activity_level_help_light"
+            style="@style/Text.Left"
+            android:layout_below="@+id/activity_level_help_sedentary"
+            android:text="@string/activity_level_help_light" />
+
+        <TextView
+            android:id="@+id/activity_level_help_moderate"
+            style="@style/Text.Left"
+            android:layout_below="@+id/activity_level_help_light"
+            android:text="@string/activity_level_help_moderate" />
+
+        <TextView
+            android:id="@+id/activity_level_help_very_active"
+            style="@style/Text.Left"
+            android:layout_below="@+id/activity_level_help_moderate"
+            android:text="@string/activity_level_help_very_active" />
+
+        <TextView
+            android:id="@+id/activity_level_help_ex_active"
+            style="@style/Text.Left"
+            android:layout_below="@+id/activity_level_help_very_active"
+            android:text="@string/activity_level_help_ex_active" />
+
+        <TextView
+            android:id="@+id/activity_level_help_pal"
+            style="@style/Text.Left"
+            android:layout_below="@+id/activity_level_help_ex_active"
+            android:text="@string/activity_level_help_pal" />
+        
+        <TextView
+            android:id="@+id/formattingLabel"
+            style="@style/Header"
+            android:layout_below="@+id/activity_level_help_pal"
+            android:text="@string/format_header_help" />
+
+        <TextView
+            android:id="@+id/formatting"
+            style="@style/Text.Left"
+            android:layout_below="@+id/formattingLabel"
+            android:text="@string/formatting_info" />
+
+        <TextView
+            android:id="@+id/actionButtonsLabel"
+            style="@style/Header"
+            android:layout_below="@+id/formatting"
+            android:text="@string/action_buttons_header" />
+
+        <ImageView
+            android:id="@+id/saveGoalIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:contentDescription="@string/save"
+            android:src="@drawable/navigation_accept" />
+
+        <TextView
+            android:id="@+id/saveGoalInfo"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/actionButtonsLabel"
+            android:layout_toRightOf="@+id/saveGoalIcon"
+            android:text="@string/save_goal_info" />
+
+        <ImageView
+            android:id="@+id/setGoalDateIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/saveGoalInfo"
+            android:contentDescription="@string/set_goal_start_date"
+            android:src="@drawable/collections_go_to_today" />
+
+        <TextView
+            android:id="@+id/setGoalDate"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/saveGoalInfo"
+            android:layout_toRightOf="@+id/setGoalDateIcon"
+            android:text="@string/set_goal_start_date" />
+
+        <ImageView
+            android:id="@+id/helpIcon"
+            style="@style/ActionBarIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/setGoalDateIcon"
+            android:contentDescription="@string/help_header"
+            android:src="@drawable/action_help" />
+
+        <TextView
+            android:id="@+id/viewHelp"
+            style="@style/HelpTextInfo"
+            android:layout_below="@+id/setGoalDateIcon"
+            android:layout_toRightOf="@+id/helpIcon"
+            android:text="@string/help_header" />
+    </RelativeLayout>
+
+</ScrollView>
